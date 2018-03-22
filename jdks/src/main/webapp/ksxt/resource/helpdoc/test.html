@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<h1><a id="1.1" href="http://www.baidu.com">baidu</a></h1>
+<div class="main">
+    <button id="btn1">click me</button>
+</div>
+
+<iframe src="hello.html" id="hello" frameborder="0"></iframe>
+<script>
+    var $btn=$('#btn1')
+    $btn.on('click',function(e){
+        var $h1=$($('#hello')[0].contentWindow.document.body).find('h1')
+        console.log($h1.text())
+    })
+
+    window.addEventListener('message',function(e){
+        console.log(e.data)
+        debugger;
+        $('#'+e.data)[0].click()
+    })
+
+
+</script>
+</body>
+</html>

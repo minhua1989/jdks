@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+        学生确认表导出
+    </h2>
+    <p>
+        第一步，学籍信息管理-&gt;学生学籍信息管理。
+    </p>
+    <p>
+        第二步，选择学校、校区、年级、班级等筛选条件信息。默认为全部展示状态。
+    </p>
+    <img src="img/shuju1.png" alt="" />
+    <p>
+        第三步，点击“查询”，系统将自动为您检索符合条件的信息。
+    </p>
+    <img src="img/shuju2.png" alt="" />
+    <p>
+        第四步，选择学生。如果未勾选学生，则默认对当前所有学生进行该操作。
+    </p>
+    <img src="img/shuju3.png" alt="" />
+    <p>
+        第五步，执行“导出学生确认表”。
+    </p>
+    <p>
+        第六步，导出成功。
+    </p>
+
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

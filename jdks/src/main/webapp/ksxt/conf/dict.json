@@ -1,0 +1,5552 @@
+{
+  "data": {
+    "t_terminfo": [
+      {
+        "name": "2016到2017第一学期",
+        "value": "20162017A"
+      },
+      {
+        "name": "2015到2016第二学期",
+        "value": "20152016B"
+      },
+      {
+        "name": "2015到2016第一学期",
+        "value": "20152016A"
+      },
+      {
+        "name": "2014到2015第二学期",
+        "value": "20142015B"
+      },
+      {
+        "name": "2014到2015第一学期",
+        "value": "20142015A"
+      },
+      {
+        "name": "2013到2014第二学期",
+        "value": "20132014B"
+      },
+      {
+        "name": "2013到2014第一学期",
+        "value": "20132014A"
+      },
+      {
+        "name": "2012到2013第二学期",
+        "value": "20122013B"
+      },
+      {
+        "name": "2012到2013第一学期",
+        "value": "20122013A"
+      }
+    ],
+    "t_center_operflag": [
+      {
+        "name": "待处理",
+        "value": "0"
+      },
+      {
+        "name": "正在处理",
+        "value": "1"
+      },
+      {
+        "name": "处理完成",
+        "value": "2"
+      }
+    ],
+    "t_bz_tjbyzslb": [
+      {
+        "name": "初中",
+        "value": "1"
+      },
+      {
+        "name": "高中",
+        "value": "2"
+      },
+      {
+        "name": "特初",
+        "value": "3"
+      }
+    ],
+    "t_zzwtlx": [
+      {
+        "name": "预毕业学生制证问题数据",
+        "value": "0202"
+      },
+      {
+        "name": "学校公私章变更问题数据",
+        "value": "0203"
+      },
+      {
+        "name": "毕业证附件问题数据",
+        "value": "0204"
+      }
+    ],
+    "t_yunsuan": [
+      {
+        "name": "非空判断",
+        "value": "0"
+      },
+      {
+        "name": "正则表达式",
+        "value": "1"
+      },
+      {
+        "name": "逻辑表达式",
+        "value": "2"
+      },
+      {
+        "name": "查询字典表",
+        "value": "3"
+      },
+      {
+        "name": "查重",
+        "value": "4"
+      }
+    ],
+    "t_allnj": [
+      {
+        "districtid": "310101",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310101",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310101",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310101",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310104",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310104",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310104",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310104",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310104",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310105",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310105",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310105",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310105",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310105",
+        "njid": "18",
+        "njcode": "35",
+        "njname": "高四"
+      },
+      {
+        "districtid": "310106",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310106",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310106",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310106",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310106",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310106",
+        "njid": "18",
+        "njcode": "35",
+        "njname": "高四"
+      },
+      {
+        "districtid": "310107",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310107",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310107",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310107",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310107",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310109",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310109",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310109",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310109",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310109",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310110",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310110",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310110",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310110",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310110",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310112",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310112",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310112",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310112",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310112",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310113",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310113",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310113",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310113",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310113",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310114",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310114",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310114",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310114",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310114",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310115",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310115",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310115",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310115",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310115",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310116",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310116",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310116",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310116",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310116",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310117",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310117",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310117",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310117",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310117",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310118",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310118",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310118",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310118",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310118",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310120",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310120",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310120",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310120",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310120",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310230",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310230",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310230",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310230",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310230",
+        "njid": "17",
+        "njcode": "34",
+        "njname": "高预(民族班)"
+      },
+      {
+        "districtid": "310934",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310934",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310935",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310935",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310935",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310936",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310936",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310936",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310936",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      },
+      {
+        "districtid": "310937",
+        "njid": "5",
+        "njcode": "11",
+        "njname": "一年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "6",
+        "njcode": "12",
+        "njname": "二年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "7",
+        "njcode": "13",
+        "njname": "三年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "8",
+        "njcode": "14",
+        "njname": "四年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "9",
+        "njcode": "15",
+        "njname": "五年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "10",
+        "njcode": "16",
+        "njname": "六年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "11",
+        "njcode": "17",
+        "njname": "七年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "12",
+        "njcode": "18",
+        "njname": "八年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "13",
+        "njcode": "19",
+        "njname": "九年级"
+      },
+      {
+        "districtid": "310937",
+        "njid": "14",
+        "njcode": "31",
+        "njname": "高一"
+      },
+      {
+        "districtid": "310937",
+        "njid": "15",
+        "njcode": "32",
+        "njname": "高二"
+      },
+      {
+        "districtid": "310937",
+        "njid": "16",
+        "njcode": "33",
+        "njname": "高三"
+      }
+    ],
+    "t_districtinfo": [
+      {
+        "name": "黄浦区",
+        "value": "310101"
+      },
+      {
+        "name": "徐汇区",
+        "value": "310104"
+      },
+      {
+        "name": "长宁区",
+        "value": "310105"
+      },
+      {
+        "name": "静安区",
+        "value": "310106"
+      },
+      {
+        "name": "普陀区",
+        "value": "310107"
+      },
+      {
+        "name": "闸北区（已撤销）",
+        "value": "310108"
+      },
+      {
+        "name": "虹口区",
+        "value": "310109"
+      },
+      {
+        "name": "杨浦区",
+        "value": "310110"
+      },
+      {
+        "name": "闵行区",
+        "value": "310112"
+      },
+      {
+        "name": "宝山区",
+        "value": "310113"
+      },
+      {
+        "name": "嘉定区",
+        "value": "310114"
+      },
+      {
+        "name": "浦东新区",
+        "value": "310115"
+      },
+      {
+        "name": "金山区",
+        "value": "310116"
+      },
+      {
+        "name": "松江区",
+        "value": "310117"
+      },
+      {
+        "name": "青浦区",
+        "value": "310118"
+      },
+      {
+        "name": "奉贤区",
+        "value": "310120"
+      },
+      {
+        "name": "崇明区",
+        "value": "310230"
+      },
+      {
+        "name": "监狱局",
+        "value": "310934"
+      },
+      {
+        "name": "梅山",
+        "value": "310935"
+      },
+      {
+        "name": "大屯",
+        "value": "310936"
+      },
+      {
+        "name": "张家洼",
+        "value": "310937"
+      }
+    ],
+    "t_bz_bglx": [
+      {
+        "name": "民族",
+        "value": "1"
+      },
+      {
+        "name": "姓名",
+        "value": "2"
+      },
+      {
+        "name": "性别",
+        "value": "3"
+      },
+      {
+        "name": "身份证",
+        "value": "4"
+      },
+      {
+        "name": "学籍副号",
+        "value": "5"
+      },
+      {
+        "name": "出生日期",
+        "value": "6"
+      },
+      {
+        "name": "国籍",
+        "value": "7"
+      },
+      {
+        "name": "年级",
+        "value": "8"
+      },
+      {
+        "name": "身份证件类型",
+        "value": "9"
+      }
+    ],
+    "t_bz_szdmzsx": [
+      {
+        "name": "非民族自治县",
+        "value": "0"
+      },
+      {
+        "name": "民族自治县",
+        "value": "1"
+      }
+    ],
+    "t_bz_kncd": [
+      {
+        "name": "不困难",
+        "value": "30"
+      },
+      {
+        "name": "一般困难",
+        "value": "22"
+      },
+      {
+        "name": "困难",
+        "value": "21"
+      },
+      {
+        "name": "特别困难",
+        "value": "10"
+      }
+    ],
+    "t_bz_jszxs": [
+      {
+        "name": "非寄宿制",
+        "value": "0"
+      },
+      {
+        "name": "寄宿制",
+        "value": "1"
+      },
+      {
+        "name": "部分寄宿制",
+        "value": "2"
+      }
+    ],
+    "t_bz_gj": [
+      {
+        "name": "中国",
+        "value": "156"
+      },
+      {
+        "name": "中国香港",
+        "value": "344"
+      },
+      {
+        "name": "中国澳门",
+        "value": "446"
+      },
+      {
+        "name": "中国台湾",
+        "value": "158"
+      },
+      {
+        "name": "阿富汗",
+        "value": "004"
+      },
+      {
+        "name": "阿尔巴尼亚",
+        "value": "008"
+      },
+      {
+        "name": "南极洲",
+        "value": "010"
+      },
+      {
+        "name": "阿尔及利亚",
+        "value": "012"
+      },
+      {
+        "name": "美属萨摩亚",
+        "value": "016"
+      },
+      {
+        "name": "安道尔",
+        "value": "020"
+      },
+      {
+        "name": "安哥拉",
+        "value": "024"
+      },
+      {
+        "name": "安提瓜和巴布达",
+        "value": "028"
+      },
+      {
+        "name": "阿塞拜疆",
+        "value": "031"
+      },
+      {
+        "name": "阿根廷",
+        "value": "032"
+      },
+      {
+        "name": "澳大利亚",
+        "value": "036"
+      },
+      {
+        "name": "奥地利",
+        "value": "040"
+      },
+      {
+        "name": "巴哈马",
+        "value": "044"
+      },
+      {
+        "name": "巴林",
+        "value": "048"
+      },
+      {
+        "name": "孟加拉国",
+        "value": "050"
+      },
+      {
+        "name": "亚美尼亚",
+        "value": "051"
+      },
+      {
+        "name": "巴巴多斯",
+        "value": "052"
+      },
+      {
+        "name": "比利时",
+        "value": "056"
+      },
+      {
+        "name": "百慕大",
+        "value": "060"
+      },
+      {
+        "name": "不丹",
+        "value": "064"
+      },
+      {
+        "name": "玻利维亚",
+        "value": "068"
+      },
+      {
+        "name": "波黑",
+        "value": "070"
+      },
+      {
+        "name": "博茨瓦纳",
+        "value": "072"
+      },
+      {
+        "name": "布维岛",
+        "value": "074"
+      },
+      {
+        "name": "巴西",
+        "value": "076"
+      },
+      {
+        "name": "伯利兹",
+        "value": "084"
+      },
+      {
+        "name": "英属印度洋领地",
+        "value": "086"
+      },
+      {
+        "name": "所罗门群岛",
+        "value": "090"
+      },
+      {
+        "name": "英属维尔京群岛",
+        "value": "092"
+      },
+      {
+        "name": "文莱",
+        "value": "096"
+      },
+      {
+        "name": "保加利亚",
+        "value": "100"
+      },
+      {
+        "name": "缅甸",
+        "value": "104"
+      },
+      {
+        "name": "布隆迪",
+        "value": "108"
+      },
+      {
+        "name": "白俄罗斯",
+        "value": "112"
+      },
+      {
+        "name": "柬埔寨",
+        "value": "116"
+      },
+      {
+        "name": "喀麦隆",
+        "value": "120"
+      },
+      {
+        "name": "加拿大",
+        "value": "124"
+      },
+      {
+        "name": "佛得角",
+        "value": "132"
+      },
+      {
+        "name": "开曼群岛",
+        "value": "136"
+      },
+      {
+        "name": "中非",
+        "value": "140"
+      },
+      {
+        "name": "斯里兰卡",
+        "value": "144"
+      },
+      {
+        "name": "乍得",
+        "value": "148"
+      },
+      {
+        "name": "智利",
+        "value": "152"
+      },
+      {
+        "name": "圣诞岛",
+        "value": "162"
+      },
+      {
+        "name": "科科斯(基林)群岛",
+        "value": "166"
+      },
+      {
+        "name": "哥伦比亚",
+        "value": "170"
+      },
+      {
+        "name": "科摩罗",
+        "value": "174"
+      },
+      {
+        "name": "马约特",
+        "value": "175"
+      },
+      {
+        "name": "刚果（布）",
+        "value": "178"
+      },
+      {
+        "name": "刚果（金）",
+        "value": "180"
+      },
+      {
+        "name": "库克群岛",
+        "value": "184"
+      },
+      {
+        "name": "哥斯达黎加",
+        "value": "188"
+      },
+      {
+        "name": "克罗地亚",
+        "value": "191"
+      },
+      {
+        "name": "古巴",
+        "value": "192"
+      },
+      {
+        "name": "塞浦路斯",
+        "value": "196"
+      },
+      {
+        "name": "捷克",
+        "value": "203"
+      },
+      {
+        "name": "贝宁",
+        "value": "204"
+      },
+      {
+        "name": "丹麦",
+        "value": "208"
+      },
+      {
+        "name": "多米尼克",
+        "value": "212"
+      },
+      {
+        "name": "多米尼加",
+        "value": "214"
+      },
+      {
+        "name": "厄瓜多尔",
+        "value": "218"
+      },
+      {
+        "name": "萨尔瓦多",
+        "value": "222"
+      },
+      {
+        "name": "赤道几内亚",
+        "value": "226"
+      },
+      {
+        "name": "埃塞俄比",
+        "value": "231"
+      },
+      {
+        "name": "厄立特里亚",
+        "value": "232"
+      },
+      {
+        "name": "爱沙尼亚",
+        "value": "233"
+      },
+      {
+        "name": "法罗群岛",
+        "value": "234"
+      },
+      {
+        "name": "福克兰群岛(马尔维纳斯)",
+        "value": "238"
+      },
+      {
+        "name": "南乔治亚岛和南桑德韦奇岛",
+        "value": "239"
+      },
+      {
+        "name": "斐济",
+        "value": "242"
+      },
+      {
+        "name": "芬兰",
+        "value": "246"
+      },
+      {
+        "name": "法国",
+        "value": "250"
+      },
+      {
+        "name": "法属圭亚那",
+        "value": "254"
+      },
+      {
+        "name": "法属波利尼西亚",
+        "value": "258"
+      },
+      {
+        "name": "法属南部领地",
+        "value": "260"
+      },
+      {
+        "name": "吉布提",
+        "value": "262"
+      },
+      {
+        "name": "加蓬",
+        "value": "266"
+      },
+      {
+        "name": "格鲁吉亚",
+        "value": "268"
+      },
+      {
+        "name": "冈比亚",
+        "value": "270"
+      },
+      {
+        "name": "巴勒斯坦",
+        "value": "275"
+      },
+      {
+        "name": "德国",
+        "value": "276"
+      },
+      {
+        "name": "加纳",
+        "value": "288"
+      },
+      {
+        "name": "直布罗陀",
+        "value": "292"
+      },
+      {
+        "name": "基里巴斯",
+        "value": "296"
+      },
+      {
+        "name": "希腊",
+        "value": "300"
+      },
+      {
+        "name": "格陵兰",
+        "value": "304"
+      },
+      {
+        "name": "格林纳达",
+        "value": "308"
+      },
+      {
+        "name": "瓜德罗普",
+        "value": "312"
+      },
+      {
+        "name": "关岛",
+        "value": "316"
+      },
+      {
+        "name": "危地马拉",
+        "value": "320"
+      },
+      {
+        "name": "几内亚",
+        "value": "324"
+      },
+      {
+        "name": "圭亚那",
+        "value": "328"
+      },
+      {
+        "name": "海地",
+        "value": "332"
+      },
+      {
+        "name": "赫德岛和麦克唐纳岛",
+        "value": "334"
+      },
+      {
+        "name": "梵蒂冈",
+        "value": "336"
+      },
+      {
+        "name": "洪都拉斯",
+        "value": "340"
+      },
+      {
+        "name": "匈牙利",
+        "value": "348"
+      },
+      {
+        "name": "冰岛",
+        "value": "352"
+      },
+      {
+        "name": "印度",
+        "value": "356"
+      },
+      {
+        "name": "印度尼西亚",
+        "value": "360"
+      },
+      {
+        "name": "伊朗",
+        "value": "364"
+      },
+      {
+        "name": "伊拉克",
+        "value": "368"
+      },
+      {
+        "name": "爱尔兰",
+        "value": "372"
+      },
+      {
+        "name": "以色列",
+        "value": "376"
+      },
+      {
+        "name": "意大利",
+        "value": "380"
+      },
+      {
+        "name": "科特迪瓦",
+        "value": "384"
+      },
+      {
+        "name": "牙买加",
+        "value": "388"
+      },
+      {
+        "name": "日本",
+        "value": "392"
+      },
+      {
+        "name": "哈萨克斯坦",
+        "value": "398"
+      },
+      {
+        "name": "约旦",
+        "value": "400"
+      },
+      {
+        "name": "肯尼亚",
+        "value": "404"
+      },
+      {
+        "name": "朝鲜",
+        "value": "408"
+      },
+      {
+        "name": "韩国",
+        "value": "410"
+      },
+      {
+        "name": "科威持",
+        "value": "414"
+      },
+      {
+        "name": "吉尔吉斯斯坦",
+        "value": "417"
+      },
+      {
+        "name": "老挝",
+        "value": "418"
+      },
+      {
+        "name": "黎巴嫩",
+        "value": "422"
+      },
+      {
+        "name": "莱索托",
+        "value": "426"
+      },
+      {
+        "name": "拉脱维亚",
+        "value": "428"
+      },
+      {
+        "name": "利比里亚",
+        "value": "430"
+      },
+      {
+        "name": "利比亚",
+        "value": "434"
+      },
+      {
+        "name": "列支敦土登",
+        "value": "438"
+      },
+      {
+        "name": "立陶宛",
+        "value": "440"
+      },
+      {
+        "name": "卢森堡",
+        "value": "442"
+      },
+      {
+        "name": "马达加斯加",
+        "value": "450"
+      },
+      {
+        "name": "马拉维",
+        "value": "454"
+      },
+      {
+        "name": "马来西亚",
+        "value": "458"
+      },
+      {
+        "name": "马尔代夫",
+        "value": "462"
+      },
+      {
+        "name": "马里",
+        "value": "466"
+      },
+      {
+        "name": "马耳他",
+        "value": "470"
+      },
+      {
+        "name": "马提尼克",
+        "value": "474"
+      },
+      {
+        "name": "毛里塔尼亚",
+        "value": "478"
+      },
+      {
+        "name": "毛里求斯",
+        "value": "480"
+      },
+      {
+        "name": "墨西哥",
+        "value": "484"
+      },
+      {
+        "name": "摩纳哥",
+        "value": "492"
+      },
+      {
+        "name": "蒙古",
+        "value": "496"
+      },
+      {
+        "name": "摩尔多瓦",
+        "value": "498"
+      },
+      {
+        "name": "蒙特塞拉特",
+        "value": "500"
+      },
+      {
+        "name": "摩洛哥",
+        "value": "504"
+      },
+      {
+        "name": "莫桑比克",
+        "value": "508"
+      },
+      {
+        "name": "阿曼",
+        "value": "512"
+      },
+      {
+        "name": "纳米比亚",
+        "value": "516"
+      },
+      {
+        "name": "瑙鲁",
+        "value": "520"
+      },
+      {
+        "name": "尼泊尔",
+        "value": "524"
+      },
+      {
+        "name": "荷兰",
+        "value": "528"
+      },
+      {
+        "name": "荷属安的列斯",
+        "value": "530"
+      },
+      {
+        "name": "阿鲁巴",
+        "value": "533"
+      },
+      {
+        "name": "新喀里多尼亚",
+        "value": "540"
+      },
+      {
+        "name": "瓦努阿图",
+        "value": "548"
+      },
+      {
+        "name": "新西兰",
+        "value": "554"
+      },
+      {
+        "name": "尼加拉瓜",
+        "value": "558"
+      },
+      {
+        "name": "尼日尔",
+        "value": "562"
+      },
+      {
+        "name": "尼日利亚",
+        "value": "566"
+      },
+      {
+        "name": "纽埃",
+        "value": "570"
+      },
+      {
+        "name": "诺福克岛",
+        "value": "574"
+      },
+      {
+        "name": "挪威",
+        "value": "578"
+      },
+      {
+        "name": "北马里亚纳",
+        "value": "580"
+      },
+      {
+        "name": "美国本土外小岛屿",
+        "value": "581"
+      },
+      {
+        "name": "密克罗尼西亚联邦",
+        "value": "583"
+      },
+      {
+        "name": "马绍尔群岛",
+        "value": "584"
+      },
+      {
+        "name": "帕劳",
+        "value": "585"
+      },
+      {
+        "name": "巴基斯坦",
+        "value": "586"
+      },
+      {
+        "name": "巴拿马",
+        "value": "591"
+      },
+      {
+        "name": "巴布亚新几内亚",
+        "value": "598"
+      },
+      {
+        "name": "巴拉圭",
+        "value": "600"
+      },
+      {
+        "name": "秘鲁",
+        "value": "604"
+      },
+      {
+        "name": "菲律宾",
+        "value": "608"
+      },
+      {
+        "name": "皮特凯恩",
+        "value": "612"
+      },
+      {
+        "name": "波兰",
+        "value": "616"
+      },
+      {
+        "name": "葡萄牙",
+        "value": "620"
+      },
+      {
+        "name": "几内亚比绍",
+        "value": "624"
+      },
+      {
+        "name": "东帝汶",
+        "value": "626"
+      },
+      {
+        "name": "波多黎各",
+        "value": "630"
+      },
+      {
+        "name": "卡塔尔",
+        "value": "634"
+      },
+      {
+        "name": "留尼汪",
+        "value": "638"
+      },
+      {
+        "name": "罗马尼亚",
+        "value": "642"
+      },
+      {
+        "name": "俄罗斯联邦",
+        "value": "643"
+      },
+      {
+        "name": "卢旺达",
+        "value": "646"
+      },
+      {
+        "name": "圣赫勒拿",
+        "value": "654"
+      },
+      {
+        "name": "圣基茨和尼维斯",
+        "value": "659"
+      },
+      {
+        "name": "安圭拉",
+        "value": "660"
+      },
+      {
+        "name": "圣卢西亚",
+        "value": "662"
+      },
+      {
+        "name": "圣皮埃尔和密克隆",
+        "value": "666"
+      },
+      {
+        "name": "圣文森特和格林纳丁斯",
+        "value": "670"
+      },
+      {
+        "name": "圣马力诺",
+        "value": "674"
+      },
+      {
+        "name": "圣多美和普林西比",
+        "value": "678"
+      },
+      {
+        "name": "沙特阿拉伯",
+        "value": "682"
+      },
+      {
+        "name": "塞内加尔",
+        "value": "686"
+      },
+      {
+        "name": "塞舌尔",
+        "value": "690"
+      },
+      {
+        "name": "塞拉利昂",
+        "value": "694"
+      },
+      {
+        "name": "新加坡",
+        "value": "702"
+      },
+      {
+        "name": "斯洛伐克",
+        "value": "703"
+      },
+      {
+        "name": "越南",
+        "value": "704"
+      },
+      {
+        "name": "斯洛文尼亚",
+        "value": "705"
+      },
+      {
+        "name": "索马里",
+        "value": "706"
+      },
+      {
+        "name": "南非",
+        "value": "710"
+      },
+      {
+        "name": "津巴布韦",
+        "value": "716"
+      },
+      {
+        "name": "西班牙",
+        "value": "724"
+      },
+      {
+        "name": "西撤哈拉",
+        "value": "732"
+      },
+      {
+        "name": "苏丹",
+        "value": "736"
+      },
+      {
+        "name": "苏里南",
+        "value": "740"
+      },
+      {
+        "name": "斯瓦尔巴岛和扬马延岛",
+        "value": "744"
+      },
+      {
+        "name": "斯威士兰",
+        "value": "748"
+      },
+      {
+        "name": "瑞典",
+        "value": "752"
+      },
+      {
+        "name": "瑞士",
+        "value": "756"
+      },
+      {
+        "name": "叙利亚",
+        "value": "760"
+      },
+      {
+        "name": "塔吉克斯坦",
+        "value": "762"
+      },
+      {
+        "name": "泰国",
+        "value": "764"
+      },
+      {
+        "name": "多哥",
+        "value": "768"
+      },
+      {
+        "name": "托克劳",
+        "value": "772"
+      },
+      {
+        "name": "汤加",
+        "value": "776"
+      },
+      {
+        "name": "特立尼达和多巴哥",
+        "value": "780"
+      },
+      {
+        "name": "阿联酋",
+        "value": "784"
+      },
+      {
+        "name": "突尼斯",
+        "value": "788"
+      },
+      {
+        "name": "土耳其",
+        "value": "792"
+      },
+      {
+        "name": "土库曼斯坦",
+        "value": "795"
+      },
+      {
+        "name": "特克斯和凯科斯群岛",
+        "value": "796"
+      },
+      {
+        "name": "图瓦卢",
+        "value": "798"
+      },
+      {
+        "name": "乌干达",
+        "value": "800"
+      },
+      {
+        "name": "乌克兰",
+        "value": "804"
+      },
+      {
+        "name": "前南马其顿",
+        "value": "807"
+      },
+      {
+        "name": "埃及",
+        "value": "818"
+      },
+      {
+        "name": "英国",
+        "value": "826"
+      },
+      {
+        "name": "坦桑尼亚",
+        "value": "834"
+      },
+      {
+        "name": "美国",
+        "value": "840"
+      },
+      {
+        "name": "美属维尔京群岛",
+        "value": "850"
+      },
+      {
+        "name": "布基纳法索",
+        "value": "854"
+      },
+      {
+        "name": "乌拉圭",
+        "value": "858"
+      },
+      {
+        "name": "乌兹别克斯坦",
+        "value": "860"
+      },
+      {
+        "name": "委内瑞拉",
+        "value": "862"
+      },
+      {
+        "name": "瓦利斯和富图纳",
+        "value": "876"
+      },
+      {
+        "name": "萨摩亚",
+        "value": "882"
+      },
+      {
+        "name": "也门",
+        "value": "887"
+      },
+      {
+        "name": "南斯拉夫",
+        "value": "891"
+      },
+      {
+        "name": "赞比亚",
+        "value": "894"
+      }
+    ],
+    "t_bz_bylx": [
+      {
+        "name": "未设置",
+        "value": "0"
+      },
+      {
+        "name": "毕业",
+        "value": "1"
+      },
+      {
+        "name": "结业",
+        "value": "2"
+      },
+      {
+        "name": "肄业",
+        "value": "3"
+      }
+    ],
+    "t_bz_jdfs": [
+      {
+        "name": "走读",
+        "value": "1"
+      },
+      {
+        "name": "住校",
+        "value": "2"
+      },
+      {
+        "name": "其他",
+        "value": "9"
+      }
+    ],
+    "t_bz_rxfs": [
+      {
+        "name": "统一招生入学",
+        "value": "01"
+      },
+      {
+        "name": "外校转入 ",
+        "value": "09"
+      },
+      {
+        "name": "体育特招",
+        "value": "22"
+      },
+      {
+        "name": "艺术特招",
+        "value": "23"
+      },
+      {
+        "name": "其他 ",
+        "value": "99"
+      }
+    ],
+    "t_classtypeinfo": [
+      {
+        "name": "普通班",
+        "value": "1"
+      },
+      {
+        "name": "新疆班",
+        "value": "2"
+      },
+      {
+        "name": "西藏班",
+        "value": "3"
+      },
+      {
+        "name": "国际班",
+        "value": "4"
+      },
+      {
+        "name": "辅读班",
+        "value": "5"
+      },
+      {
+        "name": "特教班",
+        "value": "6"
+      },
+      {
+        "name": "混合班",
+        "value": "7"
+      },
+      {
+        "name": "工读班",
+        "value": "8"
+      },
+      {
+        "name": "其他班",
+        "value": "9"
+      }
+    ],
+    "t_bz_cjrlx": [
+      {
+        "name": "视力残疾",
+        "value": "01"
+      },
+      {
+        "name": "听力残疾",
+        "value": "02"
+      },
+      {
+        "name": "智力残疾",
+        "value": "03"
+      },
+      {
+        "name": "肢体残疾（脑瘫）",
+        "value": "04"
+      },
+      {
+        "name": "肢体残疾（非脑瘫）",
+        "value": "05"
+      },
+      {
+        "name": "言语残疾",
+        "value": "06"
+      },
+      {
+        "name": "精神残疾（非自闭症）",
+        "value": "07"
+      },
+      {
+        "name": "精神残疾（自闭症）",
+        "value": "08"
+      },
+      {
+        "name": "多重残疾",
+        "value": "09"
+      },
+      {
+        "name": "其他残疾",
+        "value": "10"
+      }
+    ],
+    "t_bz_xsdqzt": [
+      {
+        "name": "在读",
+        "value": "01"
+      },
+      {
+        "name": "休学",
+        "value": "02"
+      },
+      {
+        "name": "退学",
+        "value": "03"
+      },
+      {
+        "name": "复学",
+        "value": "05"
+      },
+      {
+        "name": "流失",
+        "value": "06"
+      },
+      {
+        "name": "毕业",
+        "value": "07"
+      },
+      {
+        "name": "结业",
+        "value": "08"
+      },
+      {
+        "name": "肄业",
+        "value": "09"
+      },
+      {
+        "name": "转学（转出）",
+        "value": "10"
+      },
+      {
+        "name": "死亡",
+        "value": "11"
+      },
+      {
+        "name": "离校",
+        "value": "99"
+      }
+    ],
+    "t_bz_xsdqzt1": [
+      {
+        "name": "在读",
+        "value": "01"
+      },
+      {
+        "name": "休学",
+        "value": "02"
+      }
+    ],
+    "t_bz_xsdqzt2": [
+      {
+        "name": "退学",
+        "value": "03"
+      },
+      {
+        "name": "复学",
+        "value": "05"
+      },
+      {
+        "name": "流失",
+        "value": "06"
+      },
+      {
+        "name": "毕业",
+        "value": "07"
+      },
+      {
+        "name": "结业",
+        "value": "08"
+      },
+      {
+        "name": "肄业",
+        "value": "09"
+      },
+      {
+        "name": "转学（转出）",
+        "value": "10"
+      },
+      {
+        "name": "死亡",
+        "value": "11"
+      },
+      {
+        "name": "离校",
+        "value": "99"
+      }
+    ],
+    "t_bz_xsdqzt3": [
+      {
+        "name": "在读",
+        "value": "01"
+      },
+      {
+        "name": "退学",
+        "value": "03"
+      },
+      {
+        "name": "肄业",
+        "value": "09"
+      }
+    ],
+    "t_bz_xsdqzt4": [
+      {
+        "name": "退学",
+        "value": "03"
+      },
+      {
+        "name": "肄业",
+        "value": "09"
+      }
+    ],
+    "t_bz_xd": [
+      {
+        "name": "小学",
+        "value": "1"
+      },
+      {
+        "name": "初中",
+        "value": "2"
+      },
+      {
+        "name": "高中",
+        "value": "3"
+      },
+      {
+        "name": "特教学校",
+        "value": "4"
+      }
+    ],
+    "t_bz_jtgx": [
+      {
+        "name": "父亲",
+        "value": "51"
+      },
+      {
+        "name": "母亲",
+        "value": "52"
+      },
+      {
+        "name": "祖父母或外祖父母",
+        "value": "60"
+      },
+      {
+        "name": "兄弟姐妹",
+        "value": "70"
+      },
+      {
+        "name": "其他亲属",
+        "value": "97"
+      },
+      {
+        "name": "非亲属",
+        "value": "99"
+      }
+    ],
+    "t_bz_szddysx": [
+      {
+        "name": "非边境县",
+        "value": "0"
+      },
+      {
+        "name": "边境县",
+        "value": "1"
+      }
+    ],
+    "t_bz_xxbb": [
+      {
+        "name": "公办",
+        "value": "1"
+      },
+      {
+        "name": "民办",
+        "value": "2"
+      },
+      {
+        "name": "转制学校",
+        "value": "3"
+      },
+      {
+        "name": "中外合作办学",
+        "value": "4"
+      },
+      {
+        "name": "其他",
+        "value": "9"
+      }
+    ],
+    "t_bz_xb": [
+      {
+        "name": "男",
+        "value": "1"
+      },
+      {
+        "name": "女",
+        "value": "2"
+      }
+    ],
+    "t_bz_sfzd": [
+      {
+        "name": "否",
+        "value": "0"
+      },
+      {
+        "name": "是",
+        "value": "1"
+      }
+    ],
+    "t_bz_zjlx": [
+      {
+        "name": "居民身份证",
+        "value": "1"
+      },
+      {
+        "name": "香港特区身份证明",
+        "value": "6"
+      },
+      {
+        "name": "澳门特区身份证明",
+        "value": "7"
+      },
+      {
+        "name": "台湾居民来往大陆通行证",
+        "value": "8"
+      },
+      {
+        "name": "境外永久居住证",
+        "value": "9"
+      },
+      {
+        "name": "护照",
+        "value": "A"
+      },
+      {
+        "name": "户口簿",
+        "value": "B"
+      },
+      {
+        "name": "出生证",
+        "value": "C"
+      },
+      {
+        "name": "港澳居民来往内地通行证",
+        "value": "D"
+      },
+      {
+        "name": "中华人民共和国外国人永久居留证（中国绿卡）",
+        "value": "E"
+      },
+      {
+        "name": "军官证",
+        "value": "F"
+      },
+      {
+        "name": "士官证",
+        "value": "G"
+      },
+      {
+        "name": "暂无",
+        "value": "Z"
+      }
+    ],
+    "t_bz_zjxyy": [
+      {
+        "name": "高山语",
+        "value": "590"
+      },
+      {
+        "name": "塔吉克语",
+        "value": "111"
+      },
+      {
+        "name": "白语",
+        "value": "551"
+      },
+      {
+        "name": "哈尼语",
+        "value": "552"
+      },
+      {
+        "name": "拉祜语",
+        "value": "553"
+      },
+      {
+        "name": "傈僳语",
+        "value": "554"
+      },
+      {
+        "name": "纳西语",
+        "value": "555"
+      },
+      {
+        "name": "彝语",
+        "value": "556"
+      },
+      {
+        "name": "鄂伦春语",
+        "value": "513"
+      },
+      {
+        "name": "鄂温克语",
+        "value": "514"
+      },
+      {
+        "name": "赫哲语",
+        "value": "517"
+      },
+      {
+        "name": "满语",
+        "value": "518"
+      },
+      {
+        "name": "锡伯语",
+        "value": "519"
+      },
+      {
+        "name": "塔塔尔语",
+        "value": "161"
+      },
+      {
+        "name": "柯尔克孜语",
+        "value": "162"
+      },
+      {
+        "name": "哈萨克语",
+        "value": "163"
+      },
+      {
+        "name": "黎语",
+        "value": "563"
+      },
+      {
+        "name": "乌孜别克语",
+        "value": "168"
+      },
+      {
+        "name": "侗语",
+        "value": "567"
+      },
+      {
+        "name": "撒拉语",
+        "value": "524"
+      },
+      {
+        "name": "仫佬语",
+        "value": "568"
+      },
+      {
+        "name": "毛难语",
+        "value": "569"
+      },
+      {
+        "name": "水语",
+        "value": "570"
+      },
+      {
+        "name": "汉语（中文）",
+        "value": "211"
+      },
+      {
+        "name": "布依语",
+        "value": "574"
+      },
+      {
+        "name": "傣语",
+        "value": "212"
+      },
+      {
+        "name": "瑶语",
+        "value": "531"
+      },
+      {
+        "name": "仡佬语",
+        "value": "532"
+      },
+      {
+        "name": "京语",
+        "value": "533"
+      },
+      {
+        "name": "藏语",
+        "value": "215"
+      },
+      {
+        "name": "朝鲜语",
+        "value": "217"
+      },
+      {
+        "name": "阿昌语",
+        "value": "536"
+      },
+      {
+        "name": "独龙语",
+        "value": "537"
+      },
+      {
+        "name": "基诺语",
+        "value": "538"
+      },
+      {
+        "name": "珞巴语",
+        "value": "539"
+      },
+      {
+        "name": "俄语",
+        "value": "061"
+      },
+      {
+        "name": "苗语",
+        "value": "580"
+      },
+      {
+        "name": "门巴语",
+        "value": "540"
+      },
+      {
+        "name": "崩龙语",
+        "value": "584"
+      },
+      {
+        "name": "蒙古语",
+        "value": "222"
+      },
+      {
+        "name": "怒语",
+        "value": "541"
+      },
+      {
+        "name": "布朗语",
+        "value": "585"
+      },
+      {
+        "name": "维吾尔语",
+        "value": "223"
+      },
+      {
+        "name": "普米语",
+        "value": "542"
+      },
+      {
+        "name": "佤语",
+        "value": "586"
+      },
+      {
+        "name": "壮语",
+        "value": "224"
+      },
+      {
+        "name": "羌语",
+        "value": "543"
+      },
+      {
+        "name": "土家语",
+        "value": "544"
+      },
+      {
+        "name": "裕固语",
+        "value": "501"
+      },
+      {
+        "name": "景颇语",
+        "value": "548"
+      },
+      {
+        "name": "保安语",
+        "value": "506"
+      },
+      {
+        "name": "达斡尔语",
+        "value": "507"
+      },
+      {
+        "name": "东乡语",
+        "value": "508"
+      },
+      {
+        "name": "土语",
+        "value": "509"
+      }
+    ],
+    "t_bz_xx": [
+      {
+        "name": "未知血型",
+        "value": "0"
+      },
+      {
+        "name": "A血型",
+        "value": "1"
+      },
+      {
+        "name": "B血型",
+        "value": "2"
+      },
+      {
+        "name": "AB血型",
+        "value": "3"
+      },
+      {
+        "name": "O血型",
+        "value": "4"
+      },
+      {
+        "name": "RH阳性血型",
+        "value": "5"
+      },
+      {
+        "name": "RH阴性血型",
+        "value": "6"
+      },
+      {
+        "name": "HLA血型",
+        "value": "7"
+      },
+      {
+        "name": "未定血型",
+        "value": "8"
+      },
+      {
+        "name": "其他血型",
+        "value": "9"
+      }
+    ],
+    "t_bz_xz": [
+      {
+        "name": "小学五年制",
+        "value": "01"
+      },
+      {
+        "name": "小学六年制",
+        "value": "02"
+      },
+      {
+        "name": "初中三年制",
+        "value": "03"
+      },
+      {
+        "name": "初中四年制",
+        "value": "04"
+      },
+      {
+        "name": "高中三年制",
+        "value": "05"
+      },
+      {
+        "name": "高中四年制",
+        "value": "11"
+      },
+      {
+        "name": "九年一贯制",
+        "value": "07"
+      },
+      {
+        "name": "十年一贯制",
+        "value": "08"
+      },
+      {
+        "name": "十二年一贯制",
+        "value": "09"
+      },
+      {
+        "name": "完中",
+        "value": "06"
+      }
+    ],
+    "t_bz_szdjjsx": [
+      {
+        "name": "非贫困县",
+        "value": "0"
+      },
+      {
+        "name": "国家级贫困县",
+        "value": "1"
+      },
+      {
+        "name": "省级贫困县",
+        "value": "2"
+      }
+    ],
+    "t_bz_mzbxz": [
+      {
+        "name": "无",
+        "value": "0"
+      },
+      {
+        "name": "新疆班",
+        "value": "1"
+      },
+      {
+        "name": "西藏班",
+        "value": "2"
+      },
+      {
+        "name": "二者都有",
+        "value": "3"
+      }
+    ],
+    "t_bz_byqx": [
+      {
+        "name": "升学",
+        "value": "10"
+      },
+      {
+        "name": "本科",
+        "value": "11"
+      },
+      {
+        "name": "高职（专科）",
+        "value": "12"
+      },
+      {
+        "name": "职业高中（含中专、技校）",
+        "value": "13"
+      },
+      {
+        "name": "职业初中",
+        "value": "14"
+      },
+      {
+        "name": "普通高中",
+        "value": "15"
+      },
+      {
+        "name": "普通初中",
+        "value": "16"
+      },
+      {
+        "name": "就业",
+        "value": "20"
+      },
+      {
+        "name": "参军",
+        "value": "30"
+      },
+      {
+        "name": "出国",
+        "value": "40"
+      },
+      {
+        "name": "赴港澳台",
+        "value": "50"
+      },
+      {
+        "name": "待就业",
+        "value": "60"
+      },
+      {
+        "name": "其他",
+        "value": "99"
+      }
+    ],
+    "t_bz_jzzlx": [
+      {
+        "name": "暂无",
+        "value": "0"
+      },
+      {
+        "name": "上海市居住证",
+        "value": "1"
+      },
+      {
+        "name": "上海市居住证(海外证)",
+        "value": "2"
+      },
+      {
+        "name": "上海市临时居住证（LS）",
+        "value": "L"
+      }
+    ],
+    "t_bz_zjxy": [
+      {
+        "name": "无宗教信仰",
+        "value": "00"
+      },
+      {
+        "name": "佛教",
+        "value": "10"
+      },
+      {
+        "name": "喇嘛教",
+        "value": "20"
+      },
+      {
+        "name": "道教",
+        "value": "30"
+      },
+      {
+        "name": "天主教",
+        "value": "40"
+      },
+      {
+        "name": "基督教",
+        "value": "50"
+      },
+      {
+        "name": "东正教",
+        "value": "60"
+      },
+      {
+        "name": "伊斯兰教",
+        "value": "70"
+      },
+      {
+        "name": "其他",
+        "value": "99"
+      }
+    ],
+    "t_bz_xslb": [
+      {
+        "name": "普通学生",
+        "value": "01"
+      },
+      {
+        "name": "随班就读",
+        "value": "02"
+      },
+      {
+        "name": "工读学校",
+        "value": "03"
+      },
+      {
+        "name": "体校委培",
+        "value": "04"
+      },
+      {
+        "name": "民族班学生",
+        "value": "05"
+      },
+      {
+        "name": "艺体特长生",
+        "value": "06"
+      },
+      {
+        "name": "送教上门",
+        "value": "07"
+      },
+      {
+        "name": "特教学生",
+        "value": "08"
+      },
+      {
+        "name": "视力残疾随班就读",
+        "value": "021"
+      },
+      {
+        "name": "听力残疾随班就读",
+        "value": "022"
+      },
+      {
+        "name": "智力残疾随班就读",
+        "value": "023"
+      },
+      {
+        "name": "多重残疾随班就读",
+        "value": "024"
+      },
+      {
+        "name": "其他残疾随班就读",
+        "value": "026"
+      },
+      {
+        "name": "托管学生",
+        "value": "031"
+      },
+      {
+        "name": "工读学生",
+        "value": "032"
+      },
+      {
+        "name": "新疆班学生",
+        "value": "051"
+      },
+      {
+        "name": "西藏班学生",
+        "value": "052"
+      },
+      {
+        "name": "艺术特长生",
+        "value": "061"
+      },
+      {
+        "name": "体育特长生",
+        "value": "062"
+      },
+      {
+        "name": "其他",
+        "value": "053"
+      }
+    ],
+    "t_bz_xl": [
+      {
+        "name": "大学本科结业",
+        "value": "22"
+      },
+      {
+        "name": "职业高中毕业",
+        "value": "44"
+      },
+      {
+        "name": "大学本科肄业",
+        "value": "23"
+      },
+      {
+        "name": "职业高中结业",
+        "value": "45"
+      },
+      {
+        "name": "职业高中肄业",
+        "value": "46"
+      },
+      {
+        "name": "技工学校毕业",
+        "value": "47"
+      },
+      {
+        "name": "技工学校结业",
+        "value": "48"
+      },
+      {
+        "name": "技工学校肄业",
+        "value": "49"
+      },
+      {
+        "name": "大学普通班毕业",
+        "value": "28"
+      },
+      {
+        "name": "初级中学教育",
+        "value": "70"
+      },
+      {
+        "name": "初中毕业",
+        "value": "71"
+      },
+      {
+        "name": "初中肄业",
+        "value": "73"
+      },
+      {
+        "name": "大学专科教育",
+        "value": "30"
+      },
+      {
+        "name": "大学专科毕业",
+        "value": "31"
+      },
+      {
+        "name": "研究生教育",
+        "value": "10"
+      },
+      {
+        "name": "大学专科结业",
+        "value": "32"
+      },
+      {
+        "name": "博士研究生毕业",
+        "value": "11"
+      },
+      {
+        "name": "大学专科肄业",
+        "value": "33"
+      },
+      {
+        "name": "博士研究生结业",
+        "value": "12"
+      },
+      {
+        "name": "博士研究生肄业",
+        "value": "13"
+      },
+      {
+        "name": "硕士研究生毕业",
+        "value": "14"
+      },
+      {
+        "name": "硕士研究生结业",
+        "value": "15"
+      },
+      {
+        "name": "硕士研究生肄业",
+        "value": "16"
+      },
+      {
+        "name": "研究生班毕业",
+        "value": "17"
+      },
+      {
+        "name": "研究生班结业",
+        "value": "18"
+      },
+      {
+        "name": "研究生班肄业",
+        "value": "19"
+      },
+      {
+        "name": "小学教育",
+        "value": "80"
+      },
+      {
+        "name": "小学毕业",
+        "value": "81"
+      },
+      {
+        "name": "普通高级中学教育",
+        "value": "60"
+      },
+      {
+        "name": "普通高中毕业",
+        "value": "61"
+      },
+      {
+        "name": "小学肄业",
+        "value": "83"
+      },
+      {
+        "name": "中等职业教育",
+        "value": "40"
+      },
+      {
+        "name": "普通高中结业",
+        "value": "62"
+      },
+      {
+        "name": "中等专科毕业",
+        "value": "41"
+      },
+      {
+        "name": "普通高中肄业",
+        "value": "63"
+      },
+      {
+        "name": "大学本科教育",
+        "value": "20"
+      },
+      {
+        "name": "中等专科结业",
+        "value": "42"
+      },
+      {
+        "name": "大学本科毕业",
+        "value": "21"
+      },
+      {
+        "name": "中等专科肄业",
+        "value": "43"
+      },
+      {
+        "name": "其他",
+        "value": "90"
+      }
+    ],
+    "t_bz_xjydyy": [
+      {
+        "name": "成绩太差 ",
+        "value": "22"
+      },
+      {
+        "name": "超过最长学习期限未完成学业 ",
+        "value": "33"
+      },
+      {
+        "name": "其他原因",
+        "value": "99"
+      },
+      {
+        "name": "成绩优秀 ",
+        "value": "01"
+      },
+      {
+        "name": "触犯刑法 ",
+        "value": "23"
+      },
+      {
+        "name": "其他原因死亡",
+        "value": "89"
+      },
+      {
+        "name": "非留学出国（境） ",
+        "value": "28"
+      },
+      {
+        "name": "其他原因退学 ",
+        "value": "39"
+      },
+      {
+        "name": "自费出国退学 ",
+        "value": "29"
+      },
+      {
+        "name": "因病休学（保留学籍）",
+        "value": "90"
+      },
+      {
+        "name": "出国休学（保留学籍）",
+        "value": "91"
+      },
+      {
+        "name": "自杀死亡",
+        "value": "81"
+      },
+      {
+        "name": "其他休学（保留学籍）",
+        "value": "92"
+      },
+      {
+        "name": "休学期满未办理复学 ",
+        "value": "31"
+      },
+      {
+        "name": "疾病 ",
+        "value": "10"
+      },
+      {
+        "name": "自动退学 ",
+        "value": "21"
+      }
+    ],
+    "t_bz_jkzk": [
+      {
+        "name": "慢性呼吸系统病",
+        "value": "33"
+      },
+      {
+        "name": "精神残疾",
+        "value": "66"
+      },
+      {
+        "name": "慢性消化系统病",
+        "value": "34"
+      },
+      {
+        "name": "多重残疾",
+        "value": "67"
+      },
+      {
+        "name": "慢性肾炎",
+        "value": "35"
+      },
+      {
+        "name": "结核病",
+        "value": "36"
+      },
+      {
+        "name": "其他残疾",
+        "value": "69"
+      },
+      {
+        "name": "糖尿病",
+        "value": "37"
+      },
+      {
+        "name": "神经或精神疾病",
+        "value": "38"
+      },
+      {
+        "name": "其他慢性病",
+        "value": "49"
+      },
+      {
+        "name": "残疾",
+        "value": "60"
+      },
+      {
+        "name": "视力残疾",
+        "value": "61"
+      },
+      {
+        "name": "听力残疾",
+        "value": "62"
+      },
+      {
+        "name": "有慢性病",
+        "value": "30"
+      },
+      {
+        "name": "癌症",
+        "value": "41"
+      },
+      {
+        "name": "言语残疾",
+        "value": "63"
+      },
+      {
+        "name": "一般或较弱",
+        "value": "20"
+      },
+      {
+        "name": "心血管病",
+        "value": "31"
+      },
+      {
+        "name": "肢体残疾",
+        "value": "64"
+      },
+      {
+        "name": "健康或良好",
+        "value": "10"
+      },
+      {
+        "name": "脑血管病",
+        "value": "32"
+      },
+      {
+        "name": "智力残疾",
+        "value": "65"
+      }
+    ],
+    "t_bz_byzlx": [
+      {
+        "name": "普通",
+        "value": "0"
+      },
+      {
+        "name": "义务教育",
+        "value": "4"
+      },
+      {
+        "name": "国际班",
+        "value": "1"
+      },
+      {
+        "name": "体育特长",
+        "value": "2"
+      },
+      {
+        "name": "外籍",
+        "value": "3"
+      }
+    ],
+    "t_bz_sxxfs": [
+      {
+        "name": "步行",
+        "value": "1"
+      },
+      {
+        "name": "自行车（含摩托车、电动自行车）",
+        "value": "2"
+      },
+      {
+        "name": "公共交通（含城市公交、农村客运、地铁）",
+        "value": "3"
+      },
+      {
+        "name": "家长自行接送",
+        "value": "4"
+      },
+      {
+        "name": "校车",
+        "value": "5"
+      },
+      {
+        "name": "其他",
+        "value": "6"
+      }
+    ],
+    "t_bz_bysqzt": [
+      {
+        "name": "待申请",
+        "value": "0"
+      },
+      {
+        "name": "正常申请",
+        "value": "1"
+      },
+      {
+        "name": "重复申请",
+        "value": "2"
+      }
+    ],
+    "t_ydlx": [
+      {
+        "name": "异动",
+        "value": "1"
+      },
+      {
+        "name": "异动撤回",
+        "value": "2"
+      }
+    ],
+    "t_bz_gatqw": [
+      {
+        "name": "否",
+        "value": "00"
+      },
+      {
+        "name": "香港同胞",
+        "value": "01"
+      },
+      {
+        "name": "澳门同胞",
+        "value": "03"
+      },
+      {
+        "name": "台湾同胞",
+        "value": "05"
+      },
+      {
+        "name": "台湾同胞子女",
+        "value": "06"
+      },
+      {
+        "name": "华侨及华侨子女",
+        "value": "11"
+      },
+      {
+        "name": "归国留学人员",
+        "value": "21"
+      },
+      {
+        "name": "外籍",
+        "value": "41"
+      },
+      {
+        "name": "其他",
+        "value": "99"
+      }
+    ],
+    "t_bz_zzmm": [
+      {
+        "name": "群众",
+        "value": "13"
+      },
+      {
+        "name": "中国共产党党员",
+        "value": "01"
+      },
+      {
+        "name": "中国共产党预备党员",
+        "value": "02"
+      },
+      {
+        "name": "中国共产主义青年团团员",
+        "value": "03"
+      },
+      {
+        "name": "中国国民党革命委员会会员",
+        "value": "04"
+      },
+      {
+        "name": "中国民主同盟盟员",
+        "value": "05"
+      },
+      {
+        "name": "中国民主建国会会员",
+        "value": "06"
+      },
+      {
+        "name": "中国民主促进会会员",
+        "value": "07"
+      },
+      {
+        "name": "中国农工民主党党员",
+        "value": "08"
+      },
+      {
+        "name": "中国致公党党员",
+        "value": "09"
+      },
+      {
+        "name": "九三学社社员",
+        "value": "10"
+      },
+      {
+        "name": "台湾民主自治同盟盟员",
+        "value": "11"
+      },
+      {
+        "name": "无党派民主人士",
+        "value": "12"
+      },
+      {
+        "name": "少先队员",
+        "value": "98"
+      },
+      {
+        "name": "其他",
+        "value": "20"
+      }
+    ],
+    "t_bz_hylb": [
+      {
+        "name": "个体工商户",
+        "value": "1"
+      },
+      {
+        "name": "医院护工",
+        "value": "2"
+      },
+      {
+        "name": "家政服务",
+        "value": "3"
+      },
+      {
+        "name": "农业",
+        "value": "4"
+      },
+      {
+        "name": "居家养老",
+        "value": "6"
+      }
+    ],
+    "t_bz_tjbyzslb": [
+      {
+        "name": "初中",
+        "value": "1"
+      },
+      {
+        "name": "高中",
+        "value": "2"
+      },
+      {
+        "name": "特初",
+        "value": "3"
+      }
+    ],
+    "t_bz_hkxz": [
+      {
+        "name": "未落常住户口(袋袋户口)",
+        "value": "0"
+      },
+      {
+        "name": "非农业家庭户口",
+        "value": "1"
+      },
+      {
+        "name": "农业家庭户口",
+        "value": "2"
+      },
+      {
+        "name": "非农业集体户口",
+        "value": "3"
+      },
+      {
+        "name": "农业集体户口",
+        "value": "4"
+      },
+      {
+        "name": "其他户口",
+        "value": "8"
+      }
+    ],
+    "t_roletypeinfo": [
+      {
+        "name": "系统管理员",
+        "value": "0"
+      },
+      {
+        "name": "市管理员",
+        "value": "1"
+      },
+      {
+        "name": "区管理员",
+        "value": "2"
+      },
+      {
+        "name": "校管理员",
+        "value": "3"
+      },
+      {
+        "name": "校区管理员",
+        "value": "4"
+      }
+    ],
+    "t_bz_xsly": [
+      {
+        "name": "正常入学",
+        "value": "1"
+      },
+      {
+        "name": "其他",
+        "value": "9"
+      }
+    ],
+    "t_bz_xsly2": [
+      {
+        "name": "正常入学",
+        "value": "1"
+      },
+      {
+        "name": "其他",
+        "value": "9"
+      }
+    ],
+    "t_bz_jdzt": [
+      {
+        "name": "本校正常状态",
+        "value": "1"
+      },
+      {
+        "name": "区内借读",
+        "value": "2"
+      },
+      {
+        "name": "跨区借读",
+        "value": "3"
+      }
+    ],
+    "t_bz_lset": [
+      {
+        "name": "非留守儿童",
+        "value": "0"
+      },
+      {
+        "name": "单亲留守儿童",
+        "value": "1"
+      },
+      {
+        "name": "双亲留守儿童",
+        "value": "2"
+      }
+    ],
+    "t_bz_xxlb": [
+      {
+        "name": "小学",
+        "value": "1"
+      },
+      {
+        "name": "初级中学",
+        "value": "2"
+      },
+      {
+        "name": "高级中学",
+        "value": "3"
+      },
+      {
+        "name": "特教学校",
+        "value": "4"
+      },
+      {
+        "name": "工读学校",
+        "value": "5"
+      }
+    ],
+    "t_bz_mz": [
+      {
+        "name": "汉族",
+        "value": "1"
+      },
+      {
+        "name": "俄罗斯族",
+        "value": "44"
+      },
+      {
+        "name": "鄂温克族",
+        "value": "45"
+      },
+      {
+        "name": "崩龙族",
+        "value": "46"
+      },
+      {
+        "name": "保安族",
+        "value": "47"
+      },
+      {
+        "name": "裕固族",
+        "value": "48"
+      },
+      {
+        "name": "京族",
+        "value": "49"
+      },
+      {
+        "name": "塔塔尔族",
+        "value": "50"
+      },
+      {
+        "name": "独龙族",
+        "value": "51"
+      },
+      {
+        "name": "鄂伦春族",
+        "value": "52"
+      },
+      {
+        "name": "赫哲族",
+        "value": "53"
+      },
+      {
+        "name": "朝鲜族",
+        "value": "10"
+      },
+      {
+        "name": "门巴族",
+        "value": "54"
+      },
+      {
+        "name": "外国血统中国籍人士",
+        "value": "98"
+      },
+      {
+        "name": "满族",
+        "value": "11"
+      },
+      {
+        "name": "珞巴族",
+        "value": "55"
+      },
+      {
+        "name": "侗族",
+        "value": "12"
+      },
+      {
+        "name": "基诺族",
+        "value": "56"
+      },
+      {
+        "name": "瑶族",
+        "value": "13"
+      },
+      {
+        "name": "白族",
+        "value": "14"
+      },
+      {
+        "name": "土家族",
+        "value": "15"
+      },
+      {
+        "name": "哈尼族",
+        "value": "16"
+      },
+      {
+        "name": "哈萨克族",
+        "value": "17"
+      },
+      {
+        "name": "傣族",
+        "value": "18"
+      },
+      {
+        "name": "黎族",
+        "value": "19"
+      },
+      {
+        "name": "蒙古族",
+        "value": "2"
+      },
+      {
+        "name": "回族",
+        "value": "3"
+      },
+      {
+        "name": "藏族",
+        "value": "4"
+      },
+      {
+        "name": "维吾尔族",
+        "value": "5"
+      },
+      {
+        "name": "苗族",
+        "value": "6"
+      },
+      {
+        "name": "彝族",
+        "value": "7"
+      },
+      {
+        "name": "壮族",
+        "value": "8"
+      },
+      {
+        "name": "布依族",
+        "value": "9"
+      },
+      {
+        "name": "傈僳族",
+        "value": "20"
+      },
+      {
+        "name": "佤族",
+        "value": "21"
+      },
+      {
+        "name": "畲族",
+        "value": "22"
+      },
+      {
+        "name": "高山族",
+        "value": "23"
+      },
+      {
+        "name": "拉祜族",
+        "value": "24"
+      },
+      {
+        "name": "水族",
+        "value": "25"
+      },
+      {
+        "name": "东乡族",
+        "value": "26"
+      },
+      {
+        "name": "纳西族",
+        "value": "27"
+      },
+      {
+        "name": "景颇族",
+        "value": "28"
+      },
+      {
+        "name": "柯尔克孜族",
+        "value": "29"
+      },
+      {
+        "name": "土族",
+        "value": "30"
+      },
+      {
+        "name": "达斡尔族",
+        "value": "31"
+      },
+      {
+        "name": "仫佬族",
+        "value": "32"
+      },
+      {
+        "name": "羌族",
+        "value": "33"
+      },
+      {
+        "name": "布朗族",
+        "value": "34"
+      },
+      {
+        "name": "撒拉族",
+        "value": "35"
+      },
+      {
+        "name": "毛难族",
+        "value": "36"
+      },
+      {
+        "name": "仡佬族",
+        "value": "37"
+      },
+      {
+        "name": "锡伯族",
+        "value": "38"
+      },
+      {
+        "name": "阿昌族",
+        "value": "39"
+      },
+      {
+        "name": "普米族",
+        "value": "40"
+      },
+      {
+        "name": "塔吉克族",
+        "value": "41"
+      },
+      {
+        "name": "怒族",
+        "value": "42"
+      },
+      {
+        "name": "乌孜别克族",
+        "value": "43"
+      },
+      {
+        "name": "穿青人族",
+        "value": "81"
+      },
+      {
+        "name": "其他",
+        "value": "97"
+      }
+    ],
+    "t_bz_xxtdcq": [
+      {
+        "name": "学校独立产权",
+        "value": "1"
+      },
+      {
+        "name": "产权非属学校但独立使用",
+        "value": "2"
+      },
+      {
+        "name": "产权非属学校共同使用",
+        "value": "3"
+      }
+    ],
+    "t_bz_nj": [
+      {
+        "name": "一年级",
+        "value": "5"
+      },
+      {
+        "name": "二年级",
+        "value": "6"
+      },
+      {
+        "name": "三年级",
+        "value": "7"
+      },
+      {
+        "name": "四年级",
+        "value": "8"
+      },
+      {
+        "name": "五年级",
+        "value": "9"
+      },
+      {
+        "name": "六年级",
+        "value": "10"
+      },
+      {
+        "name": "七年级",
+        "value": "11"
+      },
+      {
+        "name": "八年级",
+        "value": "12"
+      },
+      {
+        "name": "九年级",
+        "value": "13"
+      },
+      {
+        "name": "高预(民族班)",
+        "value": "17"
+      },
+      {
+        "name": "高一",
+        "value": "14"
+      },
+      {
+        "name": "高二",
+        "value": "15"
+      },
+      {
+        "name": "高三",
+        "value": "16"
+      },
+      {
+        "name": "高四",
+        "value": "18"
+      },
+      {
+        "name": "其他(特教)",
+        "value": "19"
+      }
+    ],
+    "t_bz_admintype": [
+      {
+        "name": "市管理员",
+        "value": "1"
+      },
+      {
+        "name": "区管理员",
+        "value": "2"
+      },
+      {
+        "name": "学校管理员",
+        "value": "3"
+      },
+      {
+        "name": "校区管理员",
+        "value": "4"
+      }
+    ],
+    "t_bz_xsxjpzlx": [
+      {
+        "name": "自动生成",
+        "value": "1"
+      },
+      {
+        "name": "区县设置",
+        "value": "2"
+      },
+      {
+        "name": "学校设置",
+        "value": "3"
+      }
+    ],
+    "t_school_schoolattribute": [
+      {
+        "name": "无",
+        "value": "0"
+      },
+      {
+        "name": "综合高中",
+        "value": "1"
+      },
+      {
+        "name": "市示范性实验中学",
+        "value": "2"
+      },
+      {
+        "name": "区示范性实验中学",
+        "value": "3"
+      }
+    ],
+    "t_raceattribute": [
+      {
+        "name": "无",
+        "value": "0"
+      },
+      {
+        "name": "新疆班",
+        "value": "1"
+      },
+      {
+        "name": "西藏班",
+        "value": "2"
+      },
+      {
+        "name": "二者都有",
+        "value": "3"
+      }
+    ],
+    "t_student_xjzt": [
+      {
+        "name": "待建立学籍",
+        "value": "0"
+      },
+      {
+        "name": "正常学籍",
+        "value": "1"
+      }
+    ],
+    "t_photostatus": [
+      {
+        "name": "无照片",
+        "value": "0"
+      },
+      {
+        "name": "是本人",
+        "value": "1"
+      },
+      {
+        "name": "非本人",
+        "value": "2"
+      }
+    ],
+    "t_apply_auditstatus": [
+      {
+        "name": "待核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_shzt": [
+      {
+        "name": "待核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_shzt3": [
+      {
+        "name": "待市级核办",
+        "value": "3"
+      },
+      {
+        "name": "待区级核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_shzt2": [
+      {
+        "name": "未核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_shzt4": [
+      {
+        "name": "未核办",
+        "value": "0"
+      },
+      {
+        "name": "核办通过",
+        "value": "1"
+      },
+      {
+        "name": "核办失败",
+        "value": "2"
+      },
+      {
+        "name": "撤回佐证制证申请",
+        "value": "3"
+      }
+    ],
+    "t_bulltype": [
+      {
+        "name": "市级公告",
+        "value": "0"
+      },
+      {
+        "name": "区县公告",
+        "value": "1"
+      }
+    ],
+    "t_bulltype_s": [
+      {
+        "name": "市级通告",
+        "value": "0"
+      },
+      {
+        "name": "管理员通告",
+        "value": "1"
+      },
+      {
+        "name": "区级通告",
+        "value": "2"
+      }
+    ],
+    "t_yd_status": [
+      {
+        "name": "正在处理",
+        "value": "0"
+      },
+      {
+        "name": "成功",
+        "value": "1"
+      }
+    ],
+    "t_seal_sqlx": [
+      {
+        "name": "新增",
+        "value": "1"
+      },
+      {
+        "name": "变更",
+        "value": "2"
+      }
+    ],
+    "t_seal_sqlx2": [
+      {
+        "name": "变更",
+        "value": "2"
+      }
+    ],
+    "t_seal_yzbglx": [
+      {
+        "name": "新增",
+        "value": "1"
+      },
+      {
+        "name": "变更",
+        "value": "2"
+      }
+    ],
+    "t_sbtjzt": [
+      {
+        "name": "未提交",
+        "value": "0"
+      },
+      {
+        "name": "已报区级",
+        "value": "1"
+      }
+    ],
+    "t_sbtjzt2": [
+      {
+        "name": "未提交",
+        "value": "0"
+      },
+      {
+        "name": "已报区级",
+        "value": "1"
+      },
+      {
+        "name": "已报市级",
+        "value": "2"
+      }
+    ],
+    "t_seal_fjlx": [
+      {
+        "name": "学校印章",
+        "value": "1"
+      },
+      {
+        "name": "校长印章",
+        "value": "2"
+      },
+      {
+        "name": "学校印章和校长印章",
+        "value": "3"
+      }
+    ],
+    "t_seal_sjfkzt": [
+      {
+        "name": "待核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_deleted": [
+      {
+        "name": "正常",
+        "value": "0"
+      },
+      {
+        "name": "注销",
+        "value": "1"
+      }
+    ],
+    "t_qrzt": [
+      {
+        "name": "未确认",
+        "value": "0"
+      },
+      {
+        "name": "已确认",
+        "value": "1"
+      }
+    ],
+    "t_applystatus": [
+      {
+        "name": "待核办",
+        "value": "0"
+      },
+      {
+        "name": "不通过",
+        "value": "1"
+      },
+      {
+        "name": "通过",
+        "value": "2"
+      }
+    ],
+    "t_areatype": [
+      {
+        "name": "默认校区",
+        "value": "0"
+      },
+      {
+        "name": "普通校区",
+        "value": "1"
+      },
+      {
+        "name": "新疆班",
+        "value": "2"
+      },
+      {
+        "name": "西藏班",
+        "value": "3"
+      },
+      {
+        "name": "国际班",
+        "value": "4"
+      }
+    ],
+    "t_regtype": [
+      {
+        "name": "正常注册",
+        "value": "11"
+      },
+      {
+        "name": "延期注册",
+        "value": "12"
+      },
+      {
+        "name": "非正常注册",
+        "value": "13"
+      }
+    ],
+    "t_regtype_all": [
+      {
+        "name": "未注册",
+        "value": "00"
+      },
+      {
+        "name": "正常注册",
+        "value": "11"
+      },
+      {
+        "name": "延期注册",
+        "value": "12"
+      },
+      {
+        "name": "非正常注册",
+        "value": "13"
+      },
+      {
+        "name": "注册注销",
+        "value": "20"
+      }
+    ],
+    "t_operatetype": [
+      {
+        "name": "注册",
+        "value": "1"
+      },
+      {
+        "name": "取消注册",
+        "value": "2"
+      }
+    ],
+    "t_issuestatus": [
+      {
+        "name": "未处理",
+        "value": "0"
+      },
+      {
+        "name": "正在处理",
+        "value": "1"
+      },
+      {
+        "name": "处理完成",
+        "value": "2"
+      }
+    ],
+    "t_issuetype": [
+      {
+        "name": "部级",
+        "value": "1"
+      },
+      {
+        "name": "市级",
+        "value": "2"
+      }
+    ],
+    "t_mtsl": [
+      {
+        "name": "空",
+        "value": "0"
+      },
+      {
+        "name": "低视力",
+        "value": "1"
+      },
+      {
+        "name": "盲童",
+        "value": "2"
+      }
+    ],
+    "t_zpzt": [
+      {
+        "name": "无照片",
+        "value": "0"
+      },
+      {
+        "name": "是本人",
+        "value": "1"
+      },
+      {
+        "name": "非本人",
+        "value": "2"
+      },
+      {
+        "name": "未确认",
+        "value": "3"
+      }
+    ],
+    "t_xueqi": [
+      {
+        "name": "第一学期",
+        "value": "1"
+      },
+      {
+        "name": "第二学期",
+        "value": "2"
+      }
+    ],
+    "t_byzzfkzt": [
+      {
+        "name": "制证问题",
+        "value": "-2"
+      },
+      {
+        "name": "市级校验中",
+        "value": "-1"
+      },
+      {
+        "name": "待市级反馈",
+        "value": "0"
+      },
+      {
+        "name": "制证成功",
+        "value": "1"
+      },
+      {
+        "name": "制证失败",
+        "value": "2"
+      },
+      {
+        "name": "制证信息未下载",
+        "value": "4"
+      },
+      {
+        "name": "制证中",
+        "value": "5"
+      },
+      {
+        "name": "已撤销",
+        "value": "6"
+      },
+      {
+        "name": "未申请",
+        "value": "10"
+      },
+      {
+        "name": "已报市级",
+        "value": "11"
+      },
+      {
+        "name": "已报区级",
+        "value": "13"
+      }
+    ],
+    "t_jdzt": [
+      {
+        "name": "在籍在读",
+        "value": "1"
+      },
+      {
+        "name": "在籍休学",
+        "value": "2"
+      },
+      {
+        "name": "在籍借读本区",
+        "value": "3"
+      },
+      {
+        "name": "在籍借读外区",
+        "value": "4"
+      },
+      {
+        "name": "在籍借读外省市",
+        "value": "5"
+      },
+      {
+        "name": "未报到",
+        "value": "6"
+      },
+      {
+        "name": "未设置",
+        "value": "0"
+      }
+    ],
+    "t_bz_sfzjlx": [
+      {
+        "name": "居民身份证",
+        "value": "1"
+      },
+      {
+        "name": "港澳居民来往内地通行证",
+        "value": "D"
+      },
+      {
+        "name": "台湾居民来往大陆通行证",
+        "value": "8"
+      },
+      {
+        "name": "中华人民共和国外国人永久居留证（中国绿卡）",
+        "value": "E"
+      },
+      {
+        "name": "护照",
+        "value": "A"
+      },
+      {
+        "name": "暂无",
+        "value": "Z"
+      }
+    ],
+    "t_msgdest": [
+      {
+        "name": "待办事项",
+        "value": "0"
+      }
+    ],
+    "t_msgmod": [
+      {
+        "name": "每天",
+        "value": "0"
+      },
+      {
+        "name": "每周",
+        "value": "1"
+      },
+      {
+        "name": "每月",
+        "value": "2"
+      }
+    ],
+    "t_msgday": [
+      {"value": "1","name": "周日"},
+      {"value": "2","name": "周一"},
+      {"value": "3","name": "周二"},
+      {"value": "4","name": "周三"},
+      {"value": "5","name": "周四"},
+      {"value": "6","name": "周五"},
+      {"value": "7","name": "周六"}
+    ],
+    "t_msgmonth": [
+      {"name": "1号","value": "1"},
+      {"name": "2号","value": "2"},
+      {"name": "3号","value": "3"},
+      {"name": "4号","value": "4"},
+      {"name": "5号","value": "5"},
+      {"name": "6号","value": "6"},
+      {"name": "7号","value": "7"},
+      {"name": "8号","value": "8"},
+      {"name": "9号","value": "9"},
+      {"name": "10号","value": "10"},
+      {"name": "11号","value": "11"},
+      {"name": "12号","value": "12"},
+      {"name": "13号","value": "13"},
+      {"name": "14号","value": "14"},
+      {"name": "15号","value": "15"},
+      {"name": "16号","value": "16"},
+      {"name": "17号","value": "17"},
+      {"name": "18号","value": "18"},
+      {"name": "19号","value": "19"},
+      {"name": "20号","value": "20"},
+      {"name": "21号","value": "21"},
+      {"name": "22号","value": "22"},
+      {"name": "23号","value": "23"},
+      {"name": "24号","value": "24"},
+      {"name": "25号","value": "25"},
+      {"name": "26号","value": "26"},
+      {"name": "27号","value": "27"},
+      {"name": "28号","value": "28"},
+      {"name": "29号","value": "29"},
+      {"name": "30号","value": "30"},
+      {"name": "31号","value": "31"}
+    ],
+    "t_customviewmod": [
+      {
+        "name": "公有视图",
+        "value": "0"
+      },
+      {
+        "name": "私有视图",
+        "value": "1"
+      }
+    ],
+    "t_customviewopt": [
+      {
+        "name": "大于",
+        "value": ">"
+      },
+      {
+        "name": "大于等于",
+        "value": ">="
+      },
+      {
+        "name": "小于",
+        "value": "<"
+      },
+      {
+        "name": "小于等于",
+        "value": "<="
+      },
+      {
+        "name": "模糊查询",
+        "value": "like"
+      },
+      {
+        "name": "为空",
+        "value": "is null"
+      },
+      {
+        "name": "不为空",
+        "value": "is not null"
+      },
+      {
+        "name": "等于",
+        "value": "="
+      },
+      {
+        "name": "不等于",
+        "value": "!="
+      }
+    ],
+    "t_customviewboolflg": [
+      {
+        "name": "和",
+        "value": "and"
+      },
+      {
+        "name": "或",
+        "value": "or"
+      }
+    ],
+    "t_customviewordertype": [
+      {
+        "name": "顺序",
+        "value": "asc"
+      },
+      {
+        "name": "倒序",
+        "value": "desc"
+      }
+    ],
+    "t_customviewcondtype": [
+      {
+        "name": "date",
+        "value": "00"
+      },
+      {
+        "name": "text",
+        "value": "01"
+      },
+      {
+        "name": "dict|t_bz_zjlx_bg",
+        "value": "02"
+      },
+      {
+        "name": "dict|t_bz_xsdqzt",
+        "value": "03"
+      },
+      {
+        "name": "dict|t_bz_rxfs",
+        "value": "04"
+      },
+      {
+        "name": "dict|t_bz_jdfs",
+        "value": "05"
+      },
+      {
+        "name": "dict|t_bz_xb",
+        "value": "06"
+      },
+      {
+        "name": "dict|t_bz_mz",
+        "value": "07"
+      },
+      {
+        "name": "dict|t_bz_zzmm",
+        "value": "08"
+      },
+      {
+        "name": "dict|bool",
+        "value": "09"
+      },
+      {
+        "name": "dict|t_bz_jzzlx",
+        "value": "10"
+      },
+      {
+        "name": "dict|t_bz_zjxy",
+        "value": "11"
+      },
+      {
+        "name": "dict|t_bz_cjrlx",
+        "value": "12"
+      },
+      {
+        "name": "dict|t_bz_xx",
+        "value": "13"
+      },
+      {
+        "name": "dict|t_bz_sxxfs",
+        "value": "14"
+      },
+      {
+        "name": "dict|t_bz_jtgx",
+        "value": "15"
+      },
+      {
+        "name": "dict|t_bz_zjlx",
+        "value": "16"
+      },
+      {
+        "name": "dict|t_bz_hylb",
+        "value": "17"
+      },
+      {
+        "name": "dict|t_bz_xl",
+        "value": "18"
+      },
+      {
+        "name": "dict|t_districtinfo",
+        "value": "19"
+      },
+      {
+        "name": "dict|t_bz_xz",
+        "value": "20"
+      },
+      {
+        "name": "dict|t_bz_xxlb",
+        "value": "21"
+      },
+      {
+        "name": "dict|t_bz_xxbb",
+        "value": "22"
+      },
+      {
+        "name": "dict|t_bz_jszxs",
+        "value": "23"
+      },
+      {
+        "name": "dict|t_bz_nj",
+        "value": "24"
+      }
+    ],
+    "t_tgschool": [
+      {
+        "name": "闵行区青少年业余体育学校",
+        "value": "3101121020"
+      },
+      {
+        "name": "上海市闵行区启德学校",
+        "value": "3101126003"
+      }
+    ],
+    "t_tgzt": [
+      {
+        "name": "托管",
+        "value": "1"
+      },
+      {
+        "name": "取消托管",
+        "value": "0"
+      }
+    ],
+    "t_jdshzt": [
+      {
+        "name": "待核办",
+        "value": "0"
+      },
+      {
+        "name": "通过",
+        "value": "1"
+      },
+      {
+        "name": "不通过",
+        "value": "2"
+      }
+    ],
+    "t_jrfl": [
+      {
+        "name": "区内借入",
+        "value": "1"
+      },
+      {
+        "name": "跨区借入",
+        "value": "2"
+      },
+      {
+        "name": "跨省借入",
+        "value": "3"
+      }
+    ],
+    "t_jcfl": [
+      {
+        "name": "区内借出",
+        "value": "1"
+      },
+      {
+        "name": "跨区借出",
+        "value": "2"
+      },
+      {
+        "name": "跨省借出",
+        "value": "3"
+      }
+    ],
+    "t_jddelete": [
+      {
+        "name": "未借读",
+        "value": "0"
+      },
+      {
+        "name": "借读中",
+        "value": "1"
+      }
+    ],
+    "t_platetype": [
+      {
+        "name": "0",
+        "value": "0"
+      },
+      {
+        "name": "1",
+        "value": "1"
+      }
+    ],
+    "t_auditType": [
+      {
+        "name": "待区级核办",
+        "value": "0"
+      },
+      {
+        "name": "区级核办不通过",
+        "value": "2"
+      },
+      {
+        "name": "撤回",
+        "value": "3"
+      },
+      {
+        "name": "待市级核办",
+        "value": "4"
+      },
+      {
+        "name": "市级核办通过",
+        "value": "5"
+      },
+      {
+        "name": "市级核办不通过",
+        "value": "6"
+      }
+    ],
+    "t_clfs": [
+      {
+        "name": "未处理",
+        "value": ""
+      },
+      {
+        "name": "未处理",
+        "value": "0"
+      },
+      {
+        "name": "确认",
+        "value": "1"
+      },
+      {
+        "name": "变更",
+        "value": "2"
+      },
+      {
+        "name": "删除",
+        "value": "3"
+      }
+    ]
+  },
+  "message": "处理成功",
+  "status": "success"
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+      快速查询
+  </h2>
+  <p>
+      <strong>功能描述</strong>
+  </p>
+  <p>
+      您可以通过输入“身份证号”或“学籍副号”快速查询学生的详细信息。若查询到多个学生，则需要至“学生学籍信息管理”页面进行查询。
+  </p>
+  <p>
+      <strong>操作步骤</strong>
+  </p>
+  <p>
+      第一步，首页-&gt;快速查询。
+  </p>
+  <p>
+      第二步，选择筛选条件“身份证号”或“学籍副号”，输入对应的数据。
+  </p>
+  <img src="img/shouye3.png" alt="">
+  <p>
+      第三步，点击“查询”。
+  </p>
+  <img src="img/shouye4.png" alt="">
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

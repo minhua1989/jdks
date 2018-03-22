@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.KwymgDao">
+<!--  <resultMap type="com.xf.jdks.dao.entity.KwymgInfo" id="KwymgInfo">
+		<id column="id" property="id"/>
+		<result column="xm" property="xm"/>		
+		<result column="sfzjh" property="sfzjh"/>
+		<result column="used" property="used" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+		<result column="type" property="type" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+		<result column="lxdh" property="lxdh"/>
+		<result column="addtime" property="addtime"/>
+	
+		<result column="sex" property="sex" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+	
+	</resultMap>	
+	<select id="pageList" resultMap="KwymgInfo">
+		select id,xm,sfzjh,sex,lxdh,addtime,type, used from t_kwymg a
+        where 1=1                        
+        <if test="xm!=null and xm!='' ">
+                <![CDATA[
+                and xm like CONCAT(CONCAT('%',#{xm}),'%')
+                ]]>
+        </if>
+          <if test="sfzjh!=null and sfzjh!=''">
+               and sfzjh=#{sfzjh}              
+        </if>
+          <if test="sex!=null and sex!=''">
+               and sex = #{sex, typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}
+      </if>
+          <if test="type!=null and type!=''">
+              and type = #{type,typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}    
+        </if>
+          <if test="used!=null and used!=''">
+			and used = #{used,typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}
+        </if>
+        order by used asc,xm asc
+	</select>
+	
+	-->
+	
+	<resultMap type="com.xf.jdks.dao.entity.KwymgInfo" id="KwymgInfo">
+		<id column="id" property="id"/>
+		<result column="xm" property="xm"/>		
+		<result column="sfzjh" property="sfzjh"/>
+		<result column="used" property="used" />
+		<result column="type" property="type"/>
+		<result column="lxdh" property="lxdh"/>
+		<result column="addtime" property="addtime"/>
+		<result column="sex" property="sex" />
+		
+		<result column="sexname" property="sexname"/>
+		<result column="usedname" property="usedname"/>
+		<result column="typename" property="typename" />
+	
+	</resultMap>	
+	<select id="pageList" resultMap="KwymgInfo">
+		select id,xm,sfzjh,sex,lxdh,addtime,type, used ,usedname,typename,sexname from v_kwymginfo a
+        where 1=1   and deleted='0'                  
+        <if test="xm!=null and xm!='' ">
+                <![CDATA[
+                and xm like CONCAT(CONCAT('%',#{xm}),'%')
+                ]]>
+        </if>
+          <if test="sfzjh!=null and sfzjh!=''">
+               and sfzjh=#{sfzjh}              
+        </if>
+          <if test="sex!=null and sex!=''">
+               and sex = #{sex}
+      </if>
+          <if test="type!=null and type!=''">
+              and type = #{type}    
+        </if>
+          <if test="used!=null and used!=''">
+			and used = #{used}
+        </if>
+        order by used asc,xm asc
+	</select>
+	
+</mapper>

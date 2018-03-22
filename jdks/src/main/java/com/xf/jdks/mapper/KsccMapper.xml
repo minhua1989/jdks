@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.KsccDao">
+	<resultMap type="com.xf.jdks.dao.entity.VwUserKscc" id="VwUserKscc">
+		<id column="userid" property="userid"/>
+		<result column="kscc" property="kscc"/>		
+		<result column="used" property="used"/>
+		<result column="ksccid" property="ksccid"/>
+	</resultMap>	
+	<resultMap type="com.xf.jdks.dao.entity.Sttitle" id="Sttitle">
+		<id column="id" property="id"/>
+		<result column="title" property="title"/>		
+		<result column="content" property="content"/>
+		<result column="stlx" property="stlx"/>
+		<result column="used" property="used"/>
+		<result column="sydj" property="sydj"/>
+	</resultMap>	
+	<select id="pageList" resultMap="VwUserKscc">
+select ks.userid,kscc.kscc,kscc.used,ks.ksccid,kscc.starttime,kscc.endtime,kscc.tmgz,kscc.dagz from t_user_kscc ks
+left join t_ksccmg kscc  on ks.ksccid=kscc.id
+        where 1=1 and kscc.deleted='0'
+        <if test="userid!=null and userid!=''">
+                <![CDATA[
+                and ks.userid=#{userid}
+                ]]>
+        </if>
+        <if test="kscc!=null and kscc!=''">
+                <![CDATA[
+                and kscc.kscc LIKE CONCAT(CONCAT('%',#{kscc}),'%')
+                ]]>
+        </if>     
+        order by ks.ksccid asc
+	</select>
+	
+	<select id="queryST" parameterType="java.util.Map" resultType="java.util.Map">
+	select * from t_sttitle where deleted='0' and used='0' and stlx=#{stlx}  and sydj like concat(concat('%',#{sydj}),'%') limit #{beginno},#{stno}
+	</select>
+	
+		<select id="querySTCNT" parameterType="java.util.Map"  resultType="java.lang.Integer">
+	select count(1) cnt from t_sttitle where deleted='0' and used='0' and stlx=#{stlx}  and sydj like concat(concat('%',#{sydj}),'%')
+	</select>
+	
+		<select id="queryKSXJXX" parameterType="java.util.Map" resultType="java.util.Map">
+	select distinct stid from t_kssjxx where deleted='0' and stlx=#{stlx} and ksid=#{ksid} and ksccid=#{ksccid}
+	</select>
+	
+			<select id="queryklno" parameterType="java.util.Map" resultType="java.util.Map">
+	select  distinct substring_index(klno, '.', 3) klno from t_sttitle where tkid=#{tkid} and stlx=#{stlx} limit 0,#{outnum}
+	</select>
+	
+	<select id="queryst1" parameterType="java.util.Map" resultType="java.util.Map">
+	select  * from t_sttitle where tkid=#{tkid} and stlx=#{stlx} and substr(klno,1,#{klnolen})=#{klno} and sydj=#{sydj} and deleted='0' and used='0'
+	</select>
+	
+		<select id="queryst2" parameterType="java.util.Map" resultType="java.util.Map">
+	select  * from t_sttitle where tkid=#{tkid} and stlx=#{stlx} and substr(klno,1,#{klnolen})=#{klno} and sydj=#{sydj} and deleted='0' and used='0' limit #{beginno},#{endno}
+	</select>
+	
+</mapper>

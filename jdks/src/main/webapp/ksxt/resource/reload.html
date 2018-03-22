@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <title></title>
+    <script src="../vendor/create-stylesheet.unwrapped.js"></script>
+    <script src="../vendor/basket.full.min.js"></script>
+</head>
+<body>
+<script>
+function sub_getPa (val, pa) {
+  if (!pa) {pa = location.href;}
+  if (pa.indexOf(val + '=') === -1) {return '';}
+  var ppa1 = pa.split(val + '=');
+  var ppa2 = (ppa1[1].indexOf('&') !== -1) ? ppa1[1].split('&') : [ppa1[1]];
+  var ppa3 = (ppa2[0].indexOf('#') !== -1) ? ppa2[0].split('#') : [ppa2[0]];
+  return String(ppa3[0]);
+}
+basket.clear()
+var forceclear = sub_getPa('clear');
+if (forceclear === 'force') {
+	try {
+		localStorage.clear();
+	} catch (e) {}
+}
+window.location.replace('../public/login.html?p=1&v=' + new Date().getTime())
+</script>
+</body>
+</html>

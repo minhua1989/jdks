@@ -1,0 +1,55 @@
+{
+  "api": "",
+  "schoolver": "2.3.13",
+  "dictver": "2.3.47",
+  "menuver": "1.0.2",
+  "pagever": "1.0.2",
+  "pageconfver": "1.0.2",
+  "loginpageurl": "../public/loginad.html",
+  "logouturl": "/xjxt/manage/logout",
+  "logouturl_xhstudent": "/xjxt/manage/logout",
+  "homepageurl": "../admin/index.html",
+  "studenthomepageurl": "../admin/studentIndex.html",
+  "sysStartDate": "20170627",
+  "sysStartTime": "090000",
+  "sysEndDate": "20170627",
+  "sysEndTime": "162500",
+  "dictfile": [
+    "t_bz_city",
+    "t_bz_jd",
+    "t_bz_jw",
+    "t_errortype"
+  ],
+  "theme": [
+  	{
+      "themeClass": "blue-theme",
+  		"dialogType": "TYPE_PRIMARY",
+      "selectpickerStyle": "btn-default",
+      "maincolor": "#337ab7"
+  	},
+  	{
+      "themeClass": "green-theme",
+  		"dialogType": "TYPE_SUCCESS",
+      "selectpickerStyle": "btn-default",
+      "maincolor": "#5cb85c"
+    },
+    {
+      "themeClass": "yellow-theme",
+      "dialogType": "TYPE_WARNING",
+      "selectpickerStyle": "btn-default",
+      "maincolor": "#f0ad4e"
+    },
+    {
+      "themeClass": "purple-theme",
+      "dialogType": "TYPE_WARNING",
+      "selectpickerStyle": "btn-default",
+      "maincolor": "#CB7BD1"
+    },
+    {
+      "themeClass": "pink-theme",
+      "dialogType": "TYPE_WARNING",
+      "selectpickerStyle": "btn-default",
+      "maincolor": "#D0899A"
+  	}
+  ]
+}

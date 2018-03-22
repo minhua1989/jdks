@@ -1,0 +1,30 @@
+{
+  "message": "0是",
+  "status": "success",
+  "data": [
+    {"id": "index", "parentid": "", "name": "首页", "desc": "index", "sort": 1, "role": [0,1]},
+    {"id": "systemManage", "parentid": "", "name": "系统管理", "desc": "systemManage", "sort": 1, "role": [1]},
+    {"id": "manage10", "parentid": "systemManage", "name": "权限管理", "desc": "manage10", "sort": 1, "role": [1]},
+    {"id": "manage9", "parentid": "systemManage", "name": "日志管理", "desc": "manage9", "sort": 1, "role": [1]},
+    {"id": "dataManage", "parentid": "", "name": "数据管理", "desc": "dataManage", "sort": 1, "role": [1]},
+    {"id": "manage1", "parentid": "dataManage", "name": "培训班次管理", "desc": "manage1", "sort": 1, "role": [1]},
+    {"id": "manage3", "parentid": "dataManage", "name": "学员信息管理", "desc": "manage3", "sort": 1, "role": [1]},
+    {"id": "manage2", "parentid": "dataManage", "name": "教师信息管理", "desc": "manage2", "sort": 1, "role": [1]},
+    {"id": "manage5", "parentid": "dataManage", "name": "标签参数管理", "desc": "manage5", "sort": 1, "role": [1]},
+    {"id": "examManage", "parentid": "", "name": "考试管理", "desc": "examManage", "sort": 1, "role": [1]},
+    {"id": "exam1", "parentid": "examManage", "name": "考试计划安排", "desc": "exam1", "sort": 1, "role": [1]},
+    {"id": "exam6", "parentid": "examManage", "name": "考生信息管理", "desc": "exam6", "sort": 1, "role": [1]},
+    {"id": "exam10", "parentid": "examManage", "name": "考试内容管理", "desc": "exam10", "sort": 1, "role": [1]},
+    {"id": "exam_kc", "parentid": "examManage", "name": "考场信息管理", "desc": "exam_kc", "sort": 1, "role": [1]},
+    {"id": "exam7", "parentid": "examManage", "name": "考务人员管理", "desc": "exam7", "sort": 1, "role": [1]},
+    {"id": "record1", "parentid": "recordManage", "name": "考生考卷生成", "desc": "record1", "sort": 1, "role": [1]},
+    {"id": "exam9", "parentid": "recordManage", "name": "成绩录入", "desc": "exam9", "sort": 1, "role": [1]},
+    {"id": "scoreManage", "parentid": "", "name": "成绩管理", "desc": "scoreManage", "sort": 1, "role": [1]},
+    {"id": "exam8", "parentid": "scoreManage", "name": "考试成绩生成", "desc": "exam8", "sort": 1, "role": [1]},
+    {"id": "exam11", "parentid": "scoreManage", "name": "学生成绩录入", "desc": "exam11", "sort": 1, "role": [1]},
+    {"id": "exam12", "parentid": "scoreManage", "name": "学生成绩查询", "desc": "exam12", "sort": 1, "role": [1]},
+    {"id": "questionManage", "parentid": "", "name": "题库管理", "desc": "questionManage", "sort": 1, "role": [1]},
+    {"id": "questionsList1", "parentid": "questionManage", "name": "题库类别", "desc": "questionsList1", "sort": 1, "role": [1]},
+    {"id": "questionsList", "parentid": "questionManage", "name": "试题管理", "desc": "questionsList", "sort": 1, "role": [1]}
+  ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.BztableDao">
+	<resultMap type="com.xf.jdks.dao.entity.BztableInfo" id="BztableInfo">
+		<id column="id" property="id"/>
+		<result column="code" property="code"/>		
+		<result column="name" property="name"/>
+		<result column="type" property="type" />
+		<result column="sfkxg" property="sfkxg"/>
+	</resultMap>	
+	<select id="list" resultMap="BztableInfo">
+		select id,code,name,type,sfkxg from t_bz_tab a
+        where 1=1                    
+          <if test="type!=null and type!=''">
+			and type = #{type}
+        </if>
+             order by code asc
+	</select>
+	
+</mapper>

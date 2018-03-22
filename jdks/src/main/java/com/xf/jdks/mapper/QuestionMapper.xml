@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.SttitleDao">
+	<resultMap type="com.xf.jdks.dao.entity.Sttitle" id="Sttitle">
+		<id column="id" property="id"/>
+		<result column="title" property="title"/>		
+		<result column="content" property="content"/>
+		<result column="stlx" property="stlx"/>
+		<result column="used" property="used"/>
+		<result column="sydj" property="sydj"/>
+	</resultMap>	
+	<select id="pageList"  parameterType="java.util.Map" resultType="java.util.Map">
+		select id,title,content,
+		(	CASE   stlx 
+WHEN '1' THEN "单选题"
+WHEN '2' THEN "多选题"
+WHEN '3' THEN "判断题"
+        ELSE ""
+    END
+		)
+		stlx,sydj,(
+		CASE  used  
+WHEN '0' THEN "有效"
+WHEN '1' THEN "无效"
+        ELSE ""
+    END
+		) used from t_sttitle
+        where 1=1 and deleted='0'
+        <if test="title!=null and title!=''">
+                <![CDATA[
+                and title LIKE CONCAT(CONCAT('%',#{title}),'%')
+                ]]>
+        </if>
+        <if test="content!=null and content!='' ">
+                <![CDATA[
+                and content like CONCAT(CONCAT('%',#{content}),'%')
+                ]]>
+        </if>
+          <if test="stlx!=null and stlx!=''">
+               and stlx = #{stlx}
+      </if>
+          <if test="sydj!=null and sydj!=''">
+			and used = #{sydj}
+        </if>
+          <if test="used!=null and used!=''">
+			and used = #{used}
+        </if>
+        
+        order by title asc
+	</select>
+	   <insert id="insertQuestion" parameterType="com.xf.jdks.dao.entity.Sttitle">
+           insert into t_sttitle(id,title,content,stlx,addtime) 
+            <![CDATA[
+               values(#{id}, addslashes(#{title}), #{content}, #{stlx}, #{addtime})
+               ]]>
+   </insert>
+   	<select id="querySttitle" parameterType="java.util.Map" resultType="java.util.Map">
+select a.*,a.klno lv4,substring_index(a.klno, '.', 3) lv3,substring_index(a.klno, '.', 2) lv2,substring_index(a.klno, '.', 1) lv1 from t_sttitle a 
+where a.deleted='0' 	
+ and a.id=#{id} 
+	</select>
+</mapper>

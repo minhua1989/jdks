@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+	    * {
+    		box-sizing: border-box;
+	    }
+    	body {
+    		position: relative;
+    		padding: 0;
+    		margin: 0;
+    		font-size: 14px;
+    	}
+    	div,p {
+    		position: relative;
+    		font-size: 14px;
+    	}
+    	td,th {
+    		padding: 5px;
+    		font-size: 14px;
+    	}
+    	table {
+    		width: 100%;
+    	}
+    	button {
+    		width: 60px;
+    		padding: 5px;
+    		border: 1px solid #ddd;
+    		height: 40px;
+    		line-height: 20px;
+    		background-color: #eee;
+    		border-radius: 0;
+    		font-size: 14px;
+    		cursor: pointer;
+    	}
+        .container {
+            padding: 20px;
+        }
+        .logo {
+            background-color: #377bb5;
+            height: 65px;
+        }
+    	.d-l,.d-r {
+    		display: inline-block;
+    		width: 48%;
+    		height: 600px;
+    		overflow-y: scroll;
+    		border: 1px solid #ddd;
+    		padding: 5px;
+    	}
+    	.d-r {
+
+    	}
+    	.bl {
+    		border: 1px solid #ddd;
+    		padding: 5px;
+    	}
+    	.int {
+    		padding: 5px;
+    		border: 1px solid #ddd;
+    		height: 40px;
+    		line-height: 20px;
+    		background-color: #fff;
+    		border-radius: 0;
+    		width: 100px;
+    		font-size: 14px;
+    	}
+    </style>
+    <script>
+    (function() {
+      var method;
+      var noop = function () {};
+      var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+      ];
+      var length = methods.length;
+      var console = (window.console = window.console || {});
+      while (length--) {
+        method = methods[length];
+        if (!console[method]) {
+          console[method] = noop;
+        }
+      }
+    }());
+    </script>
+    <script src="../../vendor/jquery1.11.3.min.js"></script>
+</head>
+<body>
+    <div class="logo"><img src="logo.png" height="100%"/></div>
+	<div class="container">
+		<div class="d-l">
+			<div class="bl">
+				姓名 <input type="text" name="xm" class="int" value="">
+				身份证 <input type="text" name="sfzjh" class="int" value="">
+				联系电话 <input type="text" name="lxdh" class="int" value="">
+				 <button onclick="query()">查询</button>
+			</div>
+
+			<div>
+				<table id="d_table"></table>
+			</div>
+		</div>
+		<div class="d-r" id="d_log"></div>
+	</div>
+	<script>
+		var store = {
+			rows: []
+		};
+
+		function query() {
+			$.ajax({
+				type: 'post',
+        contentType: 'application/json',
+        dataType: 'json mycustomtype',
+				url: '/xjxt/newStudentMgr/getNewStudentListTest',
+				data: JSON.stringify({
+
+				})
+			}).done(function (resp) {
+				if (typeof resp === 'string') {
+					resp = JSON.parse(resp)
+				}
+				if (resp['rows']) {
+					store.rows = resp.rows;
+					$('#d_log').append('<p>select success</p>')
+					var s = '';
+					s += '<tr>';
+						s += '<th>姓名</th>';
+						s += '<th>身份证号码</th>';
+						s += '<th>性别</th>';
+						s += '<th>出生日期</th>';
+						s += '<th>入学年份</th>';
+						s += '<th>学号</th>';
+						s += '<th>联系电话</th>';
+					s += '</tr>';
+					for (var i=0;i<store.rows.length;i++) {
+						s += '<tr>';
+						s += '<td>' + resp.rows[i].xm + '</td>';
+						s += '<td>' + resp.rows[i].sfzjh + '</td>';
+						s += '<td>' + resp.rows[i].xb + '</td>';
+						s += '<td>' + resp.rows[i].csrq + '</td>';
+						s += '<td>' + resp.rows[i].rxny + '</td>';
+						s += '<td>' + resp.rows[i].xh + '</td>';
+						s += '<td>' + resp.rows[i].lxdh + '</td>';
+						s += '</tr>';
+					}
+					$('#d_table tr').remove();
+					$('#d_table').append(s);
+				}
+			})
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.AdminDao">
+<!--	<resultMap type="com.xf.jdks.dao.entity.AdminInfo" id="AdminInfo">
+		<id column="id" property="id"/>
+		<result column="ename" property="ename"/>		
+		<result column="pwd" property="pwd"/>
+		<result column="used" property="used" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+		<result column="email" property="email"/>
+		<result column="roleid" property="roleid" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+		<result column="realname" property="realname"/>
+		<result column="lxdh" property="lxdh"/>
+		<result column="addtime" property="addtime"/>
+		<result column="logincnt" property="logincnt"/>
+		<result column="sex" property="sex" typeHandler="com.xf.jdks.commons.enums.handler.EStatusHandler" jdbcType="VARCHAR"/>
+	
+	</resultMap>	
+	<select id="pageList" resultMap="AdminInfo">
+		select id,ename,realname,email,lxdh,addtime,sex, roleid, used from t_admininfo a
+        where 1=1                        
+        <if test="ename!=null and ename!='' ">
+                <![CDATA[
+                and ename like CONCAT(CONCAT('%',#{ename}),'%')
+                ]]>
+        </if>
+          <if test="realname!=null and realname!=''">
+               and realname LIKE CONCAT(CONCAT('%',#{realname}),'%')              
+        </if>
+          <if test="sex!=null and sex!=''">
+               and sex = #{sex, typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}
+      </if>
+          <if test="roleid!=null and roleid!=''">
+              and roleid = #{roleid,typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}    
+        </if>
+          <if test="used!=null and used!=''">
+			and used = #{used,typeHandler=com.xf.jdks.commons.enums.handler.EStatusHandler, javaType=[Ljava.lang.String;, jdbcType=VARCHAR}
+        </if>
+        order by used asc,ename asc
+	</select>
+	-->
+	
+	<resultMap type="com.xf.jdks.dao.entity.AdminInfo" id="AdminInfo">
+		<id column="id" property="id"/>
+		<result column="ename" property="ename"/>		
+		<result column="pwd" property="pwd"/>
+		<result column="used" property="used" />
+		<result column="email" property="email"/>
+		<result column="roleid" property="roleid"/>
+		<result column="realname" property="realname"/>
+		<result column="lxdh" property="lxdh"/>
+		<result column="addtime" property="addtime"/>
+		<result column="logincnt" property="logincnt"/>
+		<result column="sex" property="sex" />
+		<result column="sexname" property="sexname"/>
+		<result column="rolename" property="rolename"/>
+		<result column="usedname" property="usedname" />
+		
+	
+	</resultMap>	
+	<select id="pageList" resultMap="AdminInfo">
+		select a.id,ename,realname,email,lxdh,addtime,sex, roleid, used,sexname,rolename,usedname from v_admininfo a
+        where 1=1  and deleted='0'                      
+        <if test="ename!=null and ename!='' ">
+                <![CDATA[
+                and ename like CONCAT(CONCAT('%',#{ename}),'%')
+                ]]>
+        </if>
+          <if test="realname!=null and realname!=''">
+               and realname LIKE CONCAT(CONCAT('%',#{realname}),'%')              
+        </if>
+          <if test="sex!=null and sex!=''">
+               and sex = #{sex}
+      </if>
+          <if test="roleid!=null and roleid!=''">
+              and roleid = #{roleid}    
+        </if>
+          <if test="used!=null and used!=''">
+			and used = #{used}
+        </if>
+        order by used asc,ename asc
+	</select>
+	
+	<select id="show" resultMap="AdminInfo">
+		select id,ename,realname,email,lxdh,addtime,sexname, rolename,sex,roleid, used ,usedname from v_admininfo
+        where 1=1  and deleted='0'  and id=#{id}                     
+        </select>
+	
+	
+	
+	
+	<select id="adminLogin" resultMap="AdminInfo">
+		select id,ename,logincnt,rolename,realname,email,lxdh,addtime,sex,pwdmd,pwd,roleid from v_admininfo
+        where 1=1 and used='0'   and deleted='0'                   
+        <if test="ename!=null and ename!='' ">
+                and ename =#{ename}       
+        </if>
+          <if test="pwd!=null and pwd!=''">
+               and pwdmd =#{pwd}           
+        </if>
+       	</select>
+	
+		<select id="adminLoginbyename" resultMap="AdminInfo">
+		select id,ename,logincnt,rolename,realname,email,lxdh,addtime,sex,pwdmd,pwd,roleid from v_admininfo
+        where 1=1 and used='0'   and deleted='0'                   
+        <if test="ename!=null and ename!='' ">
+                and ename =#{ename}       
+        </if>
+       	</select>
+	
+</mapper>

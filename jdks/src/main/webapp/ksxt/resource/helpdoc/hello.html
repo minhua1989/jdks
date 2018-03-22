@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <h1>hello world</h1>
+    <button>click me to open link in main window</button>
+    <script>
+        var $iH1=$(window.parent.document).find("a")
+//        console.log($iH1.text())
+        $('button').on('click',function(e){
+                var str='1.1'
+            var temp=str.split('.')
+            var length=temp.length
+            var str=temp.reduce(function(sum,ch,i){
+                if(i==length-1){
+                 return sum+ch
+                }
+                return sum+ch+'\\.'
+            },'')
+
+//            "1\\.1"
+            parent.postMessage(str, "*");
+        })
+
+    </script>
+</body>
+</html>

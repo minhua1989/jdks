@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+    设置新生学籍副号生成规则
+</h2>
+<p>
+    <strong>功能描述</strong>
+</p>
+<p>
+    区管理员通过该设置，配置各个学段学生的学籍副号如何生成，系统提供三种生成方式，分为自动生成、区县设置和学校设置，您只可选择其中一种。
+</p>
+<p>
+    注意：已生成学籍的新生数据不可再修改。
+</p>
+<ul>
+    <li>
+        当您选择 “由区县设置”时，区县管理员需在【新生管理-新生列表】中导入学籍副号，请确保导入的学籍副号符合学校学籍副号规则。
+    </li>
+    <li>
+        当您选择“由学校设置”时，学校管理员需在【新生管理-新生列表】中导入学籍副号，请确保导入的学籍副号符合学校学籍副号规则。。
+    </li>
+    <li>
+        当您选择“自动生成”时，系统将自动为您判断是否存在学生已有学籍副号，如有您将收到“是否放弃已有学籍副号，全部自动生成”的提示。
+    </li>
+</ul>
+<ul>
+    <li>
+        当您选择“是”，所有学籍副号，全部重新生成
+    </li>
+    <li>
+        当您选择“否”，这批学生的学籍副号将不被更新
+    </li>
+</ul>
+<p>
+    <strong>操作步骤</strong>
+</p>
+<p>
+    第一步，进入新生管理-&gt;新生设置。
+</p>
+<p>
+    第二步，选择您要设置的学段和生成规则。
+</p>
+<img src="img/xueji5.png" alt="">
+<p>
+    第三步，点击“保存”提交设置。
+</p>
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

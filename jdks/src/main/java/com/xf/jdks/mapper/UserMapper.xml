@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.UserDao">
+	<resultMap type="com.xf.jdks.dao.entity.UserInfo" id="UserInfo">
+		<id column="id" property="id"/>
+		<result column="ksxtxm" property="ksxtxm"/>		
+		<result column="ksxtsfzjh" property="ksxtsfzjh"/>
+		<result column="ksxtzkzh" property="ksxtzkzh" />
+		<result column="used" property="used"/>
+		<result column="addtime" property="addtime"/>
+		<result column="adduser" property="adduser"/>
+		<result column="updatetime" property="updatetime"/>
+		<result column="updateuser" property="updateuser"/>
+		<result column="kscc" property="kscc"/>
+		<result column="zwh" property="zwh"/>
+		<result column="ksccid" property="ksccid"/>
+		<result column="nf" property="nf"/>
+		<result column="ksrq" property="ksrq"/>
+		<result column="starttime" property="starttime"/>
+		<result column="endtime" property="endtime"/>
+		<result column="dj" property="dj"/>
+	</resultMap>	
+		<select id="userLogin" resultMap="UserInfo">
+	select id,ksxtxm,ksxtsfzjh,ksxtzkzh,(
+	CASE used
+	WHEN '0' THEN "有效"
+	WHEN '1' THEN "无效"
+	ELSE ""
+	END
+	) used,addtime,adduser,updatetime,updateuser,kscc,ksccid,nf,ksrq,starttime,endtime,dj,zwh from v_userinfo
+	where 1=1 and deleted='0' AND used='0'        
+          <if test="ksxtsfzjh!=null and ksxtsfzjh!=''">
+               and ksxtsfzjh =#{ksxtsfzjh}           
+        </if>
+             <if test="ksxtzkzh!=null and ksxtzkzh!=''">
+               and ksxtzkzh =#{ksxtzkzh}           
+        </if>
+        <if test="zwh!=null and zwh!='' ">    
+                and zwh =#{zwh}  
+        </if>
+       	</select>
+	
+	
+	
+	<select id="pageList" resultMap="UserInfo">
+	select id,ksxtxm,ksxtsfzjh,ksxtzkzh,
+	(
+	CASE used
+	WHEN '0' THEN "有效"
+	WHEN
+	'1' THEN "无效"
+	ELSE ""
+	END
+	)
+	used,addtime,adduser,updatetime,updateuser,kscc,
+	(
+	CASE sfdl
+	WHEN '0' THEN "未登录"
+	WHEN '1' THEN "已登录"
+	ELSE "未登录"
+	END
+	) sfdl from v_userinfo
+	where 1=1 and deleted='0'
+         <if test="ksxtxm!=null and ksxtxm!='' ">    
+                and ksxtxm LIKE CONCAT(CONCAT('%',#{ksxtxm}),'%') 
+        </if>
+          <if test="ksxtsfzjh!=null and ksxtsfzjh!=''">
+               and ksxtsfzjh =#{ksxtsfzjh}           
+        </if>
+             <if test="ksxtzkzh!=null and ksxtzkzh!=''">
+               and ksxtzkzh =#{ksxtzkzh}           
+        </if>
+        <if test="used!=null and used!=''">
+               and used =#{used}           
+        </if>
+            <if test="kscc!=null and kscc!=''">
+               and ksccid =#{kscc}           
+        </if>
+        order by used asc,ksxtxm asc
+	</select>
+	
+</mapper>

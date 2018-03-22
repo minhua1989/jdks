@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+    关键信息变更申请
+</h2>
+<p>
+    <strong>功能描述</strong>
+</p>
+<p>
+    校级管理员可以对在籍学生的关键信息进行变更，区县管理员将对提交信息进行审核，您可在【学籍信息管理-关键信息变更管理】中查询变更记录。
+</p>
+<p>
+    注意：新生和“待建立学籍”的在校生不允许做关键信息变更。
+</p>
+<p>
+    <strong>操作步骤</strong>
+</p>
+<p>
+    第一步，学籍信息管理-&gt;学生学籍信息管理。
+</p>
+<p>
+    第二步，选择学生。
+</p>
+<p>
+    第三步，点击“管理”。
+</p>
+<img src="img/xinxi6.png" alt="">
+<p>
+    第四步，切换至“关键信息变更记录”页面。在这里您可以查看该学生的所有变更记录。
+</p>
+<img src="img/xinxi7.png" alt="">
+<p>
+    第五步，点击“关键信息变更申请”。
+</p>
+<img src="img/xinxi8.png" alt="">
+<p>
+    第六步，选择您需要更变的信息类型。
+</p>
+<img src="img/xinxi9.png" alt="">
+<p>
+    第七步，填写更变信息及原因。
+</p>
+<img src="img/xinxi10.png" alt="">
+<p>
+    第八步，上传佐证文件。注意：文档大小不超过20M，文件类型为zip。
+</p>
+<p>
+    您可以选择如下两种方式:
+</p>
+<ul>
+    <li>
+        点击添加文件，选中您的文档点击上传
+    </li>
+    <li>
+        拖拽文件至图示空白区域
+    </li>
+</ul>
+<img src="img/xinxi11.png" alt="">
+<p>
+    第九步，点击“提交”完成申请。
+</p>
+<img src="img/xinxi12.png" alt="">
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

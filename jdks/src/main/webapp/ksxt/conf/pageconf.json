@@ -1,0 +1,6832 @@
+{
+  "adminUser_table": {
+    "1": {
+      "dataUrl": "/xjxt/minghang/trusteeshipStudentList",
+      "exportUrl": "/xjxt/minghang/exportTrusteeshipStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh2",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "jzxm",
+        "lxdh"
+      ],
+      "action": [
+        "btn_export",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "trust1_table_btn_1",
+        "trust1_table_btn_2"
+      ]
+    }
+  },
+  "studentUser_table": {
+    "1": {
+      "dataUrl": "/jdks/user/pageList",
+//      "exportUrl": "/jdks/user/pageList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh2",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "jzxm",
+        "lxdh"
+      ],
+      "action": [
+        "btn_export",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "trust1_table_btn_1",
+        "trust1_table_btn_2"
+      ]
+    }
+  },
+  "trust1_table": {
+    "2": {
+      "dataUrl": "/xjxt/minghang/trusteeshipStudentList",
+      "exportUrl": "/xjxt/minghang/exportTrusteeshipStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh2",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "jzxm",
+        "lxdh"
+      ],
+      "action": [
+        "btn_export",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "trust1_table_btn_1",
+        "trust1_table_btn_2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/minghang/trusteeshipStudentList",
+      "exportUrl": "/xjxt/minghang/exportTrusteeshipStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh2",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "jzxm",
+        "lxdh"
+      ],
+      "action": [
+        "btn_export",
+        "btn_frbj",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "trust1_table_btn_1"
+      ]
+    }
+  },
+  "trust2_table": {
+    "2": {
+      "dataUrl": "/xjxt/minghang/minHangclassList",
+      "exportUrl": "",
+      "columns": [
+        "_checkbox",
+        "classid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "classtype",
+        "teachername",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx6",
+        "xq",
+        "nj2",
+        "bj",
+        "bjdeleted",
+        "classname"
+      ],
+      "action": [
+        "btn_add_class",
+        "btn_add_class_multi"
+      ],
+      "rowAction": [
+        "school3_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/minghang/minHangclassList",
+      "exportUrl": "",
+      "columns": [
+        "_checkbox",
+        "classid",
+        "areaname",
+        "njid",
+        "classname",
+        "classtype",
+        "teachername",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "bjdeleted",
+        "classname"
+      ],
+      "action": [
+        "btn_add_class",
+        "btn_add_class_multi"
+      ],
+      "rowAction": [
+        "school3_table_btn_1"
+      ]
+    }
+  },
+  "history1_table": {
+    "0": {
+      "dataUrl": "/xjxt/studentHisMgr/queryHistoryStudentList",
+      "exportUrl": "/xjxt/studentHisMgr/exportHistoryStudent",
+      "columns": [
+        "id",
+        "termcode",
+        "districtid",
+        "schoolname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "dqzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "termcode",
+        "qxterm",
+        "xxterm",
+        "njterm",
+        "bjterm",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfby"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "history1_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/studentHisMgr/queryHistoryStudentList",
+      "exportUrl": "/xjxt/studentHisMgr/exportHistoryStudent",
+      "columns": [
+        "id",
+        "termcode",
+        "districtid",
+        "schoolname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "dqzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "termcode",
+        "qxterm",
+        "xxterm",
+        "njterm",
+        "bjterm",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfby"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "history1_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentHisMgr/queryHistoryStudentList",
+      "exportUrl": "/xjxt/studentHisMgr/exportHistoryStudent",
+      "columns": [
+        "id",
+        "termcode",
+        "schoolname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "dqzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "termcode",
+        "xxterm",
+        "njterm",
+        "bjterm",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfby"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "history1_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/studentHisMgr/queryHistoryStudentList",
+      "exportUrl": "/xjxt/studentHisMgr/exportHistoryStudent",
+      "columns": [
+        "id",
+        "termcode",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "dqzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "termcode",
+        "njterm",
+        "bjterm",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfby"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "history1_table_btn_1"
+      ]
+    }
+  },
+  "rareword1_table": {
+    "0": {
+      "dataUrl": "/xjxt/rareWord/queryStuRareWordList",
+      "exportUrl": "/xjxt/rareWord/expStuRareWordList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sctime",
+        "xztime",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "rareword1_table_btn_1",
+        "rareword1_table_btn_2"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/rareWord/queryStuRareWordList",
+      "exportUrl": "/xjxt/rareWord/expStuRareWordList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sctime",
+        "xztime",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "rareword1_table_btn_1",
+        "rareword1_table_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/rareWord/queryStuRareWordList",
+      "exportUrl": "/xjxt/rareWord/expStuRareWordList",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sctime",
+        "xztime",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "rareword1_table_btn_1",
+        "rareword1_table_btn_2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/rareWord/queryStuRareWordList",
+      "exportUrl": "/xjxt/rareWord/expStuRareWordList",
+      "columns": [
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sctime",
+        "xztime",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "rareword1_table_btn_1",
+        "rareword1_table_btn_2"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/rareWord/queryStuRareWordList",
+      "exportUrl": "/xjxt/rareWord/expStuRareWordList",
+      "columns": [
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sctime",
+        "xztime",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "rareword1_table_btn_1",
+        "rareword1_table_btn_2"
+      ]
+    }
+  },
+  "rareword2_table": {
+    "1": {
+      "dataUrl": "/xjxt/rareWord/queryJsRareWordList",
+      "exportUrl": "/xjxt/rareWord/expJsRareWordList",
+      "columns": [
+        "_checkbox",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfyxz",
+        "xztime",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "isupload",
+        "isdown"
+      ],
+      "action": [
+        "btn_export",
+        "btn_down_rareword"
+      ],
+      "rowAction": [
+        "rareword2_table_btn_1"
+      ]
+    }
+  },
+  "student1_table": {
+    "0": {
+      "dataUrl": "/xjxt/studentsMgr/getStudents",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "sfbr"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export2",
+        "btn_down",
+        "btn_xxsm"
+      ],
+      "rowAction": [
+        "student1_table_btn_1",
+        "student1_table_btn_3"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/studentsMgr/getStudents",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "sfbr"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export2",
+        "btn_down",
+        "btn_xxsm"
+      ],
+      "rowAction": [
+        "student1_table_btn_1",
+        "student1_table_btn_3"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentsMgr/getStudents",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "sfbr"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export2",
+        "btn_down",
+        "btn_jy",
+        "btn_xxsm",
+        "btn_export_xjk"
+      ],
+      "rowAction": [
+        "student1_table_btn_1",
+        "student1_table_btn_2",
+        "student1_table_btn_3"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/studentsMgr/getStudents",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "sfbr"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export2",
+        "btn_down",
+        "btn_plgx",
+        "btn_cbx",
+        "btn_frbj",
+        "btn_ycbj",
+        "btn_jy",
+        "btn_xxsm",
+        "btn_export_xjk"
+      ],
+      "rowAction": [
+        "student1_table_btn_1",
+        "student1_table_btn_2",
+        "student1_table_btn_3"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/studentsMgr/getStudents",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "njid",
+        "classname",
+        "xjfh",
+        "xm",
+        "xb",
+        "sfzjh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "dqzt",
+        "sffb",
+        "xjzt",
+        "sfbr"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export2",
+        "btn_down",
+        "btn_plgx",
+        "btn_cbx",
+        "btn_frbj",
+        "btn_ycbj",
+        "btn_jy",
+        "btn_xxsm",
+        "btn_export_xjk"
+      ],
+      "rowAction": [
+        "student1_table_btn_1",
+        "student1_table_btn_2",
+        "student1_table_btn_3"
+      ]
+    }
+  },
+  "student2_table": {
+    "0": {
+      "dataUrl": "/xjxt/studentsMgr/nonXjStudent",
+      "exportUrl": "/xjxt/studentsMgr/expNonXjStudent",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student2_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/studentsMgr/nonXjStudent",
+      "exportUrl": "/xjxt/studentsMgr/expNonXjStudent",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student2_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentsMgr/nonXjStudent",
+      "exportUrl": "/xjxt/studentsMgr/expNonXjStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "checkstatus",
+        "schoolsystem",
+        "dqzt2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student2_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/studentsMgr/nonXjStudent",
+      "exportUrl": "/xjxt/studentsMgr/expNonXjStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "dqzt2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student2_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/studentsMgr/nonXjStudent",
+      "exportUrl": "/xjxt/studentsMgr/expNonXjStudent",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "qgxjh",
+        "xh",
+        "dqzt",
+        "checkstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "checkstatus",
+        "dqzt2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student2_table_btn_1"
+      ]
+    }
+  },
+  "student3_table": {
+    "0": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student3_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student3_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student3_table_btn_1",
+        "student3_table_btn_2"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "columns": [
+        "_checkbox",
+        "id",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student3_table_btn_1",
+        "student3_table_btn_2"
+      ]
+    }
+  },
+  "student4_table": {
+    "0": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student4_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student4_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/applyMgr/selectApplyInfo",
+      "exportUrl": "/xjxt/applyMgr/expSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export",
+        "btn_plshtg"
+      ],
+      "rowAction": [
+        "student4_table_btn_2",
+        "student4_table_btn_3"
+      ]
+    }
+  },
+  "student6_table": {
+    "0": {
+      "dataUrl": "/xjxt/studentsMgr/studentTransactionSchool",
+      "exportUrl": "/xjxt/studentsMgr/expStudentTransactionSchool",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "sfzjh",
+        "xm",
+        "ydlb",
+        "ydlx",
+        "ydsj",
+        "cljg",
+        "clzt2"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "clzt",
+        "qx",
+        "xx",
+        "xq"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/studentsMgr/studentTransactionSchool",
+      "exportUrl": "/xjxt/studentsMgr/expStudentTransactionSchool",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "sfzjh",
+        "xm",
+        "ydlb",
+        "ydlx",
+        "ydsj",
+        "cljg",
+        "clzt2"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "clzt",
+        "qx",
+        "xx",
+        "xq"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentsMgr/studentTransactionSchool",
+      "exportUrl": "/xjxt/studentsMgr/expStudentTransactionSchool",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "sfzjh",
+        "xm",
+        "ydlb",
+        "ydlx",
+        "ydsj",
+        "cljg",
+        "clzt2"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "clzt",
+        "xx2",
+        "xq"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/studentsMgr/studentTransactionSchool",
+      "exportUrl": "/xjxt/studentsMgr/expStudentTransactionSchool",
+      "columns": [
+        "id",
+        "areaname",
+        "xjfh",
+        "sfzjh",
+        "xm",
+        "ydlb",
+        "ydlx",
+        "ydsj",
+        "cljg",
+        "clzt2"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "clzt",
+        "xq2"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/studentsMgr/studentTransactionSchool",
+      "exportUrl": "/xjxt/studentsMgr/expStudentTransactionSchool",
+      "columns": [
+        "id",
+        "xjfh",
+        "sfzjh",
+        "xm",
+        "ydlb",
+        "ydlx",
+        "ydsj",
+        "cljg",
+        "clzt2"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "clzt"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    }
+  },
+  "student7_issuea_table": {
+    "1": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuea_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xx4",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuea_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuea_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuea_table_btn_1"
+      ]
+    }
+  },
+  "student7_issueb_table": {
+    "1": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issueb_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xx4",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issueb_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issueb_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issueb_table_btn_1"
+      ]
+    }
+  },
+  "student7_issuec_table": {
+    "0": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_c",
+      "toolbarid": "toolbar_c",
+      "tableid": "table_c",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuec_table_btn_1"
+      ]
+    }
+  },
+  "student7_issued_table": {
+    "0": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_d",
+      "toolbarid": "toolbar_d",
+      "tableid": "table_d",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issued_table_btn_1"
+      ]
+    }
+  },
+  "student7_issuee_table": {
+    "0": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_e",
+      "toolbarid": "toolbar_e",
+      "tableid": "table_e",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuee_table_btn_1"
+      ]
+    }
+  },
+  "student7_issuef_table": {
+    "1": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_f",
+      "toolbarid": "toolbar_f",
+      "tableid": "table_f",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuef_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_f",
+      "toolbarid": "toolbar_f",
+      "tableid": "table_f",
+      "columns": [
+        "id",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "xx4",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issuef_table_btn_1"
+      ]
+    }
+  },
+  "student7_issueh_table": {
+    "0": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_h",
+      "toolbarid": "toolbar_h",
+      "tableid": "table_h",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "sfzjh",
+        "xjfh",
+        "xm",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3",
+        "act"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "errorcode",
+        "issuestatus",
+        "qx",
+        "xx3",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "student7_issueh_table_btn_1"
+      ]
+    }
+  },
+  "student11_table": {
+    "1": {
+      "dataUrl": "/xjxt/studentsMgr/historyList",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "shzt",
+          "searchvalue": "3"
+        }
+      ],
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "yxm",
+        "xm",
+        "yxjfh",
+        "njid",
+        "xb",
+        "sfzjh",
+        "zz",
+        "sqr",
+        "sqsj",
+        "shzt3",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xm2",
+        "xjfh2",
+        "shzt3",
+        "sqr"
+      ],
+      "rowAction": [
+        "student11_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentsMgr/historyList",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "shzt",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "id",
+        "schoolid",
+        "yxm",
+        "xm",
+        "yxjfh",
+        "njid",
+        "xb",
+        "sfzjh",
+        "zz",
+        "sqr",
+        "sqsj",
+        "shzt3",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "xm2",
+        "xjfh2",
+        "shzt3",
+        "sqr"
+      ],
+      "rowAction": [
+        "student11_table_btn_2"
+      ]
+    }
+  },
+  "student12_table": {
+    "0": {
+      "dataUrl": "/xjxt/studentsMgr/queryNoneHistoryStudentApplyRecord",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "id",
+        "xm",
+        "xb",
+        "njid",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "zz",
+        "sqr",
+        "sqsj",
+        "shzt"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xm",
+        "xb",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "sqr",
+        "shzt"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/studentsMgr/queryNoneHistoryStudentApplyRecord",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "id",
+        "xm",
+        "xb",
+        "njid",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "zz",
+        "sqr",
+        "sqsj",
+        "shzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xm",
+        "xb",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "sqr",
+        "shzt"
+      ],
+      "rowAction": [
+        "student12_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/studentsMgr/queryNoneHistoryStudentApplyRecord",
+      "exportUrl": "/xjxt/studentsMgr/expStudent",
+      "columns": [
+        "id",
+        "xm",
+        "xb",
+        "njid",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "zz",
+        "sqr",
+        "sqsj",
+        "shzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xm",
+        "xb",
+        "sfzjh",
+        "yxm",
+        "yxjfh",
+        "sqr",
+        "shzt"
+      ],
+      "rowAction": [
+        "student12_table_btn_1"
+      ]
+    }
+  },
+  "student13_table": {
+    "3": {
+      "dataUrl": "/xjxt/studentsMgr/queryClassgroupList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "njid",
+        "xm",
+        "xjfh",
+        "sfzjh",
+        "oldareaname",
+        "oldclassname",
+        "nowareaname",
+        "nowclassname",
+        "auditid",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "auditid",
+        "xm",
+        "xjfh",
+        "sfzjh"
+      ],
+      "action": [
+        "btn_build_cancelApply"
+      ],
+      "rowAction": [
+        "student13_table_btn_2",
+        "student13_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/studentsMgr/queryClassgroupList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "njid",
+        "xm",
+        "xjfh",
+        "sfzjh",
+        "oldareaname",
+        "oldclassname",
+        "nowareaname",
+        "nowclassname",
+        "auditid",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "auditid",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfzjh"
+      ],
+      "action": [
+        "btn_build_cancelApply"
+      ],
+      "rowAction": [
+        "student13_table_btn_2",
+        "student13_table_btn_1"
+      ]
+    }
+  },
+  "student14_table": {
+    "1": {
+      "dataUrl": "/xjxt/studentsMgr/queryClassgroupAuditList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "njid",
+        "xm",
+        "xjfh",
+        "sfzjh",
+        "oldareaname",
+        "oldclassname",
+        "nowareaname",
+        "nowclassname",
+        "auditid",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "auditid",
+        "xm",
+        "xjfh",
+        "sfzjh"
+      ],
+      "action": [
+        "btn_build_agreedAudit",
+        "btn_build_cancelAudit"
+      ],
+      "rowAction": [
+        "student14_table_btn_1",
+        "student14_table_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/studentsMgr/queryClassgroupAuditList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "njid",
+        "xm",
+        "xjfh",
+        "sfzjh",
+        "oldareaname",
+        "oldclassname",
+        "nowareaname",
+        "nowclassname",
+        "auditid",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq",
+        "nj",
+        "bj",
+        "auditid",
+        "xm",
+        "xjfh",
+        "sfzjh"
+      ],
+      "action": [
+        "btn_build_agreedAudit",
+        "btn_build_cancelAudit"
+      ],
+      "rowAction": [
+        "student14_table_btn_3",
+        "student14_table_btn_4",
+        "student14_table_btn_5"
+      ]
+    }
+  },
+  "newstudent2_table": {
+    "0": {
+      "dataUrl": "/xjxt/newStudentMgr/queryNewStudentList",
+      "exportUrl": "/xjxt/newStudentMgr/expNewStudentList",
+      "columns": [
+        "stuid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "checkstatus",
+        "xsly",
+        "sfscxj",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfscxj",
+        "sffb",
+        "checkstatus",
+        "registerstatus",
+        "xsly",
+        "sfls",
+        "sffp"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent2_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/newStudentMgr/queryNewStudentList",
+      "exportUrl": "/xjxt/newStudentMgr/expNewStudentList",
+      "columns": [
+        "stuid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "checkstatus",
+        "xsly",
+        "sfscxj",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfscxj",
+        "sffb",
+        "checkstatus",
+        "registerstatus",
+        "xsly",
+        "sfls",
+        "sffp"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent2_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/newStudentMgr/queryNewStudentList",
+      "exportUrl": "/xjxt/newStudentMgr/expNewStudentList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "checkstatus",
+        "xsly",
+        "sfscxj",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "sfscxj",
+        "sffb",
+        "checkstatus",
+        "registerstatus",
+        "xsly",
+        "sfls",
+        "sffp"
+      ],
+      "action": [
+        "btn_export",
+        "btn_drxjfh",
+        "btn_scxj_all_qx",
+        "btn_scxj_xx_qx",
+        "btn_scxj_cz_qx",
+        "btn_scxj_gz_qx",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "newstudent2_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/newStudentMgr/queryNewStudentList",
+      "exportUrl": "/xjxt/newStudentMgr/expNewStudentList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "areaname",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "checkstatus",
+        "xsly",
+        "sfscxj",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfscxj",
+        "sffb",
+        "checkstatus",
+        "registerstatus",
+        "xsly",
+        "sfls",
+        "sffp"
+      ],
+      "action": [
+        "btn_export",
+        "btn_frbj2",
+        "btn_zc",
+        "btn_qxzc",
+        "btn_drxjfh",
+        "btn_plgx2",
+        "btn_scxj_xx_xx",
+        "btn_scxj_cz_xx",
+        "btn_scxj_gz_xx",
+        "btn_scxj_tj_xx",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "newstudent2_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/newStudentMgr/queryNewStudentList",
+      "exportUrl": "/xjxt/newStudentMgr/expNewStudentList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "checkstatus",
+        "xsly",
+        "sfscxj",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "sfscxj",
+        "sffb",
+        "checkstatus",
+        "registerstatus",
+        "xsly",
+        "sfls",
+        "sffp"
+      ],
+      "action": [
+        "btn_export",
+        "btn_frbj2",
+        "btn_zc",
+        "btn_qxzc",
+        "btn_drxjfh",
+        "btn_plgx2",
+        "btn_jy"
+      ],
+      "rowAction": [
+        "newstudent2_table_btn_1"
+      ]
+    }
+  },
+  "newstudent3_table": {
+    "0": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent3_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent3_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent3_table_btn_1",
+        "newstudent3_table_btn_2"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "columns": [
+        "_checkbox",
+        "id",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent3_table_btn_1",
+        "newstudent3_table_btn_2"
+      ]
+    }
+  },
+  "newstudent4_table": {
+    "0": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent4_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "newstudent4_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/newStuApplyMgr/newSelectApplyInfo",
+      "exportUrl": "/xjxt/newStuApplyMgr/newExpSelectApplyInfo",
+      "defaultFilter": [
+        {
+          "type": "select",
+          "searchbarid": "auditstatus",
+          "searchvalue": "0"
+        }
+      ],
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "njid",
+        "bgqz",
+        "bghz",
+        "sfgl",
+        "sqsj",
+        "bglx",
+        "auditstatus",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "bglx",
+        "auditstatus2",
+        "sfgl"
+      ],
+      "action": [
+        "btn_export",
+        "btn_plshtg"
+      ],
+      "rowAction": [
+        "newstudent4_table_btn_2",
+        "newstudent4_table_btn_3"
+      ]
+    }
+  },
+  "newstudent5_table": {
+    "0": {
+      "dataUrl": "/xjxt/minghang/querySchoolApplyList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "schoolname",
+        "areaname",
+        "xdid",
+        "status2",
+        "opertime"
+      ],
+      "searchbarFields": [
+        "xx4_minhang",
+        "xdid",
+        "xjstatus"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/minghang/querySchoolApplyList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "schoolname",
+        "areaname",
+        "xdid",
+        "status2",
+        "opertime"
+      ],
+      "searchbarFields": [
+        "xx4_minhang",
+        "xdid",
+        "xjstatus"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/minghang/querySchoolApplyList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "schoolname",
+        "areaname",
+        "xdid",
+        "status2",
+        "opertime",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4_minhang",
+        "xdid",
+        "xjstatus"
+      ],
+      "rowAction": [
+        "newstudent5_table_btn_1",
+        "newstudent5_table_btn_2"
+      ]
+    }
+  },
+  "newstudent6_table": {
+    "3": {
+      "dataUrl": "/xjxt/minghang/queryNewStudents",
+      "columns": [
+        "id",
+        "areaname",
+        "genxjxx",
+        "genxjcz",
+        "genxjgz",
+        "genxjtj"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/minghang/queryNewStudents",
+      "columns": [
+        "id",
+        "areaname",
+        "genxjxx",
+        "genxjcz",
+        "genxjgz",
+        "genxjtj"
+      ]
+    }
+  },
+  "school1_table": {
+    "0": {
+      "dataUrl": "/xjxt/school/schoolList",
+      "exportUrl": "/xjxt/school/exlSchoolList",
+      "columns": [
+        "_id",
+        "districtid",
+        "schoolname",
+        "schoolsystem",
+        "schoolspec",
+        "deleted",
+        "managername",
+        "managercontactno",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "schoolsystem",
+        "schoolspec",
+        "deleted2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school1_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/school/schoolList",
+      "exportUrl": "/xjxt/school/exlSchoolList",
+      "columns": [
+        "_id",
+        "districtid",
+        "schoolname",
+        "schoolsystem",
+        "schoolspec",
+        "deleted",
+        "managername",
+        "managercontactno",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "schoolsystem",
+        "schoolspec",
+        "deleted2"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school1_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/school/schoolList",
+      "exportUrl": "/xjxt/school/exlSchoolList",
+      "columns": [
+        "_id",
+        "schoolname",
+        "schoolsystem",
+        "schoolspec",
+        "deleted",
+        "managername",
+        "managercontactno",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "schoolsystem",
+        "schoolspec",
+        "deleted2"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_school",
+        "btn_combine"
+      ],
+      "rowAction": [
+        "school1_table_btn_1",
+        "school1_table_btn_2",
+        "school1_table_btn_3",
+        "school1_table_btn_4"
+      ]
+    }
+  },
+  "school3_table": {
+    "2": {
+      "dataUrl": "/xjxt/classMgr/classList",
+      "exportUrl": "/xjxt/classMgr/exlClassList",
+      "columns": [
+        "_checkbox",
+        "classid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "classtype",
+        "teachername",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq",
+        "nj2",
+        "bj",
+        "bjdeleted",
+        "classname"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_class",
+        "btn_add_class_multi",
+        "btn_setarea"
+      ],
+      "rowAction": [
+        "school3_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/classMgr/classList",
+      "exportUrl": "/xjxt/classMgr/exlClassList",
+      "columns": [
+        "_checkbox",
+        "classid",
+        "areaname",
+        "njid",
+        "classname",
+        "classtype",
+        "teachername",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "bjdeleted",
+        "classname"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_class",
+        "btn_add_class_multi",
+        "btn_setarea"
+      ],
+      "rowAction": [
+        "school3_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/classMgr/classList",
+      "exportUrl": "/xjxt/classMgr/exlClassList",
+      "columns": [
+        "_checkbox",
+        "classid",
+        "njid",
+        "classname",
+        "classtype",
+        "teachername",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "bjdeleted",
+        "classname"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_class",
+        "btn_add_class_multi"
+      ],
+      "rowAction": [
+        "school3_table_btn_1"
+      ]
+    }
+  },
+  "school4_table": {
+    "0": {
+      "dataUrl": "/xjxt/sealMgr/sealList",
+      "exportUrl": "/xjxt/sealMgr/exlSealList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "xdid",
+        "qrzt",
+        "deleted",
+        "qrsj",
+        "updatetime",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "qrzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school4_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/sealMgr/sealList",
+      "exportUrl": "/xjxt/sealMgr/exlSealList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "xdid",
+        "qrzt",
+        "deleted",
+        "qrsj",
+        "updatetime",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "qrzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school4_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/sealMgr/sealList",
+      "exportUrl": "/xjxt/sealMgr/exlSealList",
+      "columns": [
+        "_checkbox",
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "xdid",
+        "qrzt",
+        "qrsj",
+        "updatetime",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "qrzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_open_confirm",
+        "btn_cancel_confirm"
+      ],
+      "rowAction": [
+        "school4_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/sealMgr/sealList",
+      "exportUrl": "/xjxt/sealMgr/exlSealList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "xdid",
+        "qrzt",
+        "qrsj",
+        "updatetime",
+        "act"
+      ],
+      "searchbarFields": [
+        "qrzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_seal"
+      ],
+      "rowAction": [
+        "school4_table_btn_1",
+        "school4_table_btn_4",
+        "school4_table_btn_5"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/sealMgr/sealList",
+      "exportUrl": "/xjxt/sealMgr/exlSealList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "xdid",
+        "qrzt",
+        "qrsj",
+        "updatetime",
+        "act"
+      ],
+      "searchbarFields": [
+        "qrzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school4_table_btn_1",
+        "school4_table_btn_4",
+        "school4_table_btn_5"
+      ]
+    }
+  },
+  "school5_table": {
+    "0": {
+      "dataUrl": "/xjxt/sealMgr/sealBgList",
+      "exportUrl": "/xjxt/sealMgr/exlSealBgList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "areaname",
+        "sqlx",
+        "sqr",
+        "sqsj",
+        "lxfs",
+        "sjfkzt",
+        "shsj",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "sqlx2",
+        "sjfkzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school5_table_btn_2"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/sealMgr/sealBgList",
+      "exportUrl": "/xjxt/sealMgr/exlSealBgList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "areaname",
+        "sqlx",
+        "sqr",
+        "sqsj",
+        "lxfs",
+        "sjfkzt",
+        "shsj",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "sqlx2",
+        "sjfkzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school5_table_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/sealMgr/sealBgList",
+      "exportUrl": "/xjxt/sealMgr/exlSealBgList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolid",
+        "areaname",
+        "sqlx",
+        "sqr",
+        "sqsj",
+        "lxfs",
+        "sjfkzt",
+        "shsj",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "sqlx2",
+        "sjfkzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school5_table_btn_1",
+        "school5_table_btn_2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/sealMgr/sealBgList",
+      "exportUrl": "/xjxt/sealMgr/exlSealBgList",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "areaname",
+        "sqlx",
+        "sqr",
+        "sqsj",
+        "lxfs",
+        "sjfkzt",
+        "shsj",
+        "zz3",
+        "act"
+      ],
+      "searchbarFields": [
+        "sqlx2",
+        "sjfkzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "school5_table_btn_1",
+        "school5_table_btn_2"
+      ]
+    }
+  },
+  "school6_table": {
+    "0": {
+      "dataUrl": "/xjxt/sealMgr/queryDeletedSealList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolcode",
+        "schoolid",
+        "areaname",
+        "xdid",
+        "zfr",
+        "qrsj2",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xd"
+      ],
+      "rowAction": [
+        "school6_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/sealMgr/queryDeletedSealList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolcode",
+        "schoolid",
+        "areaname",
+        "xdid",
+        "zfr",
+        "qrsj2",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xd"
+      ],
+      "rowAction": [
+        "school6_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/sealMgr/queryDeletedSealList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "schoolcode",
+        "schoolid",
+        "areaname",
+        "xdid",
+        "zfr",
+        "qrsj2",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "xd"
+      ],
+      "rowAction": [
+        "school6_table_btn_1",
+        "school6_table_btn_2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/sealMgr/queryDeletedSealList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "areaname",
+        "xdid",
+        "zfr",
+        "qrsj2",
+        "act"
+      ],
+      "searchbarFields": [
+        "xd"
+      ],
+      "rowAction": [
+        "school6_table_btn_1",
+        "school6_table_btn_2"
+      ]
+    }
+  },
+  "school7_table": {
+    "0": {
+      "dataUrl": "/xjxt/sealMgr/querySealReviewList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "districtid",
+        "schoolid",
+        "xdid",
+        "yzbglx",
+        "zz3",
+        "sqr",
+        "sqsj",
+        "sjfkzt",
+        "shsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "yzbglx",
+        "sjfkzt"
+      ],
+      "rowAction": [
+        "school7_table_btn_1",
+        "school7_table_btn_2"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/sealMgr/querySealReviewList",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "virpath_seal",
+        "districtid",
+        "schoolid",
+        "xdid",
+        "yzbglx",
+        "zz3",
+        "sqr",
+        "sqsj",
+        "sjfkzt",
+        "shsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "yzbglx",
+        "sjfkzt"
+      ],
+      "rowAction": [
+        "school7_table_btn_1",
+        "school7_table_btn_2"
+      ]
+    }
+  },
+  "enroll2_table": {
+    "0": {
+      "dataUrl": "/xjxt/registerMgr/queryRegisterList",
+      "exportUrl": "/xjxt/registerMgr/expRegisterList",
+      "columns": [
+        "stuid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "registerstatus",
+        "checkstatus",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "registerstatus2",
+        "checkstatus",
+        "zczt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "enroll2_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/registerMgr/queryRegisterList",
+      "exportUrl": "/xjxt/registerMgr/expRegisterList",
+      "columns": [
+        "stuid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "registerstatus",
+        "checkstatus",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "registerstatus2",
+        "checkstatus",
+        "zczt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "enroll2_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/registerMgr/queryRegisterList",
+      "exportUrl": "/xjxt/registerMgr/expRegisterList",
+      "columns": [
+        "stuid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "registerstatus",
+        "checkstatus",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "registerstatus2",
+        "checkstatus",
+        "zczt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "enroll2_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/registerMgr/queryRegisterList",
+      "exportUrl": "/xjxt/registerMgr/expRegisterList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "registerstatus",
+        "checkstatus",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "registerstatus2",
+        "checkstatus",
+        "zczt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_reg",
+        "btn_cancel_reg"
+      ],
+      "rowAction": [
+        "enroll2_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/registerMgr/queryRegisterList",
+      "exportUrl": "/xjxt/registerMgr/expRegisterList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "xjfh",
+        "registerstatus",
+        "checkstatus",
+        "zczt",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "registerstatus2",
+        "checkstatus",
+        "zczt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_reg",
+        "btn_cancel_reg"
+      ],
+      "rowAction": [
+        "enroll2_table_btn_1"
+      ]
+    }
+  },
+  "graduate2_table": {
+    "0": {
+      "dataUrl": "/xjxt/graduateMgr/getGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportGraduateStudentList",
+      "columns": [
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt3",
+        "zpzt",
+        "sfhg"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "graduate2_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/graduateMgr/getGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportGraduateStudentList",
+      "columns": [
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt3",
+        "zpzt",
+        "sfhg"
+      ],
+      "action": [
+        "btn_export",
+        "btn_djdown"
+      ],
+      "rowAction": [
+        "graduate2_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/getGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt3",
+        "zpzt",
+        "sfhg"
+      ],
+      "action": [
+        "btn_export",
+        "btn_djdown"
+      ],
+      "rowAction": [
+        "graduate2_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/graduateMgr/getGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq5",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt3",
+        "zpzt",
+        "sfhg"
+      ],
+      "action": [
+        "btn_export",
+        "btn_szby",
+        "btn_szjy",
+        "btn_qxsz",
+        "btn_down_zz",
+        "btn_zpqr1",
+        "btn_zpqr2",
+        "btn_fqsq",
+        "btn_fqzz2",
+        "btn_zzzzsq",
+        "btn_djdown"
+      ],
+      "rowAction": [
+        "graduate2_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/graduateMgr/getGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt3",
+        "zpzt",
+        "sfhg"
+      ],
+      "action": [
+        "btn_export",
+        "btn_szby",
+        "btn_szjy",
+        "btn_down_zz",
+        "btn_zpqr1",
+        "btn_zpqr2",
+        "btn_fqsq"
+      ],
+      "rowAction": [
+        "graduate2_table_btn_1"
+      ]
+    }
+  },
+  "graduate3_table": {
+    "0": {
+      "dataUrl": "/xjxt/graduateMgr/getNotGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportNotGraduateStudentList",
+      "columns": [
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt4",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "graduate3_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/graduateMgr/getNotGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportNotGraduateStudentList",
+      "columns": [
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt4",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "graduate3_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/getNotGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportNotGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt4",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_fqzz"
+      ],
+      "rowAction": [
+        "graduate3_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/graduateMgr/getNotGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportNotGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt4",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_down_zz",
+        "btn_zpqr1",
+        "btn_zpqr2",
+        "btn_fqzz"
+      ],
+      "rowAction": [
+        "graduate3_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/graduateMgr/getNotGraduateStudentList",
+      "exportUrl": "/xjxt/graduateMgr/exportNotGraduateStudentList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "zzcs",
+        "wtsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "zzcs",
+        "dqzt4",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_down_zz",
+        "btn_zpqr1",
+        "btn_zpqr2"
+      ],
+      "rowAction": [
+        "graduate3_table_btn_1"
+      ]
+    }
+  },
+  "graduate6_issuei_table": {
+    "0": {
+      "dataUrl": "/xjxt/graduateMgr/queryZzErrorList",
+      "searchbarId": "search_bar_i",
+      "toolbarid": "toolbar_i",
+      "tableid": "table_i",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xm",
+        "xjfh",
+        "wtlx2",
+        "errordetail",
+        "center_opertime",
+        "center_operflag"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xm",
+        "wtlx2",
+        "center_operflag"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/graduateMgr/queryZzErrorList",
+      "searchbarId": "search_bar_i",
+      "toolbarid": "toolbar_i",
+      "tableid": "table_i",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "xm",
+        "xjfh",
+        "wtlx2",
+        "errordetail",
+        "center_opertime",
+        "center_operflag"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "xm",
+        "wtlx2",
+        "center_operflag"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/queryZzErrorList",
+      "searchbarId": "search_bar_i",
+      "toolbarid": "toolbar_i",
+      "tableid": "table_i",
+      "columns": [
+        "_checkbox",
+        "id",
+        "schoolid",
+        "areaname",
+        "xm",
+        "xjfh",
+        "wtlx2",
+        "errordetail",
+        "center_opertime",
+        "center_operflag"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "xm",
+        "wtlx2",
+        "center_operflag"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/graduateMgr/queryZzErrorList",
+      "searchbarId": "search_bar_i",
+      "toolbarid": "toolbar_i",
+      "tableid": "table_i",
+      "columns": [
+        "_checkbox",
+        "id",
+        "areaname",
+        "xm",
+        "xjfh",
+        "wtlx2",
+        "errordetail",
+        "center_opertime",
+        "center_operflag"
+      ],
+      "searchbarFields": [
+        "xm",
+        "wtlx2",
+        "center_operflag"
+      ]
+    }
+  },
+  "graduate6_issueg_table": {
+    "1": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_g",
+      "toolbarid": "toolbar_g",
+      "tableid": "table_g",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "wtlx",
+        "issuestatus",
+        "errorcode",
+        "cwmx"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_g",
+      "toolbarid": "toolbar_g",
+      "tableid": "table_g",
+      "columns": [
+        "id",
+        "schoolid",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "wtlx",
+        "issuestatus",
+        "errorcode",
+        "cwmx"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_g",
+      "toolbarid": "toolbar_g",
+      "tableid": "table_g",
+      "columns": [
+        "id",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "issuestatus",
+        "errorcode",
+        "cwmx"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/errorDataMgr/queryErrorDataList",
+      "exportUrl": "/xjxt/errorDataMgr/expErrorDataList",
+      "searchbarId": "search_bar_g",
+      "toolbarid": "toolbar_g",
+      "tableid": "table_g",
+      "columns": [
+        "id",
+        "clsj",
+        "wtlx",
+        "errorcode",
+        "cwmx",
+        "status3"
+      ],
+      "searchbarFields": [
+        "wtlx",
+        "issuestatus",
+        "errorcode",
+        "cwmx"
+      ]
+    }
+  },
+  "graduate7_table": {
+    "0": {
+      "dataUrl": "/xjxt/graduateMgr/queryReportInfo",
+      "exportUrl": "/xjxt/academicReport/expReportList",
+      "columns": [
+        "_id",
+        "schoolid",
+        "managername",
+        "managercontactno",
+        "sbzt2",
+        "tjsj"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx3",
+        "schoolcode",
+        "sbzt"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/queryReportInfo",
+      "exportUrl": "/xjxt/academicReport/expReportList",
+      "columns": [
+        "_id",
+        "schoolid",
+        "managername",
+        "managercontactno",
+        "sbzt2",
+        "tjsj"
+      ],
+      "searchbarFields": [
+        "xx4",
+        "schoolcode",
+        "sbzt"
+      ],
+      "action": [
+        "btn_up"
+      ]
+    }
+  },
+  "graduate8_table": {
+    "0": {
+      "dataUrl": "/xjxt/graduateMgr/queryGraduateZhiZhengList",
+      "exportUrl": "/xjxt/graduateMgr/expGraduateZhiZheng",
+      "columns": [
+        "id",
+        "zzbh",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "sqsj"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "dqzt3",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/graduateMgr/queryGraduateZhiZhengList",
+      "exportUrl": "/xjxt/graduateMgr/expGraduateZhiZheng",
+      "columns": [
+        "id",
+        "zzbh",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "sqsj"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "dqzt3",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/queryGraduateZhiZhengList",
+      "exportUrl": "/xjxt/graduateMgr/expGraduateZhiZheng",
+      "columns": [
+        "_checkbox",
+        "id",
+        "zzbh",
+        "schoolid",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "sqsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "xq",
+        "nj2",
+        "bj",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "dqzt3",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_cancelapply"
+      ],
+      "rowAction": [
+        "graduate8_table_btn_2",
+        "graduate8_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/graduateMgr/queryGraduateZhiZhengList",
+      "exportUrl": "/xjxt/graduateMgr/expGraduateZhiZheng",
+      "columns": [
+        "_checkbox",
+        "id",
+        "zzbh",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "sqsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "dqzt3",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export",
+        "btn_cancelapply"
+      ],
+      "rowAction": [
+        "graduate8_table_btn_2",
+        "graduate8_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/graduateMgr/queryGraduateZhiZhengList",
+      "exportUrl": "/xjxt/graduateMgr/expGraduateZhiZheng",
+      "columns": [
+        "id",
+        "zzbh",
+        "areaname",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "zpzt",
+        "dqzt",
+        "bylx",
+        "zzzt",
+        "sqsj",
+        "act"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "bylx",
+        "wtsj",
+        "zzzt",
+        "dqzt3",
+        "zpzt"
+      ],
+      "action": [
+        "btn_export"
+      ],
+      "rowAction": [
+        "graduate8_table_btn_1"
+      ]
+    }
+  },
+  "graduate9_table": {
+    "2": {
+      "dataUrl": "/xjxt/graduateMgr/evidenceAuditList",
+      "exportUrl": "",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "schoolid",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "xh",
+        "shzt4",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "nj2",
+        "bj",
+        "shzt4"
+      ],
+      "action": [
+        "btn_zzshgt",
+        "btn_zzshbgt"
+      ],
+      "rowAction": [
+        "graduate9_table_btn_1"
+      ]
+    }
+  },
+  "graduate10_table": {
+    "3": {
+      "dataUrl": "/xjxt/graduateMgr/evidenceAuditList",
+      "exportUrl": "",
+      "columns": [
+        "studentid",
+        "xjfh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "sfzjh",
+        "xh",
+        "shzt4",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh",
+        "shzt4"
+      ],
+      "action": [],
+      "rowAction": [
+        "graduate10_table_btn_1"
+      ]
+    }
+  },
+  "manage1_table": {
+    "0": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "exportUrl": "/xjxt/user/expAdminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_user"
+      ],
+      "rowAction": [
+        "manage1_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "exportUrl": "/xjxt/user/expAdminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_user"
+      ],
+      "rowAction": [
+        "manage1_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "exportUrl": "/xjxt/user/expAdminUserList",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_user"
+      ],
+      "rowAction": [
+        "manage1_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "exportUrl": "/xjxt/user/expAdminUserList",
+      "columns": [
+        "id",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq4",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "action": [
+        "btn_export",
+        "btn_add_user"
+      ],
+      "rowAction": [
+        "manage1_table_btn_1"
+      ]
+    }
+  },
+  "manage2_table": {
+    "0": {
+      "dataUrl": "/xjxt/role/adminroleList",
+      "columns": [
+        "id",
+        "roletype",
+        "mgschool",
+        "schoolspec",
+        "rolename",
+        "roledesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "roletype",
+        "rolename"
+      ],
+      "action": [
+        "btn_add_role"
+      ],
+      "rowAction": [
+        "manage2_table_btn_1",
+        "manage2_table_btn_2"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/role/adminroleList",
+      "columns": [
+        "id",
+        "roletype",
+        "mgschool",
+        "schoolspec",
+        "rolename",
+        "roledesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "roletype",
+        "rolename"
+      ],
+      "action": [
+        "btn_add_role"
+      ],
+      "rowAction": [
+        "manage2_table_btn_1",
+        "manage2_table_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/role/adminroleList",
+      "columns": [
+        "id",
+        "roletype",
+        "mgschool",
+        "schoolspec",
+        "rolename",
+        "roledesc"
+      ],
+      "searchbarFields": [
+        "roletype",
+        "rolename"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/role/adminroleList",
+      "columns": [
+        "id",
+        "roletype",
+        "mgschool",
+        "schoolspec",
+        "rolename",
+        "roledesc"
+      ],
+      "searchbarFields": [
+        "roletype",
+        "rolename"
+      ]
+    }
+  },
+  "manage2_table_accountlist": {
+    "0": {
+      "dataUrl": "/xjxt/role/getSubUsers",
+      "toolbarid": "toolbar_accountlist",
+      "tableid": "table_accountlist",
+      "tableOption": {
+        "showColumns": false
+      },
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "realname",
+        "rolename",
+        "sfzjh",
+        "mobile"
+      ]
+    }
+  },
+  "manage5_table": {
+    "2": {
+      "dataUrl": "/xjxt/user/getUserNameList",
+      "exportUrl": "/xjxt/user/exlGetUserNameList",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "ename",
+        "password"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq3",
+        "ename",
+        "xm",
+        "sfzjh"
+      ],
+      "action": [
+        "btn_open_stuconfirm",
+        "btn_close_stuconfirm"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/user/getUserNameList",
+      "exportUrl": "/xjxt/user/exlGetUserNameList",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "ename",
+        "password"
+      ],
+      "searchbarFields": [
+        "xq4",
+        "xm",
+        "sfzjh",
+        "ename"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export_format"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/user/getUserNameList",
+      "exportUrl": "/xjxt/user/exlGetUserNameList",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "xb",
+        "sfzjh",
+        "ename",
+        "password"
+      ],
+      "searchbarFields": [
+        "xm",
+        "sfzjh",
+        "ename"
+      ],
+      "action": [
+        "btn_export",
+        "btn_export_format"
+      ]
+    }
+  },
+  "manage6_table": {
+    "0": {
+      "dataUrl": "/xjxt/newsMgr/queryNewsList",
+      "columns": [
+        "id",
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime",
+        "deleted2",
+        "act"
+      ],
+      "searchbarFields": [
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime"
+      ],
+      "action": [
+        "btn_add_msg"
+      ],
+      "rowAction": [
+        "manage6_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/newsMgr/queryNewsList",
+      "columns": [
+        "id",
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime",
+        "deleted2",
+        "act"
+      ],
+      "searchbarFields": [
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime"
+      ],
+      "action": [
+        "btn_add_msg"
+      ],
+      "rowAction": [
+        "manage6_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/newsMgr/queryNewsList",
+      "columns": [
+        "id",
+        "title2",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime",
+        "deleted2"
+      ],
+      "searchbarFields": [
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/newsMgr/queryNewsList",
+      "columns": [
+        "id",
+        "title2",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime",
+        "deleted2"
+      ],
+      "searchbarFields": [
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/newsMgr/queryNewsList",
+      "columns": [
+        "id",
+        "title2",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime",
+        "deleted2"
+      ],
+      "searchbarFields": [
+        "title",
+        "author",
+        "publishtime",
+        "starttime",
+        "endtime"
+      ]
+    }
+  },
+  "manage7_table": {
+    "0": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "rowAction": [
+        "manage7_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "rowAction": [
+        "manage7_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "rowAction": [
+        "manage7_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted",
+        "act"
+      ],
+      "searchbarFields": [
+        "xq4",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ],
+      "rowAction": [
+        "manage7_table_btn_1"
+      ]
+    }
+  },
+  "manage7_table_account": {
+    "0": {
+      "dataUrl": "/xjxt/role/getSubUsers",
+      "searchbarId": "search_bar_account",
+      "toolbarid": "toolbar_account",
+      "tableid": "table_account",
+      "columns": [
+        "_checkbox",
+        "subuserid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename3",
+        "roletype2",
+        "realname2",
+        "sfzjh2"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3"
+      ],
+      "action": [
+        "btn_add_sub",
+        "btn_delsub_multi"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/role/getSubUsers",
+      "searchbarId": "search_bar_account",
+      "toolbarid": "toolbar_account",
+      "tableid": "table_account",
+      "columns": [
+        "_checkbox",
+        "subuserid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename3",
+        "roletype2",
+        "realname2",
+        "sfzjh2"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3"
+      ],
+      "action": [
+        "btn_add_sub",
+        "btn_delsub_multi"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/role/getSubUsers",
+      "searchbarId": "search_bar_account",
+      "toolbarid": "toolbar_account",
+      "tableid": "table_account",
+      "columns": [
+        "_checkbox",
+        "subuserid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename3",
+        "roletype2",
+        "realname2",
+        "sfzjh2",
+        "mobile2"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq3"
+      ],
+      "action": [
+        "btn_add_sub",
+        "btn_delsub_multi"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/role/getSubUsers",
+      "searchbarId": "search_bar_account",
+      "toolbarid": "toolbar_account",
+      "tableid": "table_account",
+      "columns": [
+        "_checkbox",
+        "subuserid",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename3",
+        "roletype2",
+        "realname2",
+        "sfzjh2",
+        "mobile2"
+      ],
+      "searchbarFields": [
+        "xq4"
+      ],
+      "action": [
+        "btn_add_sub",
+        "btn_delsub_multi"
+      ]
+    }
+  },
+  "manage7_table_selectaccount": {
+    "0": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "searchbarId": "search_bar_selectaccount",
+      "toolbarid": "toolbar_selectaccount",
+      "tableid": "table_selectaccount",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "searchbarId": "search_bar_selectaccount",
+      "toolbarid": "toolbar_selectaccount",
+      "tableid": "table_selectaccount",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "xx5",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "searchbarId": "search_bar_selectaccount",
+      "toolbarid": "toolbar_selectaccount",
+      "tableid": "table_selectaccount",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "xx2",
+        "xq3",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/user/adminUserList",
+      "searchbarId": "search_bar_selectaccount",
+      "toolbarid": "toolbar_selectaccount",
+      "tableid": "table_selectaccount",
+      "columns": [
+        "_checkbox",
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "ename",
+        "rolename",
+        "realname",
+        "email",
+        "mobile",
+        "deleted"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "xq4",
+        "xm",
+        "sfzjh",
+        "mobile",
+        "roletype",
+        "deleted"
+      ]
+    }
+  },
+  "manage8_table": {
+    "0": {
+      "dataUrl": "/xjxt/home/getNotice",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "status",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "action": [
+        "btn_add_bull"
+      ],
+      "rowAction": [
+        "manage8_table_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/home/getNotice",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "status",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "action": [
+        "btn_add_bull"
+      ],
+      "rowAction": [
+        "manage8_table_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/home/getNotice",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "status",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "action": [
+        "btn_add_bull"
+      ],
+      "rowAction": [
+        "manage8_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/home/getNotice",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "rowAction": [
+        "manage8_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/home/getNotice",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "rowAction": [
+        "manage8_table_btn_1"
+      ]
+    }
+  },
+  "manage9_table": {
+    "2": {
+      "dataUrl": "/xjxt/home/getNoticeList",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "status",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "rowAction": [
+        "manage9_table_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/home/getNoticeList",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "rowAction": [
+        "manage9_table_btn_1"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/home/getNoticeList",
+      "exportUrl": "",
+      "columns": [
+        "sortnum",
+        "mod2",
+        "title",
+        "lasttime",
+        "act"
+      ],
+      "searchbarFields": [
+        "title"
+      ],
+      "rowAction": [
+        "manage9_table_btn_1"
+      ]
+    }
+  },
+  "report1_table": {
+    "0": {
+      "dataUrl": "/xjxt/academicReport/queryStudentAttendStatusList",
+      "columns": [
+        "studentid",
+        "schoolid",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "juzt"
+      ],
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "nj",
+        "bj",
+        "xjfh",
+        "xm",
+        "jdzt"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/academicReport/queryStudentAttendStatusList",
+      "columns": [
+        "_checkbox",
+        "studentid",
+        "schoolid",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "juzt"
+      ],
+      "searchbarFields": [
+        "xx2",
+        "xq",
+        "nj2",
+        "bj",
+        "xjfh",
+        "xm",
+        "jdzt"
+      ],
+      "action": [
+        "btn_modify_jdzt"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/academicReport/queryStudentAttendStatusList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "juzt"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "xjfh",
+        "xm",
+        "jdzt"
+      ],
+      "action": [
+        "btn_modify_jdzt",
+        "btn_down_stat4"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/academicReport/queryStudentAttendStatusList",
+      "columns": [
+        "_checkbox",
+        "stuid",
+        "xjfh",
+        "xh",
+        "xm",
+        "xb",
+        "njid",
+        "classname",
+        "juzt"
+      ],
+      "searchbarFields": [
+        "nj4",
+        "bj",
+        "xjfh",
+        "xm",
+        "jdzt"
+      ],
+      "action": [
+        "btn_modify_jdzt",
+        "btn_down_stat4"
+      ]
+    }
+  },
+  "report2_table": {
+    "0": {
+      "dataUrl": "/xjxt/academicReport/queryReportList",
+      "columns": [
+        "id",
+        "schoolid",
+        "ename2",
+        "mobile",
+        "tjzt",
+        "wfbrs",
+        "subtime"
+      ],
+      "searchbarFields": [
+        "tjzt",
+        "schoolcode"
+      ],
+      "action": [
+        "btn_down_stat2",
+        "btn_down_stat1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/academicReport/queryReportList",
+      "columns": [
+        "id",
+        "schoolid",
+        "ename2",
+        "mobile",
+        "tjzt",
+        "wfbrs",
+        "subtime"
+      ],
+      "searchbarFields": [
+        "tjzt",
+        "schoolcode"
+      ],
+      "action": [
+        "btn_down_stat2",
+        "btn_down_stat1",
+        "btn_down_stat3"
+      ]
+    }
+  },
+  "report4_table": {
+    "0": {
+      "dataUrl": "/xjxt/academicReport/classSummarySheetShow",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "班级数"],
+        ["normal", "d2", "学籍人数"],
+        ["normal", "d3", "在籍在读"],
+        ["normal", "d4", "跨省招生"],
+        ["normal", "d5", "在籍休学中"],
+        ["normal", "d6", "在籍外出借读(本区学校)"],
+        ["normal", "d7", "在籍外出借读(外区学校)"],
+        ["normal", "d8", "在籍外出借读(外省市学校)"],
+        ["normal", "d9", "未报到"],
+        ["normal", "d10", "未分班人数"]
+      ],
+      "action": [
+        "btn_statexport",
+        "btn_statexport1",
+        "btn_statexport2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/academicReport/classSummarySheetShow",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "班级数"],
+        ["normal", "d2", "学籍人数"],
+        ["normal", "d3", "在籍在读"],
+        ["normal", "d4", "跨省招生"],
+        ["normal", "d5", "在籍休学中"],
+        ["normal", "d6", "在籍外出借读(本区学校)"],
+        ["normal", "d7", "在籍外出借读(外区学校)"],
+        ["normal", "d8", "在籍外出借读(外省市学校)"],
+        ["normal", "d9", "未报到"],
+        ["normal", "d10", "未分班人数"]
+      ],
+      "action": [
+        "btn_reportup",
+        "btn_cancelreportup",
+        "btn_statexport",
+        "btn_statexport1",
+        "btn_statexport2"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/academicReport/classSummarySheetShow",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "班级数"],
+        ["normal", "d2", "学籍人数"],
+        ["normal", "d3", "在籍在读"],
+        ["normal", "d4", "跨省招生"],
+        ["normal", "d5", "在籍休学中"],
+        ["normal", "d6", "在籍外出借读(本区学校)"],
+        ["normal", "d7", "在籍外出借读(外区学校)"],
+        ["normal", "d8", "在籍外出借读(外省市学校)"],
+        ["normal", "d9", "未报到"],
+        ["normal", "d10", "未分班人数"]
+      ],
+      "action": [
+        "btn_reportup",
+        "btn_cancelreportup",
+        "btn_statexport",
+        "btn_statexport1",
+        "btn_statexport2"
+      ]
+    }
+  },
+  "manage11_table_addforschool": {
+    "0": {
+      "dataUrl": "/xjxt/msg/querySchool",
+      "searchbarId": "search_bar_addforschool",
+      "toolbarid": "toolbar_addforschool",
+      "tableid": "table_addforschool",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "_checkbox",
+        "districtid",
+        "schoolname",
+        "schoolsystem",
+        "schoolspec"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "schoolsystem",
+        "schoolspec"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/msg/querySchool",
+      "searchbarId": "search_bar_addforschool",
+      "toolbarid": "toolbar_addforschool",
+      "tableid": "table_addforschool",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "_checkbox",
+        "districtid",
+        "schoolname",
+        "schoolsystem",
+        "schoolspec"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "schoolsystem",
+        "schoolspec"
+      ]
+    }
+  },
+  "manage11_table_addcustomer": {
+    "0": {
+      "dataUrl": "/xjxt/msg/queryAdminUserList",
+      "searchbarId": "search_bar_addcustomer",
+      "toolbarid": "toolbar_addcustomer",
+      "tableid": "table_addcustomer",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "_checkbox",
+        "districtid",
+        "schoolname",
+        "rolename",
+        "ename",
+        "realname",
+        "mobile"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "realname",
+        "roletype"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/msg/queryAdminUserList",
+      "searchbarId": "search_bar_addcustomer",
+      "toolbarid": "toolbar_addcustomer",
+      "tableid": "table_addcustomer",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "_checkbox",
+        "districtid",
+        "schoolname",
+        "rolename",
+        "ename",
+        "realname",
+        "mobile"
+      ],
+      "searchbarCol": "col-xs-4",
+      "searchbarFields": [
+        "qx",
+        "xx",
+        "xq",
+        "realname",
+        "roletype"
+      ]
+    }
+  },
+  "manage11_table_memberlist": {
+    "0": {
+      "dataUrl": "/xjxt/msg/queryMember",
+      "toolbarid": "toolbar_memberlist",
+      "tableid": "table_memberlist",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "memberid",
+        "districtid",
+        "schoolid",
+        "ename",
+        "rolename",
+        "realname",
+        "act"
+      ],
+      "searchbarFields": [
+        "usergroup"
+      ],
+      "action": [
+        "btn_add_memberforschool",
+        "btn_add_memberfordistrict",
+        "btn_add_membercustomer"
+      ],
+      "rowAction": [
+        "manage11_table_memberlist_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/msg/queryMember",
+      "toolbarid": "toolbar_memberlist",
+      "tableid": "table_memberlist",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "memberid",
+        "districtid",
+        "schoolid",
+        "ename",
+        "rolename",
+        "realname",
+        "act"
+      ],
+      "searchbarFields": [
+        "usergroup"
+      ],
+      "action": [
+        "btn_add_memberforschool",
+        "btn_add_memberfordistrict",
+        "btn_add_membercustomer"
+      ],
+      "rowAction": [
+        "manage11_table_memberlist_btn_1"
+      ]
+    }
+  },
+  "table_area": {
+    "0": {
+      "dataUrl": "/xjxt/schoolAreaMgr/schoolAreaList",
+      "tableid": "table_area",
+      "toolbarid": "toolbar_area",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "areaid",
+        "areacode",
+        "areaname",
+        "areashortname",
+        "telephone",
+        "areatype",
+        "mastername",
+        "act"
+      ],
+      "rowAction": [
+        "table_area_btn_1"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/schoolAreaMgr/schoolAreaList",
+      "tableid": "table_area",
+      "toolbarid": "toolbar_area",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "areaid",
+        "areacode",
+        "areaname",
+        "areashortname",
+        "telephone",
+        "areatype",
+        "mastername",
+        "act"
+      ],
+      "rowAction": [
+        "table_area_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/schoolAreaMgr/schoolAreaList",
+      "tableid": "table_area",
+      "toolbarid": "toolbar_area",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "areaid",
+        "areacode",
+        "areaname",
+        "areashortname",
+        "telephone",
+        "areatype",
+        "mastername",
+        "act"
+      ],
+      "action": [
+        "btn_add_area"
+      ],
+      "rowAction": [
+        "table_area_btn_1",
+        "table_area_btn_2",
+        "table_area_btn_3",
+        "table_area_btn_4"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/schoolAreaMgr/schoolAreaList",
+      "tableid": "table_area",
+      "toolbarid": "toolbar_area",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "areaid",
+        "areacode",
+        "areaname",
+        "areashortname",
+        "telephone",
+        "areatype",
+        "mastername",
+        "act"
+      ],
+      "action": [
+        "btn_add_area"
+      ],
+      "rowAction": [
+        "table_area_btn_1",
+        "table_area_btn_2",
+        "table_area_btn_3",
+        "table_area_btn_4"
+      ]
+    }
+  },
+  "table_familymember": {
+    "dataUrl": "",
+    "tableid": "table_familymember",
+    "toolbarid": "toolbar_familymember",
+    "tableOption": {
+      "showColumns": false,
+      "pagination": false
+    },
+    "columns": [
+      "id",
+      "xm",
+      "jtgx",
+      "sfjhr",
+      "lxdh",
+      "gzdw",
+      "jzzlx",
+      "sfjfdb",
+      "sflhjy",
+      "act"
+    ],
+    "rowAction": [
+      "table_familymember_btn_1",
+      "table_familymember_btn_2",
+      "table_familymember_btn_3"
+    ]
+  },
+  "photo1_table": {
+    "3": {
+      "dataUrl": "/xjxt/stuPhoto/queryPhotoList",
+      "exportUrl": "/xjxt/stuPhoto/exportPhoto",
+      "tableOption": {
+        "showColumns": false,
+        "showHeader": false,
+        "striped": false
+      },
+      "columns": [
+        "virpath_c",
+        "xm_classname_c",
+        "areaname_c"
+      ],
+      "searchbarFields": [
+        "xq2",
+        "nj3",
+        "bj",
+        "zpzt2"
+      ],
+      "action": [
+        "btn_export"
+      ]
+    }
+  },
+  "customsearch_table": {
+    "0": {
+      "dataUrl": "/xjxt/custQuery/queryViewList",
+      "columns": [
+        "id",
+        "customviewmod",
+        "customviewname",
+        "customviewdatetime",
+        "customviewdesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "customviewname",
+        "customviewmod"
+      ],
+      "action": [
+        "btn_add_customview"
+      ],
+      "rowAction": [
+        "customsearch_table_btn_1",
+        "customsearch_table_btn_3",
+        "customsearch_table_btn_2",
+        "customsearch_table_btn_4",
+        "customsearch_table_btn_5"
+      ]
+    },
+    "1": {
+      "dataUrl": "/xjxt/custQuery/queryViewList",
+      "columns": [
+        "id",
+        "customviewmod",
+        "customviewname",
+        "customviewdatetime",
+        "customviewdesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "customviewname",
+        "customviewmod"
+      ],
+      "action": [
+        "btn_add_customview"
+      ],
+      "rowAction": [
+        "customsearch_table_btn_1",
+        "customsearch_table_btn_3",
+        "customsearch_table_btn_2",
+        "customsearch_table_btn_4",
+        "customsearch_table_btn_5"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/custQuery/queryViewList",
+      "columns": [
+        "id",
+        "customviewmod",
+        "customviewname",
+        "customviewdatetime",
+        "customviewdesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "customviewname",
+        "customviewmod"
+      ],
+      "action": [
+        "btn_add_customview"
+      ],
+      "rowAction": [
+        "customsearch_table_btn_1",
+        "customsearch_table_btn_3",
+        "customsearch_table_btn_2",
+        "customsearch_table_btn_4",
+        "customsearch_table_btn_5"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/custQuery/queryViewList",
+      "columns": [
+        "id",
+        "customviewmod",
+        "customviewname",
+        "customviewdatetime",
+        "customviewdesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "customviewname",
+        "customviewmod"
+      ],
+      "action": [
+        "btn_add_customview"
+      ],
+      "rowAction": [
+        "customsearch_table_btn_1",
+        "customsearch_table_btn_3",
+        "customsearch_table_btn_2",
+        "customsearch_table_btn_4",
+        "customsearch_table_btn_5"
+      ]
+    },
+    "4": {
+      "dataUrl": "/xjxt/custQuery/queryViewList",
+      "columns": [
+        "id",
+        "customviewmod",
+        "customviewname",
+        "customviewdatetime",
+        "customviewdesc",
+        "act"
+      ],
+      "searchbarFields": [
+        "customviewname",
+        "customviewmod"
+      ],
+      "action": [
+        "btn_add_customview"
+      ],
+      "rowAction": [
+        "customsearch_table_btn_1",
+        "customsearch_table_btn_3",
+        "customsearch_table_btn_2",
+        "customsearch_table_btn_4",
+        "customsearch_table_btn_5"
+      ]
+    }
+  },
+  "customsearch_table_result": {
+    "dataUrl": "",
+    "toolbarid": "toolbar_result",
+    "tableid": "table_result",
+    "columns": [
+      "id"
+    ],
+    "action": [
+      "btn_customsearch_export"
+    ]
+  },
+  "jd1_table": {
+    "2": {
+      "dataUrl": "/xjxt/hongKouMgr/queryConfirmList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "jdshzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "jdshzt"
+      ],
+      "rowAction": [
+        "jd1_table_btn_1",
+        "jd1_table_btn_2"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/hongKouMgr/queryConfirmList",
+      "columns": [
+        "id",
+        "districtid",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "jdshzt",
+        "act"
+      ],
+      "searchbarFields": [
+        "jdshzt"
+      ],
+      "rowAction": [
+        "jd1_table_btn_1",
+        "jd1_table_btn_2"
+      ]
+    }
+  },
+  "jd2_table_listin": {
+    "2": {
+      "dataUrl": "/xjxt/hongKouMgr/queryJieduStudentListForIn",
+      "searchbarId": "search_bar_listin",
+      "tableid": "table_listin",
+      "toolbarid": "toolbar_listin",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "sfzjh",
+        "xh",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "jrfl",
+        "xx2",
+        "xq",
+        "nj2",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "rowAction": [
+        "jd2_table_listin_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/hongKouMgr/queryJieduStudentListForIn",
+      "searchbarId": "search_bar_listin",
+      "tableid": "table_listin",
+      "toolbarid": "toolbar_listin",
+      "columns": [
+        "id",
+        "schoolid",
+        "areaname",
+        "njid",
+        "classname",
+        "xjfh",
+        "sfzjh",
+        "xh",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "jrfl",
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "rowAction": [
+        "jd2_table_listin_btn_1",
+        "jd2_table_listin_btn_2"
+      ]
+    }
+  },
+  "jd2_table_listout": {
+    "2": {
+      "dataUrl": "/xjxt/hongKouMgr/queryJieduStudentListForOut",
+      "tableid": "table_listout",
+      "columns": [
+        "id",
+        "jieduschoolid",
+        "jieduareaname",
+        "njid",
+        "jieduclassname",
+        "xjfh",
+        "sfzjh",
+        "xh",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "jcfl",
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "rowAction": [
+        "jd2_table_listout_btn_1"
+      ]
+    },
+    "3": {
+      "dataUrl": "/xjxt/hongKouMgr/queryJieduStudentListForOut",
+      "tableid": "table_listout",
+      "columns": [
+        "id",
+        "jieduschoolid",
+        "jieduareaname",
+        "njid",
+        "jieduclassname",
+        "xjfh",
+        "sfzjh",
+        "xh",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "jcfl",
+        "xq2",
+        "nj3",
+        "bj",
+        "xm",
+        "sfzjh",
+        "xjfh"
+      ],
+      "rowAction": [
+        "jd2_table_listout_btn_1",
+        "jd2_table_listout_btn_2"
+      ]
+    }
+  },
+  "jd3_table": {
+    "3": {
+      "dataUrl": "/xjxt/hongKouMgr/matchStudent",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "sfzjh",
+        "xjfh",
+        "xm"
+      ],
+      "rowAction": [
+        "jd3_table_btn_1"
+      ]
+    }
+  },
+  "jd4_table": {
+    "3": {
+      "dataUrl": "/xjxt/hongKouMgr/matchStudent",
+      "exportUrl": "",
+      "columns": [
+        "id",
+        "areaname",
+        "njid",
+        "classname",
+        "xm",
+        "act"
+      ],
+      "searchbarFields": [
+        "sfzjh",
+        "xjfh",
+        "xm"
+      ],
+      "rowAction": [
+        "jd4_table_btn_1"
+      ]
+    }
+  },
+  "jd5_table": {
+    "2": {
+      "dataUrl": "",
+      "exportUrl": "",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "区内入读"],
+        ["normal", "d2", "跨区入读"],
+        ["normal", "d3", "跨省入读"],
+        ["normal", "d4", "小计"],
+        ["normal", "d5", "区内外出"],
+        ["normal", "d6", "跨区外出"],
+        ["normal", "d7", "跨省外出"],
+        ["normal", "d8", "小计"]             
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "3": {
+      "dataUrl": "",
+      "exportUrl": "",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "区内入读"],
+        ["normal", "d2", "跨区入读"],
+        ["normal", "d3", "跨省入读"],
+        ["normal", "d4", "小计"],
+        ["normal", "d5", "区内外出"],
+        ["normal", "d6", "跨区外出"],
+        ["normal", "d7", "跨省外出"],
+        ["normal", "d8", "小计"]             
+      ],
+      "action": [
+        "btn_export"
+      ]
+    },
+    "4": {
+      "dataUrl": "",
+      "exportUrl": "",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "njid",
+        ["normal", "d1", "区内入读"],
+        ["normal", "d2", "跨区入读"],
+        ["normal", "d3", "跨省入读"],
+        ["normal", "d4", "小计"],
+        ["normal", "d5", "区内外出"],
+        ["normal", "d6", "跨区外出"],
+        ["normal", "d7", "跨省外出"],
+        ["normal", "d8", "小计"]             
+      ],
+      "action": [
+        "btn_export"
+      ]
+    }
+  },
+  "discuss2_table_a": {
+    "dataUrl": "/xjxt/userMessageMgr/releaseThreadList",
+    "exportUrl": "",
+    "searchbarId": "search_bar_a",
+    "toolbarid": "toolbar_a",
+    "tableid": "table_a",
+    "columns": [
+      "id",
+      "platename",
+      "title3",
+      "addtime2",
+      "act"
+    ],
+    "searchbarFields": [
+      "plateid",
+      "starttime2",
+      "endtime2"
+    ],
+    "action": [
+      "btn_add_post"
+    ],
+    "rowAction": [
+      "discuss2_table_a_btn_1",
+      "discuss2_table_a_btn_2",
+      "discuss2_table_a_btn_3"
+    ]
+  },
+  "discuss2_table_b": {
+    "dataUrl": "/xjxt/userMessageMgr/replyThreadList",
+    "exportUrl": "",
+    "searchbarId": "search_bar_b",
+    "toolbarid": "toolbar_b",
+    "tableid": "table_b",
+    "columns": [
+      "id",
+      "platename",
+      "title",
+      "addtime2",
+      "reply",
+      "act"
+    ],
+    "searchbarFields": [
+      "plateid",
+      "title"
+    ],
+    "rowAction": [
+      "discuss2_table_b_btn_1"
+    ]
+  },
+  "discuss2_table_c": {
+    "dataUrl": "/xjxt/userMessageMgr/replyToMyThreadList",
+    "exportUrl": "",
+    "searchbarId": "search_bar_c",
+    "toolbarid": "toolbar_c",
+    "tableid": "table_c",
+    "columns": [
+      "id",
+      "platename",
+      "title",
+      "username2",
+      "reply",
+      "addtime2"
+    ],
+    "searchbarFields": [
+      "plateid",
+      "title"
+    ],
+    "rowAction": [
+
+    ]
+  },
+  "discuss3_table_a": {
+    "dataUrl": "/xjxt/userMessageMgr/collectionThreadList",
+    "exportUrl": "",
+    "searchbarId": "search_bar_a",
+    "toolbarid": "toolbar_a",
+    "tableid": "table_a",
+      "tableOption": {
+        "showColumns": false
+      },
+    "columns": [
+      "id",
+      "platename",
+      "title3",
+      "realname3",
+      "addtime2",
+      "act"
+    ],
+    "searchbarFields": [],
+    "rowAction": [
+      "discuss3_table_a_btn_1"
+    ]
+  },
+  "discuss6_table_a": {
+    "1": {
+      "dataUrl": "/xjxt/plateMgr/queryPlateList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "id",
+        "platetype",
+        "platename",
+        "addusername",
+        "addtime",
+        "platedescribe",
+        "deleted",
+        "act"
+      ],
+      "action": [
+        "btn_add_plate"
+      ],
+      "rowAction": [
+        "discuss6_table_a_btn_1",
+        "discuss6_table_a_btn_2",
+        "discuss6_table_a_btn_3",
+        "discuss6_table_a_btn_4",
+        "discuss6_table_a_btn_5"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/plateMgr/queryPlateList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "tableOption": {
+        "showColumns": false,
+        "pagination": false
+      },
+      "columns": [
+        "id",
+        "platetype",
+        "platename",
+        "addusername",
+        "addtime",
+        "platedescribe",
+        "deleted",
+        "act"
+      ],
+      "action": [
+        "btn_add_plate"
+      ],
+      "rowAction": [
+        "discuss6_table_a_btn_1",
+        "discuss6_table_a_btn_2",
+        "discuss6_table_a_btn_3",
+        "discuss6_table_a_btn_4",
+        "discuss6_table_a_btn_5"
+      ]
+    }
+  },
+  "discuss7_table_a": {
+    "1": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "qxplate",
+        "plateid",
+        "title",
+        "name",
+        "starttime2",
+        "endtime2"
+      ],
+      "rowAction": [
+        "discuss7_table_a_btn_1"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_a",
+      "toolbarid": "toolbar_a",
+      "tableid": "table_a",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "plateid",
+        "title",
+        "name",
+        "starttime2",
+        "endtime2"
+      ],
+      "rowAction": [
+        "discuss7_table_a_btn_1"
+      ]
+    }
+  },
+  "discuss7_table_b": {
+    "1": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadPlusPrecisionList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "plateid",
+        "title",
+        "name",
+        "checkstatus2"
+      ],
+      "rowAction": [
+        "discuss7_table_b_btn_1",
+        "discuss7_table_b_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadPlusPrecisionList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_b",
+      "toolbarid": "toolbar_b",
+      "tableid": "table_b",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "plateid",
+        "title",
+        "name",
+        "checkstatus2"
+      ],
+      "rowAction": [
+        "discuss7_table_b_btn_1",
+        "discuss7_table_b_btn_2"
+      ]
+    }
+  },
+  "discuss7_table_c": {
+    "1": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadTopList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_c",
+      "toolbarid": "toolbar_c",
+      "tableid": "table_c",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "plateid",
+        "title",
+        "realname2",
+        "checkstatus2"
+      ],
+      "rowAction": [
+        "discuss7_table_c_btn_1",
+        "discuss7_table_c_btn_2"
+      ]
+    },
+    "2": {
+      "dataUrl": "/xjxt/threadMgr/queryThreadTopList",
+      "exportUrl": "",
+      "searchbarId": "search_bar_c",
+      "toolbarid": "toolbar_c",
+      "tableid": "table_c",
+      "columns": [
+        "id",
+        "platename",
+        "title3",
+        "username",
+        "addtime2",
+        "act"
+      ],
+      "searchbarFields": [
+        "plateid",
+        "title",
+        "realname2",
+        "checkstatus2"
+      ],
+      "rowAction": [
+        "discuss7_table_c_btn_1",
+        "discuss7_table_c_btn_2"
+      ]
+    }
+  }
+}

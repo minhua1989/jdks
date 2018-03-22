@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+  <!-- <script src='../js/iframe.js'></script> -->
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+            新增校区
+        </h2>
+        <p>
+            <strong>功能描述</strong>
+        </p>
+        <p>
+            学校管理员可以为学校新增校区，系统将生成默认的校区管理员，账号为校区代码，密码默认。
+        </p>
+        <p>
+            <strong>操作步骤</strong>
+        </p>
+        <p>
+            第一步，学校管理-&gt;学校信息。
+        </p>
+        <p>
+            第二步，切换至“校区信息”页面。
+        </p>
+        <p>
+            第三步，点击“添加校区”。
+        </p>
+        <img src="img/biye29.png" alt="">
+        <p>
+            第四步，填写新增校区信息。
+        </p>
+        <p>
+            第五步，点击“保存”完成提交。
+        </p>
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

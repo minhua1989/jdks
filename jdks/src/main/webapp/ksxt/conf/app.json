@@ -1,0 +1,35 @@
+{
+  "message": "done",
+  "status": "success",
+  "data": {
+    "endtime": "2017-08-24 18:59",
+      "time": "1",
+      "panduanti": [
+      {
+        "id": "1",
+        "sttile": "我是测试的判断题",
+        "xsda": "选项答案",
+        "bzda": "标准答案",
+        "stxh": "1"
+	// id,sttile,xsda,bzda,stxh
+      }
+    ],
+    "starttime": "2017-07-24 18:50",
+    "danxuanti": [
+      {
+        "sttile": "我是测试的单选题",
+        "stxh": "1",
+        "answer": [{
+          "id": "1",
+          "xuanxiangid": "12",
+          "xuanxiangmc": "name",
+          "xuanxiangxh": "1",
+          "xsda": "1"
+        }]
+      }]
+		// sttile,stxh,
+		// answer:[{
+		// 	id,xuanxiangid,xuanxiangmc,xuanxiangxh,xsda
+		// }] 
+  }
+}

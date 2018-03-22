@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.KcmgDao">
+	<resultMap type="com.xf.jdks.dao.entity.KcInfo" id="KcInfo">
+		<id column="id" property="id"/>
+		<result column="kcname" property="kcname"/>		
+		<result column="kcaddress" property="kcaddress"/>
+		<result column="kclxr" property="kclxr"/>
+		<result column="kclxdh" property="kclxdh"/>
+		<result column="used" property="used"/>
+		<result column="deleted" property="deleted"/>
+	</resultMap>	
+
+	<select id="pageList" resultMap="KcInfo">
+select id,kcname,kcaddress,kclxr,kclxdh,(
+		CASE  used  
+WHEN '0' THEN "有效"
+WHEN '1' THEN "无效"
+        ELSE ""
+    END
+		) used ,deleted,maxrs from t_kcinfo where 1=1 and deleted='0'
+        <if test="kcname!=null and kcname!=''">
+                <![CDATA[
+                and kcname LIKE CONCAT(CONCAT('%',#{kcname}),'%')
+                ]]>
+        </if>
+        <if test="used!=null and used!=''">
+			and used = #{used}
+        </if>
+        order by kcname asc
+	</select>
+	
+		<resultMap type="com.xf.jdks.dao.entity.KcKwyInfo" id="KcKwyInfo">
+		<id column="id" property="id"/>
+		<result column="kcid" property="kcid"/>		
+		<result column="kwyid" property="kwyid"/>
+		<result column="deleted" property="deleted" />
+		<result column="addtime" property="addtime"/>
+		<result column="adduserid" property="adduserid"/>
+		<result column="deltime" property="deltime"/>
+		<result column="deluserid" property="deluserid" />
+		<result column="uddatetime" property="uddatetime"/>
+		<result column="updateuserid" property="updateuserid" />
+	</resultMap>	
+		<select id="pageListKcKwy" resultMap="KcKwyInfo">
+		select a.id,a.kcid,a.kwyid,a.deleted,b.realname,c.kcname from t_kckwy_rel a
+	left join t_admininfo b on a.kwyid=b.id
+  left join t_kcinfo c on a.kcid=c.id
+        where 1=1      and a.deleted='0' and b.deleted='0' and c.deleted='0'  and b.used='0' and c.used='0'                
+          <if test="kcid!=null and kcid!=''">
+			and a.kcid = #{kcid}
+        </if>
+        <if test="realname!=null and realname!=''">
+			and b.realname like CONCAT(CONCAT('%',#{realname}),'%')
+        </if>
+        
+	</select>
+	
+	<select id="queryUpdateKsRs" resultType="Integer">
+		select (select maxrs from t_kcinfo where id=#{kcid})-(select count(1) from t_user_kscc a where a.kcid=#{kcid}) from dual
+        
+	</select>
+	
+	<update id="updateKsKcid" parameterType="java.util.Map" >
+	update t_user_kscc set kcid=#{kcid} where id in(
+select t.id from (
+select id from t_user_kscc  where (kcid is null or kcid='') and ksccid IN (select ksccid from t_kckscc_rel where kcid=#{kcid}) limit 0,#{updateksrs}
+)as t
+)
+	</update>
+</mapper>

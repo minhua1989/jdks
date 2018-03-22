@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+            制证信息修改
+        </h2>
+        <p>
+            <strong>功能描述</strong>
+        </p>
+        <p>
+            如果您发现学生的制证信息有误，可通过该功能修改“制证学校名称”、“盲童视力”、“毕业证书类型”、“毕业类型”、“肄业时间”、“肄业年级”、“肄业学期”。
+        </p>
+        <p>
+            注意：只能对未发起制证申请或制证申请已撤回的学生进行修改。学生毕业状态为肄业的，不能修改毕业类型，需填入下面三个信息“肄业时间”、“肄业年级”、“肄业学期”。学生毕业状态为毕业或结业的，不需填入“肄业时间”、“肄业年级”、“肄业学期”。
+        </p>
+        <p>
+            <strong>操作步骤</strong>
+        </p>
+        <p>
+            第一步，毕业生管理-&gt;毕业年级学生列表。
+        </p>
+        <p>
+            第二步，选择学校、校区、年级、班级等筛选条件信息。默认为全部展示状态。
+        </p>
+        <img src="img/biye5.png" alt="">
+        <p>
+            第三步，点击“查询”，系统将自动为您检索符合条件的信息。
+        </p>
+        <img src="img/biye6.png" alt="">
+        <p>
+            第四步，选择您需要修改信息的学生，点击“管理”。
+        </p>
+        <img src="img/biye7.png" alt="">
+        <p>
+            第六步，点击“修改学生制证信息”
+        </p>
+        <img src="img/biye8.png" alt="">
+        <p>
+            第七步，编辑修改内容。
+        </p>
+        <p>
+            第八步，保存成功。
+        </p>
+
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

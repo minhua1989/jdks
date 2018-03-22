@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xf.jdks.dao.BaseDao">
+	<!--根据条件查询记录-->
+	<select id="selectDataByParams" statementType="STATEMENT" parameterType="com.xf.jdks.dao.bean.IParams" resultType="map">
+		select ${executeSql}
+	 </select>
+	<!--根据条件新增记录-->
+	 <insert id="insertDataByParams" statementType="STATEMENT" parameterType="com.xf.jdks.dao.bean.IParams">
+		insert into ${executeSql}
+	 </insert>
+	<!--根据条件更新记录-->
+	<update id="updateDataByParams"  statementType="STATEMENT"  parameterType="com.xf.jdks.dao.bean.IParams">
+		update ${executeSql}
+	</update>
+	<!--根据条件删除记录-->
+	<delete id="deleteDataByParams" statementType="STATEMENT"  parameterType="com.xf.jdks.dao.bean.IParams">
+		delete from ${executeSql}
+	</delete>
+
+</mapper>
+

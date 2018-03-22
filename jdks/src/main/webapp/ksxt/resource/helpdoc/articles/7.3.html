@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/jquery1.11.3.min.js"></script>
+
+  <title>Document</title>
+</head>
+<body class="article">
+  <div class="row">
+
+      <!-- Guides Sidebar -->
+
+
+      <!-- Article Content -->
+      <article class="main-column article-column hidden_load col_md_full in">
+        <h2>
+          拆并校
+      </h2>
+      <p>
+          <strong>功能描述</strong>
+      </p>
+      <p>
+          区县管理员可以对本区学校进行拆并校操作，拆并校时需配置被拆学校学生是否需要重新分配学籍副号，如是，则并入学校需使用【更新拆并校学生学籍副号】功能进行更新，否则这批学生将无法通过校验。
+      </p>
+      <p>
+          注意：若需拆的学校里有学生正在进行关键信息变更，则需先审核该学生的变更。
+      </p>
+      <p>
+          <strong>操作步骤</strong>
+      </p>
+      <p>
+          第一步，学校管理-&gt;学校管理。
+      </p>
+      <p>
+          第二步，点击“拆并校”。
+      </p>
+      <img src="img/biye20.png" alt="" />
+      <p>
+          第三步，选择需拆并的学校、校区、年级。
+      </p>
+      <img src="img/biye21.png" alt="" />
+      <p>
+          第四步，点击“添加”。
+      </p>
+      <img src="img/biye22.png" alt="" />
+      <p>
+          第五步，确认学校信息，选择是否需要更新学生的学籍副号。如选是，则学校可在“学生学籍信息管理”中，批量更新这批学生的学籍副号。
+      </p>
+      <img src="img/biye23.png" alt="" />
+      <p>
+          第六步，选择一所学校为并入学校。
+      </p>
+      <img src="img/biye24.png" alt="" />
+      <p>
+          第七步，点击“提交”。
+      </p>
+      <p>
+          第八步，确认操作。
+      </p>
+
+          <!-- Article Footer -->
+          <div class="article-footer">
+
+              <!-- Guide Nav Links -->
+              <div class="article-nav-links"></div>
+
+              <!-- Article vote buttons -->
+              <div class="article-vote">
+                  <span class="article-vote-question">这篇文章有帮助吗？</span>
+                  <div class="article-vote-controls">
+                      <button class="article-vote-up" title="是"></button>
+                      <button class="article-vote-down" title="否"></button>
+                  </div>
+              </div>
+
+              <!-- Contact Button -->
+              <p class="contact-us">仍未找到你需要的内容？请拨打服务咨询热线 25653577</p>
+          </div>
+
+      </article>
+
+
+
+      <aside class="side-column article-sidebar hidden_load col_md_hide in">
+          <div class="side-column-inner">
+              <section class="recent-articles">
+
+              </section>
+          </div>
+      </aside>
+  </div>
+  <script>
+  $('.article-vote-controls').on('click','button',function(e){
+    if($(this).is('.article-vote-up'))
+      console.log('you vote up')
+    else
+      console.log('you vote down')
+  })
+
+  </script>
+  <script src="../js/iframe.js"></script>
+</body>
+</html>

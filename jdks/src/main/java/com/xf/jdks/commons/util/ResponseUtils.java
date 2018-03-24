@@ -118,6 +118,23 @@ public class ResponseUtils {
         return rs;
     }
     
+    
+    public static Map<String,Object> getIp(HttpServletRequest request){
+        Map<String,Object> rs = createRequestParamsMap(request);
+            String ip = request.getHeader("x-forwarded-for");
+            if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+                ip = request.getHeader("Proxy-Client-IP");
+            }
+            if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+                ip = request.getHeader("WL-Proxy-Client-IP");
+            }
+            if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)){
+                ip = request.getRemoteAddr();
+            }
+            ip= ip.equals("0:0:0:0:0:0:0:1")?"127.0.0.1":ip;
+            rs.put("ip",ip);
+        return rs;
+    }
 
     /**
      * @param request http请求

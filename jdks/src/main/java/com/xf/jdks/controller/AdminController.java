@@ -130,7 +130,7 @@ public class AdminController {
         HttpSession session = request.getSession();
         session.setMaxInactiveInterval(60*60*24);//24小时//以秒为单位
         try {
-    		Map<String, Object> map = ResponseUtils.createRequestParamsMap(request);
+    		Map<String, Object> map = ResponseUtils.getIp(request);
             rs = adminService.adminLogin(map,request);
         } catch (Exception e) {
             e.printStackTrace();

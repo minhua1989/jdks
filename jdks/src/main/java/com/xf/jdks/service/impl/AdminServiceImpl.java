@@ -247,8 +247,9 @@ public class AdminServiceImpl implements AdminService {
 	}
 
 	@Override
-	public JSONObject adminLogin(Map map,HttpServletRequest request) {
+	public JSONObject adminLogin(Map map,HttpServletRequest request) throws SQLException {
 		JSONObject rs = ResponseUtils.createSuccessResponseBody(null);
+		String ip= (String) map.remove("ip");
 		String ename= (String) map.get("ename");
 		String pwd=(String) map.get("pwd");
 		String vcode=(String)map.get("vcode");
@@ -282,6 +283,11 @@ public class AdminServiceImpl implements AdminService {
 			} else {
 				return ResponseUtils.createErrorResponseBodyJiem("验证码错误");
 			}
+			InsertParams insertParams = InsertParams.createInsertParams("t_kssjxx_log", "id", "logtype",
+					"adduserid", "addtime", "ip", "deleted", "ksid", "ksccid","dllx");
+			insertParams.setValues(UUID.randomUUID().toString(), "1", adminInfo_init.getId(), Format.getDateTime(),
+					ip, "0", adminInfo_init.getId(), "","1");
+			baseDaoComponent.insertDataByParams(insertParams);
 		return ResponseUtils.createSuccessResponseBodyForJiem("登陆成功", adminInfo_init);
 	}
 

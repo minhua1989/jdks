@@ -84,8 +84,22 @@ select `a`.`ID` AS `ID`,`a`.`ksxtsfzjh` AS `ksxtsfzjh`,`b`.`ksxtzkzh` AS `ksxtzk
  left join `t_bz_tab` `d` on(((`a`.`used` = `d`.`code`) and (`d`.`type` = 2)))
 left join `t_bz_tab` `e` on(((`c`.`dj` = `e`.`code`) and (`e`.`type` = '5'))));
 
+
 create or replace view v_kssjxx_log_hm as
-select u.ksxtxm,u.ksxtsfzjh,uk.ksxtzkzh,uk.zwh,kc.kscc,t.ksccid,t.ip,t.logtype,
+select 
+(
+		CASE  t.dllx  
+WHEN '1' THEN ad.realname
+        ELSE u.ksxtxm
+    END
+		) ksxtxm,
+	(
+		CASE  t.dllx  
+WHEN '1' THEN ad.sfzjhm
+        ELSE u.ksxtsfzjh
+    END
+		) ksxtsfzjh,
+uk.ksxtzkzh,uk.zwh,kc.kscc,t.ksccid,t.ip,t.logtype,
 (
 		CASE  t.logtype  
 WHEN '1' THEN "登录"
@@ -106,7 +120,9 @@ t.xuanxiangmc,t.xsda,t.addtime,t.stxh from t_kssjxx_log t
 left join t_userinfo u on u.ID=t.ksid
 left join t_user_kscc uk on uk.ksccid=t.ksccid and uk.userid=t.ksid
 left join t_ksccmg kc on kc.id=t.ksccid
+left join t_admininfo ad on ad.id=t.ksid
 order by addtime desc;
+
 
 create or replace view v_kszqts4 as
 select `t_kssjxx`.`ksid` AS `ksid`,`t_kssjxx`.`ksccid` AS `ksccid`,`cc`.`id` AS `userksccid`,sum(`t_kssjxx`.`fenshu`) AS `llksfs` from (`t_kssjxx` left join `t_user_kscc` `cc` on(((`cc`.`userid` = `t_kssjxx`.`ksid`) and (`cc`.`ksccid` = `t_kssjxx`.`ksccid`)))) where ((`t_kssjxx`.`bzda` = '1') and (`t_kssjxx`.`xsda` = '1') and (`t_kssjxx`.`deleted` = '0')

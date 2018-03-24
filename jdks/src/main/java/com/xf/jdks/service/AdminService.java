@@ -21,7 +21,7 @@ public interface AdminService {
 	
 	JSONObject deleted(Map map) throws SQLException;
 	
-	JSONObject adminLogin(Map map,HttpServletRequest request);
+	JSONObject adminLogin(Map map,HttpServletRequest request) throws SQLException;
 
 	AdminInfo adminLogin(String ename, String pwd);
 

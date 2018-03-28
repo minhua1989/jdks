@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="initial-scale=0.2">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <title>徐汇幼儿园招生管理系统</title>
+    <meta name="renderer" content="webkit">
+    <title>安防技术鉴定系统</title>
     <script>
     var _hmt = _hmt || [];
     (function() {
@@ -58,10 +56,6 @@
         return undefined
       }
     }
-    if (String(localStorage.getItem('needreload')) !== '20160930') {
-      localStorage.clear()
-      localStorage.setItem('needreload', '20160930')
-    }
     </script>
   </head>
   <body>
@@ -69,12 +63,12 @@
     <script src="../vendor/create-stylesheet.unwrapped.js"></script>
     <script src="../vendor/basket.full.min.js"></script>
     <script>
-      var __boilerplatecss = "../vendors.90f8c1af5dba922167cdfcfdf17e9170.css"
+      var __boilerplatecss = "../vendors.91c20a60fcad732e11de70785bae7e3d.css"
       var __boilerplatecss_store = basket.get('boilerplatecss')
       if (__boilerplatecss_store && __boilerplatecss_store.url !== __boilerplatecss) {
         basket.remove('boilerplatecss')
       }
-      var __pagecss = "../public/common/login.df88075faa45f45dce8ff2b9efbecf8a.css"
+      var __pagecss = "../public/common/login.1bb3770b7d34de4c5f82b8dc6d0c177d.css"
       var __pagecss_store = basket.get('pagecss')
       if (__pagecss_store && __pagecss_store.url !== __pagecss) {
         basket.remove('pagecss')
@@ -82,7 +76,7 @@
       basket.require(
         {url: '../vendor/bootstrap3.3.6/css/bootstrap.min.css', execute: false},
         {url: '../vendor/bootstrap3-dialog-1.34.9/dist/css/bootstrap-dialog.css', execute: false},
-        {url: '../vendor/bootstrap-datepicker-1.5.1-dist/css/bootstrap-datepicker3.css', execute: false},
+        {url: '../vendor/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.min.css', execute: false},
         {url: '../vendor/bootstrap-table-1.11.0/dist/bootstrap-table.css', execute: false},
         {url: '../vendor/bootstrap-select-1.9.4/css/bootstrap-select.css', execute: false},
         {url: '../vendor/dragula-3.7.1/dragula.css', execute: false},
@@ -92,25 +86,27 @@
         for (var i = 0; i < responses.length; i++) {
           _stylesheet.appendStyleSheet(responses[i].data, function(err, style) {
             if (err) {
-              localStorage.clear()
-              window.location.replace('../resource/reload.html?_' + new Date().getTime())
+              console.log(err)
+              // localStorage.clear()
+              // window.location.replace('../resource/reload.html?_' + new Date().getTime())
             }
           })
         }
       })
-      var __pagejs_vendors = "../public/common/vendors.f1d1dfcaf04c2b1dd11a.js"
+      var __pagejs_vendors = "../public/common/vendors.65ab688df72b53518de3.js"
       var __pagejs_vendors_store = basket.get('pagejs_vendors')
       if (__pagejs_vendors_store && __pagejs_vendors_store.url !== __pagejs_vendors) {
         basket.remove('pagejs_vendors')
       }
-      var __pagejs = "../public/common/login.fdb628321486dfa9d7c3.js"
+      var __pagejs = "../public/common/login.b8009383d5ec9f019f6f.js"
       var __pagejs_store = basket.get('pagejs')
       if (__pagejs_store && __pagejs_store.url !== __pagejs) {
         basket.remove('pagejs')
       }
       function loadError () {
-        localStorage.clear()
-        window.location.replace('../resource/reload.html?_' + new Date().getTime())
+        console.log(err)
+        // localStorage.clear()
+        // window.location.replace('../resource/reload.html?_' + new Date().getTime())
       }
       function loadOrder1 () {
         basket.require(
@@ -120,8 +116,9 @@
           {url: '../vendor/bootstrap3.3.6/js/bootstrap.min.js'},
           {url: '../vendor/typeahead0.11.1/typeahead.bundle.min.js'},
           {url: '../vendor/bootstrap3-dialog-1.34.9/dist/js/bootstrap-dialog.min.js'},
-          {url: '../vendor/bootstrap-datepicker-1.5.1-dist/js/bootstrap-datepicker.min.js'},
-          {url: '../vendor/bootstrap-datepicker-1.5.1-dist/locales/bootstrap-datepicker.zh-CN.min.js'},
+          {url: '../vendor/moment-develop/moment.js'},
+          {url: '../vendor/moment-develop/locale/zh-cn.js'},
+          {url: '../vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/bootstrap-table.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/locale/bootstrap-table-zh-CN.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js'},

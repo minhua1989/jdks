@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="initial-scale=0.2">
-    <meta name="renderer" content="webkit">
-    <title>安防技术鉴定系统</title>
+    <title>徐汇幼儿园招生管理系统</title>
     <script>
     var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?f2fee0b5bc1a701b20524a4962a57767";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
+    // (function() {
+    //   var hm = document.createElement("script");
+    //   hm.src = "//hm.baidu.com/hm.js?f2fee0b5bc1a701b20524a4962a57767";
+    //   var s = document.getElementsByTagName("script")[0];
+    //   s.parentNode.insertBefore(hm, s);
+    // })();
     (function() {
       var method;
       var noop = function () {};
@@ -63,12 +62,12 @@
     <script src="../vendor/create-stylesheet.unwrapped.js"></script>
     <script src="../vendor/basket.full.min.js"></script>
     <script>
-      var __boilerplatecss = "../vendors.91c20a60fcad732e11de70785bae7e3d.css"
+      var __boilerplatecss = "../vendors.90f8c1af5dba922167cdfcfdf17e9170.css"
       var __boilerplatecss_store = basket.get('boilerplatecss')
       if (__boilerplatecss_store && __boilerplatecss_store.url !== __boilerplatecss) {
         basket.remove('boilerplatecss')
       }
-      var __pagecss = "../admin/common/manage5.a0a686a0bd2a49618b44bfd1b7ccf56c.css"
+      var __pagecss = "../admin/common/manage5.66e0bd4bff78e40586155381fc938e0b.css"
       var __pagecss_store = basket.get('pagecss')
       if (__pagecss_store && __pagecss_store.url !== __pagecss) {
         basket.remove('pagecss')
@@ -76,8 +75,8 @@
       basket.require(
         {url: '../vendor/bootstrap3.3.6/css/bootstrap.min.css', execute: false},
         {url: '../vendor/bootstrap3-dialog-1.34.9/dist/css/bootstrap-dialog.css', execute: false},
+        {url: '../vendor/bootstrap-datepicker-1.5.1-dist/css/bootstrap-datepicker3.css', execute: false},
         {url: '../vendor/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.min.css', execute: false},
-        {url: '../vendor/summernote-develop/dist/summernote.css', execute: false},
         {url: '../vendor/bootstrap-table-1.11.0/dist/bootstrap-table.css', execute: false},
         {url: '../vendor/bootstrap-select-1.9.4/css/bootstrap-select.css', execute: false},
         {url: '../vendor/dragula-3.7.1/dragula.css', execute: false},
@@ -87,27 +86,25 @@
         for (var i = 0; i < responses.length; i++) {
           _stylesheet.appendStyleSheet(responses[i].data, function(err, style) {
             if (err) {
-              console.log(err)
-              // localStorage.clear()
-              // window.location.replace('../resource/reload.html?_' + new Date().getTime())
+              localStorage.clear()
+              window.location.replace('../resource/reload.html?_' + new Date().getTime())
             }
           })
         }
       })
-      var __pagejs_vendors = "../public/common/vendors.4ee2658ca5f87cd2090c.js"
+      var __pagejs_vendors = "../public/common/vendors.f1d1dfcaf04c2b1dd11a.js"
       var __pagejs_vendors_store = basket.get('pagejs_vendors')
       if (__pagejs_vendors_store && __pagejs_vendors_store.url !== __pagejs_vendors) {
         basket.remove('pagejs_vendors')
       }
-      var __pagejs = "../admin/common/manage5.dc05b97f9438a9f4efc0.js"
+      var __pagejs = "../admin/common/manage5.37d0575d565a1bff2bc9.js"
       var __pagejs_store = basket.get('pagejs')
       if (__pagejs_store && __pagejs_store.url !== __pagejs) {
         basket.remove('pagejs')
       }
       function loadError () {
-        console.log(err)
-        // localStorage.clear()
-        // window.location.replace('../resource/reload.html?_' + new Date().getTime())
+        localStorage.clear()
+        window.location.replace('../resource/reload.html?_' + new Date().getTime())
       }
       function loadOrder1 () {
         basket.require(
@@ -117,10 +114,11 @@
           {url: '../vendor/bootstrap3.3.6/js/bootstrap.min.js'},
           {url: '../vendor/typeahead0.11.1/typeahead.bundle.min.js'},
           {url: '../vendor/bootstrap3-dialog-1.34.9/dist/js/bootstrap-dialog.min.js'},
-          {url: '../vendor/summernote-develop/dist/summernote.min.js'},
           {url: '../vendor/moment-develop/moment.js'},
           {url: '../vendor/moment-develop/locale/zh-cn.js'},
           {url: '../vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js'},
+          {url: '../vendor/bootstrap-datepicker-1.5.1-dist/js/bootstrap-datepicker.min.js'},
+          {url: '../vendor/bootstrap-datepicker-1.5.1-dist/locales/bootstrap-datepicker.zh-CN.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/bootstrap-table.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/locale/bootstrap-table-zh-CN.min.js'},
           {url: '../vendor/bootstrap-table-1.11.0/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js'},

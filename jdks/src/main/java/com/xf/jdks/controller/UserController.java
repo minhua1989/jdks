@@ -139,12 +139,14 @@ public class UserController {
                                         HttpServletRequest request) {
         Map<String,Object> map = new DataMap<>();
         JSONObject rs = ResponseUtils.createErrorResponseBody(null);
+        Map<String, Object> params=ResponseUtils.parseQueryString(request);
         try {
             FileInfoPo fileInfoPo = FileIOComponent.createTempFilePathByType(FileIOComponent.IMPORT_TYPE,"xlsx");
             file.transferTo(fileInfoPo.getFileObject());
             map.put("url", fileInfoPo.getFileAbsPath());//地址
             AdminInfo adminInfo = (AdminInfo) request.getSession().getAttribute("adminInfo");
             map.put("adminInfo",adminInfo);
+            map.put("ksccid",params.get("ksccid"));
             rs = userService.importUsers(map);
         } catch (Exception e) {
             e.printStackTrace();

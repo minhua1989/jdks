@@ -270,4 +270,39 @@ public class ResponseUtils {
     public static JSONObject createErrorResponseBodyJiem(String message, Object... datas) {
         return createResponseBody(false, message,false, datas);
     }
+    
+    //获取get参数
+    public static Map<String, Object> parseQueryString(HttpServletRequest request) {  
+        Map<String, String[]> params = request.getParameterMap();  
+        String queryString = "";  
+        for (String key : params.keySet()) {  
+            String[] values = params.get(key);  
+            for (int i = 0; i < values.length; i++) {  
+                String value = values[i];  
+                queryString += key + "=" + value + "&";  
+            }  
+        }  
+        // 去掉最后一个空格  
+        queryString = queryString.substring(0, queryString.length() - 1); 
+        if (queryString==null || "".equals(queryString)) {  
+            return null;  
+        }  
+        int index = queryString.indexOf("?");  
+        if (index != -1) {  
+            queryString = queryString.substring(index + 1);  
+        }  
+          
+        Map<String, Object> argMap = new HashMap<String, Object>();  
+        String[] queryArr = queryString.split("&");  
+        for (int i = 0; i < queryArr.length; i++) {  
+            String string = queryArr[i];  
+            String keyAndValue[] = string.split("=", 2);  
+            if (keyAndValue.length != 2) {  
+                argMap.put(keyAndValue[0], null);  
+            } else {  
+                argMap.put(keyAndValue[0], keyAndValue[1]);  
+            }  
+        }  
+        return argMap;  
+    }  
 }

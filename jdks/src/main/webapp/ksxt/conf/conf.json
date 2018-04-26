@@ -6,7 +6,7 @@
   "pagever": "1.0.2",
   "pageconfver": "1.0.2",
   "loginpageurl": "../public/loginad.html",
-  "logouturl": "/xjxt/manage/logout",
+  "logouturl": "../public/login.html",
   "logouturl_xhstudent": "/xjxt/manage/logout",
   "homepageurl": "../admin/index.html",
   "studenthomepageurl": "../admin/studentIndex.html",

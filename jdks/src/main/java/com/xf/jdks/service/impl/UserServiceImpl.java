@@ -233,11 +233,12 @@ import com.xf.jdks.service.UserService;
 	    @Override
 	    public JSONObject importUsers(Map<String, Object> params) throws IOException, SQLException{
 	    	AdminInfo adminInfo = (AdminInfo) params.remove("admininfo");
+	    	String ksccid= (String) params.get("ksccid");	
 	        //成功的list 和失败的 list
 	        List<Map<String, Object>> successList = new ArrayList<>();
 	        List<Map<String, Object>> errorList = new ArrayList<>();
 	        //读取Excel
-	        ExportExcel exportExcel = ExportExcel.createExportExcel(params.get("url").toString(), "{KSXTSFZJH:身份证号,KSXTZKZH:准考证号,KSXTXM:姓名,SEX:性别}");
+	        ExportExcel exportExcel = ExportExcel.createExportExcel(params.get("url").toString(), "{KSXTSFZJH:考生身份证件号,KSXTZKZH:考生准考证号,KSXTXM:考生姓名,SEX:性别,KSZWH:考生座位号}");
 	        List<Map<String, Object>> mapList = exportExcel.readExcel();
 	        //mapList副本
 	        List<Map<String, Object>> newMap = CollectionUtils.cloneDataList(mapList);
@@ -248,7 +249,8 @@ import com.xf.jdks.service.UserService;
 				String ksxtxm= (String) impDataMap.get("ksxtxm");
 				String ksxtsfzjh= (String) impDataMap.get("ksxtsfzjh");
 				String ksxtzkzh= (String) impDataMap.get("ksxtzkzh");		
-				String sex= (String) impDataMap.get("sex");		
+				String sex= (String) impDataMap.get("sex");	
+				String kszwh= (String) impDataMap.get("kszwh");	
 				if(null==ksxtxm||"".equals(ksxtxm)){
 	                newMap.get(j).put("remark", "姓名不能为空");
 	                errorList.add(newMap.get(j));
@@ -273,6 +275,12 @@ import com.xf.jdks.service.UserService;
 	                j++;
 	                continue;
 				}
+				if(null==kszwh||"".equals(kszwh)){
+	                newMap.get(j).put("remark", "考生座位号不能为空");
+	                errorList.add(newMap.get(j));
+	                j++;
+	                continue;
+				}
 				if("男".equals(sex)){
 					sex="1";
 				}else if("女".equals(sex)){
@@ -281,15 +289,19 @@ import com.xf.jdks.service.UserService;
 					sex="";
 				}
 				String adduser=adminInfo.getId();	
-				InsertParams insertParams = InsertParams.createInsertParams("T_UserINFO", "id", "ksxtxm", "ksxtsfzjh","sex","adduser","addtime","deleted","used");
-				insertParams.setValues(Id, ksxtxm, ksxtsfzjh,ksxtzkzh,sex,adduser,Format.getDateTime(),"0","0");
-				baseDaoComponent.insertDataByParams(insertParams);   
+				InsertParams insertParams = InsertParams.createInsertParams("T_UserINFO", "id", "ksxtxm", "ksxtsfzjh","adduser","addtime");
+				insertParams.setValues(Id, ksxtxm, ksxtsfzjh,adduser,Format.getDateTime());
+				baseDaoComponent.insertDataByParams(insertParams);
+    			String Id2 = UUID.randomUUID().toString();
+    			InsertParams insertParams2 = InsertParams.createInsertParams("t_user_kscc", "id", "userid", "ksccid","addtime","adduser","sfdl","ksxtzkzh","zwh");
+    			insertParams2.setValues(Id2, Id,ksccid,Format.getDateTime(),adduser,"0",ksxtzkzh,kszwh);
+				baseDaoComponent.insertDataByParams(insertParams2); 
 	            successList.add(newMap.get(j));
 	            j++;
 	        }
 	        //将错误信息写入excel中
-	        String url1 = writeMessageToExcel(successList, "{KSXTSFZJH:身份证号,KSXTZKZH:准考证号,KSXTXM:姓名,SEX:性别}");
-	        String url2 = writeMessageToExcel(errorList, "{KSXTSFZJH:身份证号,KSXTZKZH:准考证号,KSXTXM:姓名,SEX:性别,REMARK:错误信息}");
+	        String url1 = writeMessageToExcel(successList, "{KSXTSFZJH:身份证号,KSXTZKZH:准考证号,KSXTXM:姓名,SEX:性别,KSZWH:考生座位号}");
+	        String url2 = writeMessageToExcel(errorList, "{KSXTSFZJH:身份证号,KSXTZKZH:准考证号,KSXTXM:姓名,SEX:性别,KSZWH:考生座位号,REMARK:错误信息}");
 	        int sum = successList.size() + errorList.size();
 	        Map<String, Object> result = new DataMap<>();
 	        result.put("url1", url1);
